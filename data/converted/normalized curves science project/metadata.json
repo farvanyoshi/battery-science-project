@@ -1,0 +1,358 @@
+{
+  "source": "normalized curves science project.cmbl",
+  "sha256": "6af9302614c8224f14ef23712d824257e7ee72512371cb950b9321c11113c9ff",
+  "gzip": true,
+  "xml_repaired": false,
+  "datasets": [
+    {
+      "id": "101",
+      "name": "Discharge",
+      "columns": [
+        {
+          "id": "102",
+          "name": "Time",
+          "units": "h",
+          "dataset": "Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "104",
+          "name": "Normalized Voltage",
+          "units": "",
+          "dataset": "Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "110",
+          "name": "Normalized Current",
+          "units": "",
+          "dataset": "Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "114",
+          "name": "Normalized Power",
+          "units": "",
+          "dataset": "Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_101.csv",
+      "rows": 6947
+    },
+    {
+      "id": "117",
+      "name": "Discharge 2",
+      "columns": [
+        {
+          "id": "120",
+          "name": "Time",
+          "units": "h",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "123",
+          "name": "Normalized Voltage",
+          "units": "",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "126",
+          "name": "Normalized Current",
+          "units": "",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "129",
+          "name": "Normalized Power",
+          "units": "",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_117.csv",
+      "rows": 6947
+    },
+    {
+      "id": "131",
+      "name": "Discharge 3",
+      "columns": [
+        {
+          "id": "134",
+          "name": "Time",
+          "units": "h",
+          "dataset": "Discharge 3",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "137",
+          "name": "Normalized Voltage",
+          "units": "",
+          "dataset": "Discharge 3",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "140",
+          "name": "Normalized Current",
+          "units": "",
+          "dataset": "Discharge 3",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "143",
+          "name": "Normalized Power",
+          "units": "",
+          "dataset": "Discharge 3",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_131.csv",
+      "rows": 6947
+    },
+    {
+      "id": "145",
+      "name": "AA Discharge",
+      "columns": [
+        {
+          "id": "148",
+          "name": "Time",
+          "units": "h",
+          "dataset": "AA Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "151",
+          "name": "Normalized Voltage",
+          "units": "",
+          "dataset": "AA Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "154",
+          "name": "Normalized Current",
+          "units": "",
+          "dataset": "AA Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "157",
+          "name": "Normalized Power",
+          "units": "",
+          "dataset": "AA Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_145.csv",
+      "rows": 6947
+    },
+    {
+      "id": "159",
+      "name": "Charging",
+      "columns": [
+        {
+          "id": "162",
+          "name": "Time",
+          "units": "h",
+          "dataset": "Charging",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {
+            "172": "Z1 2:"
+          },
+          "xml": null
+        },
+        {
+          "id": "165",
+          "name": "Normalized Voltage",
+          "units": "",
+          "dataset": "Charging",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "168",
+          "name": "Normalized Current",
+          "units": "",
+          "dataset": "Charging",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "171",
+          "name": "Normalized Power",
+          "units": "",
+          "dataset": "Charging",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_159.csv",
+      "rows": 6947
+    },
+    {
+      "id": "223",
+      "name": "&&^% CurveFitFunctions %^&&",
+      "columns": [],
+      "csv": "dataset_223.csv",
+      "rows": 0
+    }
+  ],
+  "graphs": [
+    {
+      "id": "106",
+      "xml": "<PageGraphCartesian>\n      <ID>106 </ID>\n      <BroadcastTo>1 4994 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>0 0.0072544138856 14.2217072353 7.99275424063 </Bounds>\n      <SubordinateToID>0</SubordinateToID>\n      <SubordinateOffset>0 0</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>1</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 12 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GraphTitle>Normalized Power v. Time for Each Battery Discharge Test</GraphTitle>\n      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x0</GraphTitleColor>\n      <GraphShowPoints>0</GraphShowPoints>\n      <GraphInterpolate>0</GraphInterpolate>\n      <GraphShowTangent>0</GraphShowTangent>\n      <GraphShowLegend>1</GraphShowLegend>\n      <GraphShowCursorStatus>1</GraphShowCursorStatus>\n      <GraphShowCursorDelta>1</GraphShowCursorDelta>\n      <GraphPlotBaseColumnID>102 </GraphPlotBaseColumnID>\n      <GraphPlotTraceIDPairs>3 102 114 134 143 120 129 </GraphPlotTraceIDPairs>\n      <LogXAxis>0</LogXAxis>\n      <LogYAxis>0</LogYAxis>\n      <LogRightYAxis>0</LogRightYAxis>\n      <GraphShowTraceErrorBars>0</GraphShowTraceErrorBars>\n      <GraphShowBaseErrorBars>0</GraphShowBaseErrorBars>\n      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>\n      <GraphConnectLines>1</GraphConnectLines>\n      <GraphBarGraph>0</GraphBarGraph>\n      <BinGraphStackColumns>0</BinGraphStackColumns>\n      <GraphShowPointProtectors>0</GraphShowPointProtectors>\n      <GraphMajorTickStyle>1</GraphMajorTickStyle>\n      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMajorTickColor>\n      <GraphMinorTickStyle>0</GraphMinorTickStyle>\n      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMinorTickColor>\n      <GraphPlotXAutoscale>1</GraphPlotXAutoscale>\n      <GraphPlotYAutoscale>1</GraphPlotYAutoscale>\n      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>\n      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>\n      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>\n      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>\n      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>\n      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>\n      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>\n      <GraphPlotXMin>0</GraphPlotXMin>\n      <GraphPlotXMax>12</GraphPlotXMax>\n      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>\n      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>\n      <GraphPlotYMin>0</GraphPlotYMin>\n      <GraphPlotYMax>1</GraphPlotYMax>\n      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>\n      <GraphPlotDefaultXMax>20</GraphPlotDefaultXMax>\n      <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>\n      <GraphPlotDefaultYMax>1</GraphPlotDefaultYMax>\n      <GraphPlotXLabel />\n      <GraphPlotYLabel />\n      <GraphDrawRainbow>0</GraphDrawRainbow>\n      <AudioTraceIDs>3 114 143 129 </AudioTraceIDs>\n      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>\n    </PageGraphCartesian>\n    ",
+      "files": [
+        "graph_106_faithful.png",
+        "graph_106_faithful.pdf",
+        "graph_106_faithful.svg",
+        "graph_106_paper.png",
+        "graph_106_paper.pdf",
+        "graph_106_paper.svg"
+      ],
+      "analysis": [],
+      "traces": [
+        {
+          "x": "102",
+          "y": "114",
+          "samples": 861,
+          "finite_pairs": 861
+        },
+        {
+          "x": "134",
+          "y": "143",
+          "samples": 2476,
+          "finite_pairs": 2476
+        },
+        {
+          "x": "120",
+          "y": "129",
+          "samples": 4169,
+          "finite_pairs": 4169
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "162: special cell tokens retained as missing values; original tokens in metadata"
+  ],
+  "analysis_helpers_xml": [
+    "<PageHelperLegend>\n      <ID>4994 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>11.7527580165 0.407254413886 13.902066122 0.976199726386 </Bounds>\n      <SubordinateToID>106</SubordinateToID>\n      <SubordinateOffset>11.7527580165 0.4</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x2f2f 0x4f4f 0x2f2f| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n    </PageHelperLegend>\n  "
+  ]
+}

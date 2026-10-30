@@ -1,0 +1,248 @@
+{
+  "source": "expo tester.cmbl",
+  "sha256": "14c6ddbb50d35f7311ad0cd33befec88a1ea20f95c6d8d5bbcc113a1ae7befc5",
+  "gzip": false,
+  "xml_repaired": false,
+  "datasets": [
+    {
+      "id": "758",
+      "name": "Discharge",
+      "columns": [
+        {
+          "id": "759",
+          "name": "Time",
+          "units": "h",
+          "dataset": "Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "761",
+          "name": "Current",
+          "units": "mA",
+          "dataset": "Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_758.csv",
+      "rows": 861
+    },
+    {
+      "id": "766",
+      "name": "Discharge 2",
+      "columns": [
+        {
+          "id": "769",
+          "name": "Time",
+          "units": "h",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "772",
+          "name": "Current",
+          "units": "mA",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_766.csv",
+      "rows": 856
+    },
+    {
+      "id": "774",
+      "name": "Discharge 3",
+      "columns": [
+        {
+          "id": "777",
+          "name": "Time",
+          "units": "h",
+          "dataset": "Discharge 3",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "780",
+          "name": "Current",
+          "units": "mA",
+          "dataset": "Discharge 3",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_774.csv",
+      "rows": 375
+    },
+    {
+      "id": "782",
+      "name": "AA Discharge",
+      "columns": [
+        {
+          "id": "785",
+          "name": "Time",
+          "units": "h",
+          "dataset": "AA Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "788",
+          "name": "Current",
+          "units": "mA",
+          "dataset": "AA Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_782.csv",
+      "rows": 656
+    },
+    {
+      "id": "833",
+      "name": "&&^% CurveFitFunctions %^&&",
+      "columns": [],
+      "csv": "dataset_833.csv",
+      "rows": 0
+    }
+  ],
+  "graphs": [
+    {
+      "id": "763",
+      "xml": "<PageGraphCartesian>\n      <ID>763 </ID>\n      <BroadcastTo>4 849 1106 1107 1108 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>2.28324 0.015 14.2292 8 </Bounds>\n      <SubordinateToID>0</SubordinateToID>\n      <SubordinateOffset>6.78646 1.31771</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>1</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 12 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GraphTitle />\n      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x2e</GraphTitleColor>\n      <GraphShowPoints>0</GraphShowPoints>\n      <GraphInterpolate>0</GraphInterpolate>\n      <GraphShowTangent>0</GraphShowTangent>\n      <GraphShowLegend>0</GraphShowLegend>\n      <GraphShowCursorStatus>1</GraphShowCursorStatus>\n      <GraphShowCursorDelta>1</GraphShowCursorDelta>\n      <GraphPlotBaseColumnID>759 </GraphPlotBaseColumnID>\n      <GraphPlotTraceIDPairs>4 759 761 769 772 777 780 785 788 </GraphPlotTraceIDPairs>\n      <LogXAxis>0</LogXAxis>\n      <LogYAxis>0</LogYAxis>\n      <LogRightYAxis>0</LogRightYAxis>\n      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>\n      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>\n      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>\n      <GraphConnectLines>1</GraphConnectLines>\n      <GraphBarGraph>0</GraphBarGraph>\n      <BinGraphStackColumns>0</BinGraphStackColumns>\n      <GraphShowPointProtectors>0</GraphShowPointProtectors>\n      <GraphMajorTickStyle>1</GraphMajorTickStyle>\n      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMajorTickColor>\n      <GraphMinorTickStyle>0</GraphMinorTickStyle>\n      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMinorTickColor>\n      <GraphPlotXAutoscale>1</GraphPlotXAutoscale>\n      <GraphPlotYAutoscale>1</GraphPlotYAutoscale>\n      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>\n      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>\n      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>\n      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>\n      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>\n      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>\n      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>\n      <GraphPlotXMin>0</GraphPlotXMin>\n      <GraphPlotXMax>2.4</GraphPlotXMax>\n      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>\n      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>\n      <GraphPlotYMin>0</GraphPlotYMin>\n      <GraphPlotYMax>50</GraphPlotYMax>\n      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>\n      <GraphPlotDefaultXMax>2.4</GraphPlotDefaultXMax>\n      <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>\n      <GraphPlotDefaultYMax>50</GraphPlotDefaultYMax>\n      <GraphPlotXLabel />\n      <GraphPlotYLabel />\n      <GraphDrawRainbow>0</GraphDrawRainbow>\n      <AudioTraceIDs>4 761 772 780 788 </AudioTraceIDs>\n      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>\n    </PageGraphCartesian>\n    ",
+      "files": [
+        "graph_763_faithful.png",
+        "graph_763_faithful.pdf",
+        "graph_763_faithful.svg",
+        "graph_763_paper.png",
+        "graph_763_paper.pdf",
+        "graph_763_paper.svg"
+      ],
+      "analysis": [
+        {
+          "id": "849",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 39.79868750639,
+          "range": [
+            0.0,
+            1.03889
+          ],
+          "unit": "mA h"
+        },
+        {
+          "id": "1108",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 70.0078541526775,
+          "range": [
+            0.0,
+            1.81944
+          ],
+          "unit": "mA h"
+        },
+        {
+          "id": "1107",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 91.0285347221525,
+          "range": [
+            0.0,
+            2.375
+          ],
+          "unit": "mA h"
+        },
+        {
+          "id": "1106",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 91.2791111208625,
+          "range": [
+            0.0,
+            2.38889
+          ],
+          "unit": "mA h"
+        }
+      ],
+      "traces": [
+        {
+          "x": "759",
+          "y": "761",
+          "samples": 861,
+          "finite_pairs": 861
+        },
+        {
+          "x": "769",
+          "y": "772",
+          "samples": 856,
+          "finite_pairs": 856
+        },
+        {
+          "x": "777",
+          "y": "780",
+          "samples": 375,
+          "finite_pairs": 375
+        },
+        {
+          "x": "785",
+          "y": "788",
+          "samples": 656,
+          "finite_pairs": 656
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "analysis_helpers_xml": [
+    "<PageHelperDataIntegral>\n      <ID>849 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>6.06888666667 2.73225333333 7.98985883464 3.16155020833 </Bounds>\n      <SubordinateToID>763</SubordinateToID>\n      <SubordinateOffset>3.78564666667 2.71725333333</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x9999 0x9999| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>1.03889</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>780</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>777</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>1</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n    ",
+    "<PageHelperDataIntegral>\n      <ID>1108 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>9.80632166667 2.81334 11.8245228385 3.242636875 </Bounds>\n      <SubordinateToID>763</SubordinateToID>\n      <SubordinateOffset>7.52308166667 2.79834</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x2727 0x4040 0x8b8b| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>1.81944</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>788</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>785</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>1</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n    ",
+    "<PageHelperDataIntegral>\n      <ID>1107 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>11.47955 1.52602 13.400522168 1.955316875 </Bounds>\n      <SubordinateToID>763</SubordinateToID>\n      <SubordinateOffset>9.19631 1.51102</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0xffff 0x7f7f 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>2.375</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>772</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>769</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>1</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n    ",
+    "<PageHelperDataIntegral>\n      <ID>1106 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>9.56179333333 1.546405 11.3785174544 1.975701875 </Bounds>\n      <SubordinateToID>763</SubordinateToID>\n      <SubordinateOffset>7.27855333333 1.531405</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0xffff 0x0 0x3333| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>2.38889</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>761</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>759</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>1</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n  "
+  ]
+}

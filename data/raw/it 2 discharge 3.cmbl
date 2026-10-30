@@ -1,0 +1,9743 @@
+﻿<Document>
+  <FileCoherence>1</FileCoherence>
+  <Version>3.15</Version>
+  <charset>utf-8</charset>
+  <ApplicationBuildDateTime>Apr 13 2018 10:16:11</ApplicationBuildDateTime>
+  <FileName>it 2 discharge 3.cmbl</FileName>
+  <FileIDString>1/12/2025 11:19:28Your name here192615853</FileIDString>
+  <CreatorOS>2</CreatorOS>
+  <CreatorApp>1</CreatorApp>
+  <AbsoluteVersion>1</AbsoluteVersion>
+  <Radians>1</Radians>
+  <NumDerivativePoints>7</NumDerivativePoints>
+  <NumSmoothingPoints>7</NumSmoothingPoints>
+  <ShowZeroOnToolbar>1</ShowZeroOnToolbar>
+  <ShowDataMarkOnToolbar>0</ShowDataMarkOnToolbar>
+  <ShowGraphMatchOnToolbar>0</ShowGraphMatchOnToolbar>
+  <GraphMatchUseConstant>1</GraphMatchUseConstant>
+  <GraphMatchUseLinear>1</GraphMatchUseLinear>
+  <GraphMatchUseQuadratic>1</GraphMatchUseQuadratic>
+  <GraphMatchNumSections>0</GraphMatchNumSections>
+  <Stationery>0</Stationery>
+  <CreationDateTime>1/12/2025 11:19:28</CreationDateTime>
+  <ModifiedDateTime>1/12/2025 11:22:42</ModifiedDateTime>
+  <PageBounds>0 0 14.2291666667 8</PageBounds>
+  <ScreenResolution>0 0 2735 1823</ScreenResolution>
+  <MathType>0</MathType>
+  <AllowOptionsDialogs>1</AllowOptionsDialogs>
+  <AllowAutoCurveFit>1</AllowAutoCurveFit>
+  <ReplayWindowPosition>0 85 169 627 462 1</ReplayWindowPosition>
+  <ReplayWindowSpeed>1</ReplayWindowSpeed>
+  <ReplayWindowRepeat>0</ReplayWindowRepeat>
+  <SensorConflictEnabled>1</SensorConflictEnabled>
+  <MathConstantValue>3.141592653590</MathConstantValue>
+  <MathConstantNumPlaces>3</MathConstantNumPlaces>
+  <MathConstantIncrement>1.000000000000</MathConstantIncrement>
+  <MathConstantEditable>0</MathConstantEditable>
+  <MathConstantUnits></MathConstantUnits>
+  <MathConstantName>pi</MathConstantName>
+  <Page>
+    <ID>100 </ID>
+    <BroadcastTo>0 </BroadcastTo>
+    <Visible>1</Visible>
+    <PageTitle></PageTitle>
+    <PageColor>0xcccc 0xcccc 0xffff| 0xffff 0x1d</PageColor>
+    <PageDisplayPageInfo>0 </PageDisplayPageInfo>
+    <PagePageInfo></PagePageInfo>
+    <PageGraphPaper>0 </PageGraphPaper>
+    <PageGraphPaperLineSpacing>0.25 </PageGraphPaperLineSpacing>
+    <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0x1e</PageGraphPaperLineColor>
+    <PageReplayWindowPosition>0 85 169 627 462</PageReplayWindowPosition>
+    <PageGraphCartesian>
+      <ID>106 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>3.07576822917 0.0075 14.2216666667 1.9925 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>1</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <GraphTitle></GraphTitle>
+      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x2e</GraphTitleColor>
+      <GraphShowPoints>0</GraphShowPoints>
+      <GraphInterpolate>0</GraphInterpolate>
+      <GraphShowTangent>0</GraphShowTangent>
+      <GraphShowLegend>0</GraphShowLegend>
+      <GraphShowCursorStatus>1</GraphShowCursorStatus>
+      <GraphShowCursorDelta>1</GraphShowCursorDelta>
+      <GraphPlotBaseColumnID>115 </GraphPlotBaseColumnID>
+      <GraphPlotTraceIDPairs>1 115 117 </GraphPlotTraceIDPairs>
+      <LogXAxis>0</LogXAxis>
+      <LogYAxis>0</LogYAxis>
+      <LogRightYAxis>0</LogRightYAxis>
+      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>
+      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>
+      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>
+      <GraphConnectLines>1</GraphConnectLines>
+      <GraphBarGraph>0</GraphBarGraph>
+      <BinGraphStackColumns>0</BinGraphStackColumns>
+      <GraphShowPointProtectors>0</GraphShowPointProtectors>
+      <GraphMajorTickStyle>1</GraphMajorTickStyle>
+      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMajorTickColor>
+      <GraphMinorTickStyle>0</GraphMinorTickStyle>
+      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMinorTickColor>
+      <GraphPlotXAutoscale>3</GraphPlotXAutoscale>
+      <GraphPlotYAutoscale>3</GraphPlotYAutoscale>
+      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>
+      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>
+      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>
+      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>
+      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
+      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
+      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
+      <GraphPlotXMin>0</GraphPlotXMin>
+      <GraphPlotXMax>18</GraphPlotXMax>
+      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
+      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
+      <GraphPlotYMin>-6</GraphPlotYMin>
+      <GraphPlotYMax>6</GraphPlotYMax>
+      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>
+      <GraphPlotDefaultXMax>18</GraphPlotDefaultXMax>
+      <GraphPlotDefaultYMin>-6</GraphPlotDefaultYMin>
+      <GraphPlotDefaultYMax>6</GraphPlotDefaultYMax>
+      <GraphPlotXLabel></GraphPlotXLabel>
+      <GraphPlotYLabel></GraphPlotYLabel>
+      <GraphDrawRainbow>0</GraphDrawRainbow>
+      <AudioTraceIDs>1 117 </AudioTraceIDs>
+      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
+    </PageGraphCartesian>
+    <PageMeter>
+      <ID>119 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>0.00375 5.20375 3.05451822917 6.58625 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x29</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>1</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 1 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <MeterColumnID>117</MeterColumnID>
+      <MeterAudio>0</MeterAudio>
+      <MeterUseShortName>0</MeterUseShortName>
+      <MeterDisplayBlackText>0</MeterDisplayBlackText>
+      <MeterAlarmEnabled>0</MeterAlarmEnabled>
+      <MeterAlarmAbove>1</MeterAlarmAbove>
+      <MeterAlarmValue>0</MeterAlarmValue>
+      <MeterAlertSound>0</MeterAlertSound>
+    </PageMeter>
+    <PageGraphCartesian>
+      <ID>125 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>3.07576822917 2.0075 14.2216666667 3.9925 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>1</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <GraphTitle></GraphTitle>
+      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x2e</GraphTitleColor>
+      <GraphShowPoints>0</GraphShowPoints>
+      <GraphInterpolate>0</GraphInterpolate>
+      <GraphShowTangent>0</GraphShowTangent>
+      <GraphShowLegend>0</GraphShowLegend>
+      <GraphShowCursorStatus>1</GraphShowCursorStatus>
+      <GraphShowCursorDelta>1</GraphShowCursorDelta>
+      <GraphPlotBaseColumnID>115 </GraphPlotBaseColumnID>
+      <GraphPlotTraceIDPairs>1 115 123 </GraphPlotTraceIDPairs>
+      <LogXAxis>0</LogXAxis>
+      <LogYAxis>0</LogYAxis>
+      <LogRightYAxis>0</LogRightYAxis>
+      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>
+      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>
+      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>
+      <GraphConnectLines>1</GraphConnectLines>
+      <GraphBarGraph>0</GraphBarGraph>
+      <BinGraphStackColumns>0</BinGraphStackColumns>
+      <GraphShowPointProtectors>0</GraphShowPointProtectors>
+      <GraphMajorTickStyle>1</GraphMajorTickStyle>
+      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMajorTickColor>
+      <GraphMinorTickStyle>0</GraphMinorTickStyle>
+      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMinorTickColor>
+      <GraphPlotXAutoscale>3</GraphPlotXAutoscale>
+      <GraphPlotYAutoscale>3</GraphPlotYAutoscale>
+      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>
+      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>
+      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>
+      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>
+      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
+      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
+      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
+      <GraphPlotXMin>0</GraphPlotXMin>
+      <GraphPlotXMax>18</GraphPlotXMax>
+      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
+      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
+      <GraphPlotYMin>-0.6</GraphPlotYMin>
+      <GraphPlotYMax>0.6</GraphPlotYMax>
+      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>
+      <GraphPlotDefaultXMax>18</GraphPlotDefaultXMax>
+      <GraphPlotDefaultYMin>-0.6</GraphPlotDefaultYMin>
+      <GraphPlotDefaultYMax>0.6</GraphPlotDefaultYMax>
+      <GraphPlotXLabel></GraphPlotXLabel>
+      <GraphPlotYLabel></GraphPlotYLabel>
+      <GraphDrawRainbow>0</GraphDrawRainbow>
+      <AudioTraceIDs>1 123 </AudioTraceIDs>
+      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
+    </PageGraphCartesian>
+    <PageMeter>
+      <ID>126 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>0.00375 6.59375 3.05451822917 7.97625 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x29</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>1</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 1 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <MeterColumnID>123</MeterColumnID>
+      <MeterAudio>0</MeterAudio>
+      <MeterUseShortName>0</MeterUseShortName>
+      <MeterDisplayBlackText>0</MeterDisplayBlackText>
+      <MeterAlarmEnabled>0</MeterAlarmEnabled>
+      <MeterAlarmAbove>1</MeterAlarmAbove>
+      <MeterAlarmValue>0</MeterAlarmValue>
+      <MeterAlertSound>0</MeterAlertSound>
+    </PageMeter>
+    <PageTable>
+      <ID>107 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>0.005625 0.005625 3.06264322917 5.194375 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0x2a</BackgroundColor>
+      <AddNewData>1</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 2 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <TableColumn> 115 0.8 </TableColumn>
+      <TableColumn> 117 0.8 </TableColumn>
+      <TableColumn> 123 0.8 </TableColumn>
+      <TableColumn> 141 0.8 </TableColumn>
+      <TableColumn> 121 0.8 </TableColumn>
+      <TableColumn> 124 0.8 </TableColumn>
+      <TableColumn> 135 0.8 </TableColumn>
+      <TableColumn> 138 0.8 </TableColumn>
+      <StartIndex> 0 </StartIndex>
+      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
+    </PageTable>
+    <PageGraphCartesian>
+      <ID>136 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>3.07576822917 4.0075 14.2216666667 5.9925 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <GraphTitle></GraphTitle>
+      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x0</GraphTitleColor>
+      <GraphShowPoints>0</GraphShowPoints>
+      <GraphInterpolate>0</GraphInterpolate>
+      <GraphShowTangent>0</GraphShowTangent>
+      <GraphShowLegend>0</GraphShowLegend>
+      <GraphShowCursorStatus>1</GraphShowCursorStatus>
+      <GraphShowCursorDelta>1</GraphShowCursorDelta>
+      <GraphPlotBaseColumnID>121 </GraphPlotBaseColumnID>
+      <GraphPlotTraceIDPairs>1 121 124 </GraphPlotTraceIDPairs>
+      <LogXAxis>0</LogXAxis>
+      <LogYAxis>0</LogYAxis>
+      <LogRightYAxis>0</LogRightYAxis>
+      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>
+      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>
+      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>
+      <GraphConnectLines>0</GraphConnectLines>
+      <GraphBarGraph>0</GraphBarGraph>
+      <BinGraphStackColumns>0</BinGraphStackColumns>
+      <GraphShowPointProtectors>0</GraphShowPointProtectors>
+      <GraphMajorTickStyle>1</GraphMajorTickStyle>
+      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMajorTickColor>
+      <GraphMinorTickStyle>0</GraphMinorTickStyle>
+      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMinorTickColor>
+      <GraphPlotXAutoscale>3</GraphPlotXAutoscale>
+      <GraphPlotYAutoscale>3</GraphPlotYAutoscale>
+      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>
+      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>
+      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>
+      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>
+      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
+      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
+      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
+      <GraphPlotXMin>0</GraphPlotXMin>
+      <GraphPlotXMax>480</GraphPlotXMax>
+      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
+      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
+      <GraphPlotYMin>0.5</GraphPlotYMin>
+      <GraphPlotYMax>0.98</GraphPlotYMax>
+      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>
+      <GraphPlotDefaultXMax>480</GraphPlotDefaultXMax>
+      <GraphPlotDefaultYMin>0.5</GraphPlotDefaultYMin>
+      <GraphPlotDefaultYMax>0.98</GraphPlotDefaultYMax>
+      <GraphPlotXLabel></GraphPlotXLabel>
+      <GraphPlotYLabel></GraphPlotYLabel>
+      <GraphDrawRainbow>0</GraphDrawRainbow>
+      <AudioTraceIDs>1 124 </AudioTraceIDs>
+      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
+    </PageGraphCartesian>
+    <PageGraphCartesian>
+      <ID>137 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>3.07576822917 6.0075 14.2216666667 7.9925 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <GraphTitle></GraphTitle>
+      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x0</GraphTitleColor>
+      <GraphShowPoints>0</GraphShowPoints>
+      <GraphInterpolate>0</GraphInterpolate>
+      <GraphShowTangent>0</GraphShowTangent>
+      <GraphShowLegend>0</GraphShowLegend>
+      <GraphShowCursorStatus>1</GraphShowCursorStatus>
+      <GraphShowCursorDelta>1</GraphShowCursorDelta>
+      <GraphPlotBaseColumnID>121 </GraphPlotBaseColumnID>
+      <GraphPlotTraceIDPairs>1 121 138 </GraphPlotTraceIDPairs>
+      <LogXAxis>0</LogXAxis>
+      <LogYAxis>0</LogYAxis>
+      <LogRightYAxis>0</LogRightYAxis>
+      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>
+      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>
+      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>
+      <GraphConnectLines>1</GraphConnectLines>
+      <GraphBarGraph>0</GraphBarGraph>
+      <BinGraphStackColumns>0</BinGraphStackColumns>
+      <GraphShowPointProtectors>0</GraphShowPointProtectors>
+      <GraphMajorTickStyle>1</GraphMajorTickStyle>
+      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMajorTickColor>
+      <GraphMinorTickStyle>0</GraphMinorTickStyle>
+      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMinorTickColor>
+      <GraphPlotXAutoscale>3</GraphPlotXAutoscale>
+      <GraphPlotYAutoscale>3</GraphPlotYAutoscale>
+      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>
+      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>
+      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>
+      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>
+      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
+      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
+      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
+      <GraphPlotXMin>0</GraphPlotXMin>
+      <GraphPlotXMax>480</GraphPlotXMax>
+      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
+      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
+      <GraphPlotYMin>0.004</GraphPlotYMin>
+      <GraphPlotYMax>0.01</GraphPlotYMax>
+      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>
+      <GraphPlotDefaultXMax>480</GraphPlotDefaultXMax>
+      <GraphPlotDefaultYMin>0.004</GraphPlotDefaultYMin>
+      <GraphPlotDefaultYMax>0.01</GraphPlotDefaultYMax>
+      <GraphPlotXLabel></GraphPlotXLabel>
+      <GraphPlotYLabel></GraphPlotYLabel>
+      <GraphDrawRainbow>0</GraphDrawRainbow>
+      <AudioTraceIDs>1 138 </AudioTraceIDs>
+      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
+    </PageGraphCartesian>
+  </Page>
+  <CurrentPageIndex>0</CurrentPageIndex>
+  <DataSet>
+    <ID>114 </ID>
+    <BroadcastTo>3 4 107 143 </BroadcastTo>
+    <Visible>0</Visible>
+    <DataSetName>Latest</DataSetName>
+    <DataSetComments></DataSetComments>
+    <DataSetPosition>1</DataSetPosition>
+    <DataSetSourceName></DataSetSourceName>
+    <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>
+    <DataSetHistogram>0</DataSetHistogram>
+    <DataSetFFT>0</DataSetFFT>
+    <DataSetLatest>1</DataSetLatest>
+    <DataSetAutoCreated>0</DataSetAutoCreated>
+    <DataSetStoredRun>0</DataSetStoredRun>
+    <DataSetPrediction>0</DataSetPrediction>
+    <DataSetVideoAnalysis>0</DataSetVideoAnalysis>
+    <DataSetGraphMatch>0</DataSetGraphMatch>
+    <Metadata>
+      <DataMark>
+      </DataMark>
+      <DataTag>
+      </DataTag>
+    </Metadata>
+    <DataColumn>
+      <ID>115 </ID>
+      <BroadcastTo>5 17 106 107 125 136 </BroadcastTo>
+      <Visible>0</Visible>
+      <DataObjectName>Time</DataObjectName>
+      <DataObjectShortName>t</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>1</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>1</DataObjectThickLines>
+      <ColumnUnits>s</ColumnUnits>
+      <ColumnCollectionTimeUnit>1</ColumnCollectionTimeUnit>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1736698776</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>0</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>1</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>0</ColumnAllowUserDelete>
+      <ColumnMatchTag>Time</ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
+      <ColumnGroupID>116</ColumnGroupID>
+      <ColumnCells>
+Z2 1:
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>117 </ID>
+      <BroadcastTo>6 4 17 106 107 119 125 </BroadcastTo>
+      <Visible>0</Visible>
+      <DataObjectName>Potential</DataObjectName>
+      <DataObjectShortName>Pot</DataObjectShortName>
+      <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>108</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>3</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>1</DataObjectThickLines>
+      <ColumnUnits>V</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1736698776</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>1</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>1</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>1</ColumnSensorColumn>
+      <ColumnSensorInputColumn>1</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>0</ColumnAllowUserDelete>
+      <ColumnMatchTag>Potential</ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>1</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
+      <ColumnGroupID>118</ColumnGroupID>
+      <ColumnCells>
+Z2 1:
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>123 </ID>
+      <BroadcastTo>7 4 17 107 125 126 136 143 </BroadcastTo>
+      <Visible>0</Visible>
+      <DataObjectName>Current</DataObjectName>
+      <DataObjectShortName>I</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0xffff| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>108</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>4</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>1</DataObjectThickLines>
+      <ColumnUnits>A</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1736698776</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>2</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>1</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>1</ColumnSensorColumn>
+      <ColumnSensorInputColumn>1</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>0</ColumnAllowUserDelete>
+      <ColumnMatchTag>Current</ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>1</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
+      <ColumnGroupID>124</ColumnGroupID>
+      <ColumnCells>
+Z2 1:
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>141 </ID>
+      <BroadcastTo>2 17 107 </BroadcastTo>
+      <Visible>0</Visible>
+      <DataObjectName>Current*</DataObjectName>
+      <DataObjectShortName>I</DataObjectShortName>
+      <DataObjectColor>0x0 0x8b8b 0x4545| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>143</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>3</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>1</DataObjectThickLines>
+      <ColumnUnits>A</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1736698827</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>1</ColumnUserCreated>
+      <ColumnPPStyle>7</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag></ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
+      <ColumnGroupID>142</ColumnGroupID>
+    </DataColumn>
+  </DataSet>
+  <DataSet>
+    <ID>128 </ID>
+    <BroadcastTo>2 107 140 </BroadcastTo>
+    <Visible>1</Visible>
+    <DataSetName>Remote Data</DataSetName>
+    <DataSetComments></DataSetComments>
+    <DataSetPosition>2</DataSetPosition>
+    <DataSetSourceName></DataSetSourceName>
+    <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>
+    <DataSetHistogram>0</DataSetHistogram>
+    <DataSetFFT>0</DataSetFFT>
+    <DataSetLatest>0</DataSetLatest>
+    <DataSetAutoCreated>0</DataSetAutoCreated>
+    <DataSetStoredRun>0</DataSetStoredRun>
+    <DataSetPrediction>0</DataSetPrediction>
+    <DataSetVideoAnalysis>0</DataSetVideoAnalysis>
+    <DataSetGraphMatch>0</DataSetGraphMatch>
+    <Metadata>
+      <DataMark>
+      </DataMark>
+      <DataTag>
+      </DataTag>
+    </Metadata>
+    <DataColumn>
+      <ID>121 </ID>
+      <BroadcastTo>5 17 106 107 136 137 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Time</DataObjectName>
+      <DataObjectShortName></DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>1</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>1</DataObjectThickLines>
+      <ColumnUnits>min</ColumnUnits>
+      <ColumnCollectionTimeUnit>2</ColumnCollectionTimeUnit>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1736632699</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>3</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>1</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>0</ColumnAllowUserDelete>
+      <ColumnMatchTag>Time</ColumnMatchTag>
+      <ColumnStartCollectTime>1736632699</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
+      <ColumnGroupID>120</ColumnGroupID>
+      <ColumnCells>
+0
+0.166666666667
+0.333333333333
+0.5
+0.666666666667
+0.833333333333
+1
+1.16666666667
+1.33333333333
+1.5
+1.66666666667
+1.83333333333
+2
+2.16666666667
+2.33333333333
+2.5
+2.66666666667
+2.83333333333
+3
+3.16666666667
+3.33333333333
+3.5
+3.66666666667
+3.83333333333
+4
+4.16666666667
+4.33333333333
+4.5
+4.66666666667
+4.83333333333
+5
+5.16666666667
+5.33333333333
+5.5
+5.66666666667
+5.83333333333
+6
+6.16666666667
+6.33333333333
+6.5
+6.66666666667
+6.83333333333
+7
+7.16666666667
+7.33333333333
+7.5
+7.66666666667
+7.83333333333
+8
+8.16666666667
+8.33333333333
+8.5
+8.66666666667
+8.83333333333
+9
+9.16666666667
+9.33333333333
+9.5
+9.66666666667
+9.83333333333
+10
+10.1666666667
+10.3333333333
+10.5
+10.6666666667
+10.8333333333
+11
+11.1666666667
+11.3333333333
+11.5
+11.6666666667
+11.8333333333
+12
+12.1666666667
+12.3333333333
+12.5
+12.6666666667
+12.8333333333
+13
+13.1666666667
+13.3333333333
+13.5
+13.6666666667
+13.8333333333
+14
+14.1666666667
+14.3333333333
+14.5
+14.6666666667
+14.8333333333
+15
+15.1666666667
+15.3333333333
+15.5
+15.6666666667
+15.8333333333
+16
+16.1666666667
+16.3333333333
+16.5
+16.6666666667
+16.8333333333
+17
+17.1666666667
+17.3333333333
+17.5
+17.6666666667
+17.8333333333
+18
+18.1666666667
+18.3333333333
+18.5
+18.6666666667
+18.8333333333
+19
+19.1666666667
+19.3333333333
+19.5
+19.6666666667
+19.8333333333
+20
+20.1666666667
+20.3333333333
+20.5
+20.6666666667
+20.8333333333
+21
+21.1666666667
+21.3333333333
+21.5
+21.6666666667
+21.8333333333
+22
+22.1666666667
+22.3333333333
+22.5
+22.6666666667
+22.8333333333
+23
+23.1666666667
+23.3333333333
+23.5
+23.6666666667
+23.8333333333
+24
+24.1666666667
+24.3333333333
+24.5
+24.6666666667
+24.8333333333
+25
+25.1666666667
+25.3333333333
+25.5
+25.6666666667
+25.8333333333
+26
+26.1666666667
+26.3333333333
+26.5
+26.6666666667
+26.8333333333
+27
+27.1666666667
+27.3333333333
+27.5
+27.6666666667
+27.8333333333
+28
+28.1666666667
+28.3333333333
+28.5
+28.6666666667
+28.8333333333
+29
+29.1666666667
+29.3333333333
+29.5
+29.6666666667
+29.8333333333
+30
+30.1666666667
+30.3333333333
+30.5
+30.6666666667
+30.8333333333
+31
+31.1666666667
+31.3333333333
+31.5
+31.6666666667
+31.8333333333
+32
+32.1666666667
+32.3333333333
+32.5
+32.6666666667
+32.8333333333
+33
+33.1666666667
+33.3333333333
+33.5
+33.6666666667
+33.8333333333
+34
+34.1666666667
+34.3333333333
+34.5
+34.6666666667
+34.8333333333
+35
+35.1666666667
+35.3333333333
+35.5
+35.6666666667
+35.8333333333
+36
+36.1666666667
+36.3333333333
+36.5
+36.6666666667
+36.8333333333
+37
+37.1666666667
+37.3333333333
+37.5
+37.6666666667
+37.8333333333
+38
+38.1666666667
+38.3333333333
+38.5
+38.6666666667
+38.8333333333
+39
+39.1666666667
+39.3333333333
+39.5
+39.6666666667
+39.8333333333
+40
+40.1666666667
+40.3333333333
+40.5
+40.6666666667
+40.8333333333
+41
+41.1666666667
+41.3333333333
+41.5
+41.6666666667
+41.8333333333
+42
+42.1666666667
+42.3333333333
+42.5
+42.6666666667
+42.8333333333
+43
+43.1666666667
+43.3333333333
+43.5
+43.6666666667
+43.8333333333
+44
+44.1666666667
+44.3333333333
+44.5
+44.6666666667
+44.8333333333
+45
+45.1666666667
+45.3333333333
+45.5
+45.6666666667
+45.8333333333
+46
+46.1666666667
+46.3333333333
+46.5
+46.6666666667
+46.8333333333
+47
+47.1666666667
+47.3333333333
+47.5
+47.6666666667
+47.8333333333
+48
+48.1666666667
+48.3333333333
+48.5
+48.6666666667
+48.8333333333
+49
+49.1666666667
+49.3333333333
+49.5
+49.6666666667
+49.8333333333
+50
+50.1666666667
+50.3333333333
+50.5
+50.6666666667
+50.8333333333
+51
+51.1666666667
+51.3333333333
+51.5
+51.6666666667
+51.8333333333
+52
+52.1666666667
+52.3333333333
+52.5
+52.6666666667
+52.8333333333
+53
+53.1666666667
+53.3333333333
+53.5
+53.6666666667
+53.8333333333
+54
+54.1666666667
+54.3333333333
+54.5
+54.6666666667
+54.8333333333
+55
+55.1666666667
+55.3333333333
+55.5
+55.6666666667
+55.8333333333
+56
+56.1666666667
+56.3333333333
+56.5
+56.6666666667
+56.8333333333
+57
+57.1666666667
+57.3333333333
+57.5
+57.6666666667
+57.8333333333
+58
+58.1666666667
+58.3333333333
+58.5
+58.6666666667
+58.8333333333
+59
+59.1666666667
+59.3333333333
+59.5
+59.6666666667
+59.8333333333
+60
+60.1666666667
+60.3333333333
+60.5
+60.6666666667
+60.8333333333
+61
+61.1666666667
+61.3333333333
+61.5
+61.6666666667
+61.8333333333
+62
+62.1666666667
+62.3333333333
+62.5
+62.6666666667
+62.8333333333
+63
+63.1666666667
+63.3333333333
+63.5
+63.6666666667
+63.8333333333
+64
+64.1666666667
+64.3333333333
+64.5
+64.6666666667
+64.8333333333
+65
+65.1666666667
+65.3333333333
+65.5
+65.6666666667
+65.8333333333
+66
+66.1666666667
+66.3333333333
+66.5
+66.6666666667
+66.8333333333
+67
+67.1666666667
+67.3333333333
+67.5
+67.6666666667
+67.8333333333
+68
+68.1666666667
+68.3333333333
+68.5
+68.6666666667
+68.8333333333
+69
+69.1666666667
+69.3333333333
+69.5
+69.6666666667
+69.8333333333
+70
+70.1666666667
+70.3333333333
+70.5
+70.6666666667
+70.8333333333
+71
+71.1666666667
+71.3333333333
+71.5
+71.6666666667
+71.8333333333
+72
+72.1666666667
+72.3333333333
+72.5
+72.6666666667
+72.8333333333
+73
+73.1666666667
+73.3333333333
+73.5
+73.6666666667
+73.8333333333
+74
+74.1666666667
+74.3333333333
+74.5
+74.6666666667
+74.8333333333
+75
+75.1666666667
+75.3333333333
+75.5
+75.6666666667
+75.8333333333
+76
+76.1666666667
+76.3333333333
+76.5
+76.6666666667
+76.8333333333
+77
+77.1666666667
+77.3333333333
+77.5
+77.6666666667
+77.8333333333
+78
+78.1666666667
+78.3333333333
+78.5
+78.6666666667
+78.8333333333
+79
+79.1666666667
+79.3333333333
+79.5
+79.6666666667
+79.8333333333
+80
+80.1666666667
+80.3333333333
+80.5
+80.6666666667
+80.8333333333
+81
+81.1666666667
+81.3333333333
+81.5
+81.6666666667
+81.8333333333
+82
+82.1666666667
+82.3333333333
+82.5
+82.6666666667
+82.8333333333
+83
+83.1666666667
+83.3333333333
+83.5
+83.6666666667
+83.8333333333
+84
+84.1666666667
+84.3333333333
+84.5
+84.6666666667
+84.8333333333
+85
+85.1666666667
+85.3333333333
+85.5
+85.6666666667
+85.8333333333
+86
+86.1666666667
+86.3333333333
+86.5
+86.6666666667
+86.8333333333
+87
+87.1666666667
+87.3333333333
+87.5
+87.6666666667
+87.8333333333
+88
+88.1666666667
+88.3333333333
+88.5
+88.6666666667
+88.8333333333
+89
+89.1666666667
+89.3333333333
+89.5
+89.6666666667
+89.8333333333
+90
+90.1666666667
+90.3333333333
+90.5
+90.6666666667
+90.8333333333
+91
+91.1666666667
+91.3333333333
+91.5
+91.6666666667
+91.8333333333
+92
+92.1666666667
+92.3333333333
+92.5
+92.6666666667
+92.8333333333
+93
+93.1666666667
+93.3333333333
+93.5
+93.6666666667
+93.8333333333
+94
+94.1666666667
+94.3333333333
+94.5
+94.6666666667
+94.8333333333
+95
+95.1666666667
+95.3333333333
+95.5
+95.6666666667
+95.8333333333
+96
+96.1666666667
+96.3333333333
+96.5
+96.6666666667
+96.8333333333
+97
+97.1666666667
+97.3333333333
+97.5
+97.6666666667
+97.8333333333
+98
+98.1666666667
+98.3333333333
+98.5
+98.6666666667
+98.8333333333
+99
+99.1666666667
+99.3333333333
+99.5
+99.6666666667
+99.8333333333
+100
+100.166666667
+100.333333333
+100.5
+100.666666667
+100.833333333
+101
+101.166666667
+101.333333333
+101.5
+101.666666667
+101.833333333
+102
+102.166666667
+102.333333333
+102.5
+102.666666667
+102.833333333
+103
+103.166666667
+103.333333333
+103.5
+103.666666667
+103.833333333
+104
+104.166666667
+104.333333333
+104.5
+104.666666667
+104.833333333
+105
+105.166666667
+105.333333333
+105.5
+105.666666667
+105.833333333
+106
+106.166666667
+106.333333333
+106.5
+106.666666667
+106.833333333
+107
+107.166666667
+107.333333333
+107.5
+107.666666667
+107.833333333
+108
+108.166666667
+108.333333333
+108.5
+108.666666667
+108.833333333
+109
+109.166666667
+109.333333333
+109.5
+109.666666667
+109.833333333
+110
+110.166666667
+110.333333333
+110.5
+110.666666667
+110.833333333
+111
+111.166666667
+111.333333333
+111.5
+111.666666667
+111.833333333
+112
+112.166666667
+112.333333333
+112.5
+112.666666667
+112.833333333
+113
+113.166666667
+113.333333333
+113.5
+113.666666667
+113.833333333
+114
+114.166666667
+114.333333333
+114.5
+114.666666667
+114.833333333
+115
+115.166666667
+115.333333333
+115.5
+115.666666667
+115.833333333
+116
+116.166666667
+116.333333333
+116.5
+116.666666667
+116.833333333
+117
+117.166666667
+117.333333333
+117.5
+117.666666667
+117.833333333
+118
+118.166666667
+118.333333333
+118.5
+118.666666667
+118.833333333
+119
+119.166666667
+119.333333333
+119.5
+119.666666667
+119.833333333
+120
+120.166666667
+120.333333333
+120.5
+120.666666667
+120.833333333
+121
+121.166666667
+121.333333333
+121.5
+121.666666667
+121.833333333
+122
+122.166666667
+122.333333333
+122.5
+122.666666667
+122.833333333
+123
+123.166666667
+123.333333333
+123.5
+123.666666667
+123.833333333
+124
+124.166666667
+124.333333333
+124.5
+124.666666667
+124.833333333
+125
+125.166666667
+125.333333333
+125.5
+125.666666667
+125.833333333
+126
+126.166666667
+126.333333333
+126.5
+126.666666667
+126.833333333
+127
+127.166666667
+127.333333333
+127.5
+127.666666667
+127.833333333
+128
+128.166666667
+128.333333333
+128.5
+128.666666667
+128.833333333
+129
+129.166666667
+129.333333333
+129.5
+129.666666667
+129.833333333
+130
+130.166666667
+130.333333333
+130.5
+130.666666667
+130.833333333
+131
+131.166666667
+131.333333333
+131.5
+131.666666667
+131.833333333
+132
+132.166666667
+132.333333333
+132.5
+132.666666667
+132.833333333
+133
+133.166666667
+133.333333333
+133.5
+133.666666667
+133.833333333
+134
+134.166666667
+134.333333333
+134.5
+134.666666667
+134.833333333
+135
+135.166666667
+135.333333333
+135.5
+135.666666667
+135.833333333
+136
+136.166666667
+136.333333333
+136.5
+136.666666667
+136.833333333
+137
+137.166666667
+137.333333333
+137.5
+137.666666667
+137.833333333
+138
+138.166666667
+138.333333333
+138.5
+138.666666667
+138.833333333
+139
+139.166666667
+139.333333333
+139.5
+139.666666667
+139.833333333
+140
+140.166666667
+140.333333333
+140.5
+140.666666667
+140.833333333
+141
+141.166666667
+141.333333333
+141.5
+141.666666667
+141.833333333
+142
+142.166666667
+142.333333333
+142.5
+142.666666667
+142.833333333
+143
+143.166666667
+143.333333333
+143.5
+143.666666667
+143.833333333
+144
+144.166666667
+144.333333333
+144.5
+144.666666667
+144.833333333
+145
+145.166666667
+145.333333333
+145.5
+145.666666667
+145.833333333
+146
+146.166666667
+146.333333333
+146.5
+146.666666667
+146.833333333
+147
+147.166666667
+147.333333333
+147.5
+147.666666667
+147.833333333
+148
+148.166666667
+148.333333333
+148.5
+148.666666667
+148.833333333
+149
+149.166666667
+149.333333333
+149.5
+149.666666667
+149.833333333
+150
+150.166666667
+150.333333333
+150.5
+150.666666667
+150.833333333
+151
+151.166666667
+151.333333333
+151.5
+151.666666667
+151.833333333
+152
+152.166666667
+152.333333333
+152.5
+152.666666667
+152.833333333
+153
+153.166666667
+153.333333333
+153.5
+153.666666667
+153.833333333
+154
+154.166666667
+154.333333333
+154.5
+154.666666667
+154.833333333
+155
+155.166666667
+155.333333333
+155.5
+155.666666667
+155.833333333
+156
+156.166666667
+156.333333333
+156.5
+156.666666667
+156.833333333
+157
+157.166666667
+157.333333333
+157.5
+157.666666667
+157.833333333
+158
+158.166666667
+158.333333333
+158.5
+158.666666667
+158.833333333
+159
+159.166666667
+159.333333333
+159.5
+159.666666667
+159.833333333
+160
+160.166666667
+160.333333333
+160.5
+160.666666667
+160.833333333
+161
+161.166666667
+161.333333333
+161.5
+161.666666667
+161.833333333
+162
+162.166666667
+162.333333333
+162.5
+162.666666667
+162.833333333
+163
+163.166666667
+163.333333333
+163.5
+163.666666667
+163.833333333
+164
+164.166666667
+164.333333333
+164.5
+164.666666667
+164.833333333
+165
+165.166666667
+165.333333333
+165.5
+165.666666667
+165.833333333
+166
+166.166666667
+166.333333333
+166.5
+166.666666667
+166.833333333
+167
+167.166666667
+167.333333333
+167.5
+167.666666667
+167.833333333
+168
+168.166666667
+168.333333333
+168.5
+168.666666667
+168.833333333
+169
+169.166666667
+169.333333333
+169.5
+169.666666667
+169.833333333
+170
+170.166666667
+170.333333333
+170.5
+170.666666667
+170.833333333
+171
+171.166666667
+171.333333333
+171.5
+171.666666667
+171.833333333
+172
+172.166666667
+172.333333333
+172.5
+172.666666667
+172.833333333
+173
+173.166666667
+173.333333333
+173.5
+173.666666667
+173.833333333
+174
+174.166666667
+174.333333333
+174.5
+174.666666667
+174.833333333
+175
+175.166666667
+175.333333333
+175.5
+175.666666667
+175.833333333
+176
+176.166666667
+176.333333333
+176.5
+176.666666667
+176.833333333
+177
+177.166666667
+177.333333333
+177.5
+177.666666667
+177.833333333
+178
+178.166666667
+178.333333333
+178.5
+178.666666667
+178.833333333
+179
+179.166666667
+179.333333333
+179.5
+179.666666667
+179.833333333
+180
+180.166666667
+180.333333333
+180.5
+180.666666667
+180.833333333
+181
+181.166666667
+181.333333333
+181.5
+181.666666667
+181.833333333
+182
+182.166666667
+182.333333333
+182.5
+182.666666667
+182.833333333
+183
+183.166666667
+183.333333333
+183.5
+183.666666667
+183.833333333
+184
+184.166666667
+184.333333333
+184.5
+184.666666667
+184.833333333
+185
+185.166666667
+185.333333333
+185.5
+185.666666667
+185.833333333
+186
+186.166666667
+186.333333333
+186.5
+186.666666667
+186.833333333
+187
+187.166666667
+187.333333333
+187.5
+187.666666667
+187.833333333
+188
+188.166666667
+188.333333333
+188.5
+188.666666667
+188.833333333
+189
+189.166666667
+189.333333333
+189.5
+189.666666667
+189.833333333
+190
+190.166666667
+190.333333333
+190.5
+190.666666667
+190.833333333
+191
+191.166666667
+191.333333333
+191.5
+191.666666667
+191.833333333
+192
+192.166666667
+192.333333333
+192.5
+192.666666667
+192.833333333
+193
+193.166666667
+193.333333333
+193.5
+193.666666667
+193.833333333
+194
+194.166666667
+194.333333333
+194.5
+194.666666667
+194.833333333
+195
+195.166666667
+195.333333333
+195.5
+195.666666667
+195.833333333
+196
+196.166666667
+196.333333333
+196.5
+196.666666667
+196.833333333
+197
+197.166666667
+197.333333333
+197.5
+197.666666667
+197.833333333
+198
+198.166666667
+198.333333333
+198.5
+198.666666667
+198.833333333
+199
+199.166666667
+199.333333333
+199.5
+199.666666667
+199.833333333
+200
+200.166666667
+200.333333333
+200.5
+200.666666667
+200.833333333
+201
+201.166666667
+201.333333333
+201.5
+201.666666667
+201.833333333
+202
+202.166666667
+202.333333333
+202.5
+202.666666667
+202.833333333
+203
+203.166666667
+203.333333333
+203.5
+203.666666667
+203.833333333
+204
+204.166666667
+204.333333333
+204.5
+204.666666667
+204.833333333
+205
+205.166666667
+205.333333333
+205.5
+205.666666667
+205.833333333
+206
+206.166666667
+206.333333333
+206.5
+206.666666667
+206.833333333
+207
+207.166666667
+207.333333333
+207.5
+207.666666667
+207.833333333
+208
+208.166666667
+208.333333333
+208.5
+208.666666667
+208.833333333
+209
+209.166666667
+209.333333333
+209.5
+209.666666667
+209.833333333
+210
+210.166666667
+210.333333333
+210.5
+210.666666667
+210.833333333
+211
+211.166666667
+211.333333333
+211.5
+211.666666667
+211.833333333
+212
+212.166666667
+212.333333333
+212.5
+212.666666667
+212.833333333
+213
+213.166666667
+213.333333333
+213.5
+213.666666667
+213.833333333
+214
+214.166666667
+214.333333333
+214.5
+214.666666667
+214.833333333
+215
+215.166666667
+215.333333333
+215.5
+215.666666667
+215.833333333
+216
+216.166666667
+216.333333333
+216.5
+216.666666667
+216.833333333
+217
+217.166666667
+217.333333333
+217.5
+217.666666667
+217.833333333
+218
+218.166666667
+218.333333333
+218.5
+218.666666667
+218.833333333
+219
+219.166666667
+219.333333333
+219.5
+219.666666667
+219.833333333
+220
+220.166666667
+220.333333333
+220.5
+220.666666667
+220.833333333
+221
+221.166666667
+221.333333333
+221.5
+221.666666667
+221.833333333
+222
+222.166666667
+222.333333333
+222.5
+222.666666667
+222.833333333
+223
+223.166666667
+223.333333333
+223.5
+223.666666667
+223.833333333
+224
+224.166666667
+224.333333333
+224.5
+224.666666667
+224.833333333
+225
+225.166666667
+225.333333333
+225.5
+225.666666667
+225.833333333
+226
+226.166666667
+226.333333333
+226.5
+226.666666667
+226.833333333
+227
+227.166666667
+227.333333333
+227.5
+227.666666667
+227.833333333
+228
+228.166666667
+228.333333333
+228.5
+228.666666667
+228.833333333
+229
+229.166666667
+229.333333333
+229.5
+229.666666667
+229.833333333
+230
+230.166666667
+230.333333333
+230.5
+230.666666667
+230.833333333
+231
+231.166666667
+231.333333333
+231.5
+231.666666667
+231.833333333
+232
+232.166666667
+232.333333333
+232.5
+232.666666667
+232.833333333
+233
+233.166666667
+233.333333333
+233.5
+233.666666667
+233.833333333
+234
+234.166666667
+234.333333333
+234.5
+234.666666667
+234.833333333
+235
+235.166666667
+235.333333333
+235.5
+235.666666667
+235.833333333
+236
+236.166666667
+236.333333333
+236.5
+236.666666667
+236.833333333
+237
+237.166666667
+237.333333333
+237.5
+237.666666667
+237.833333333
+238
+238.166666667
+238.333333333
+238.5
+238.666666667
+238.833333333
+239
+239.166666667
+239.333333333
+239.5
+239.666666667
+239.833333333
+240
+240.166666667
+240.333333333
+240.5
+240.666666667
+240.833333333
+241
+241.166666667
+241.333333333
+241.5
+241.666666667
+241.833333333
+242
+242.166666667
+242.333333333
+242.5
+242.666666667
+242.833333333
+243
+243.166666667
+243.333333333
+243.5
+243.666666667
+243.833333333
+244
+244.166666667
+244.333333333
+244.5
+244.666666667
+244.833333333
+245
+245.166666667
+245.333333333
+245.5
+245.666666667
+245.833333333
+246
+246.166666667
+246.333333333
+246.5
+246.666666667
+246.833333333
+247
+247.166666667
+247.333333333
+247.5
+247.666666667
+247.833333333
+248
+248.166666667
+248.333333333
+248.5
+248.666666667
+248.833333333
+249
+249.166666667
+249.333333333
+249.5
+249.666666667
+249.833333333
+250
+250.166666667
+250.333333333
+250.5
+250.666666667
+250.833333333
+251
+251.166666667
+251.333333333
+251.5
+251.666666667
+251.833333333
+252
+252.166666667
+252.333333333
+252.5
+252.666666667
+252.833333333
+253
+253.166666667
+253.333333333
+253.5
+253.666666667
+253.833333333
+254
+254.166666667
+254.333333333
+254.5
+254.666666667
+254.833333333
+255
+255.166666667
+255.333333333
+255.5
+255.666666667
+255.833333333
+256
+256.166666667
+256.333333333
+256.5
+256.666666667
+256.833333333
+257
+257.166666667
+257.333333333
+257.5
+257.666666667
+257.833333333
+258
+258.166666667
+258.333333333
+258.5
+258.666666667
+258.833333333
+259
+259.166666667
+259.333333333
+259.5
+259.666666667
+259.833333333
+260
+260.166666667
+260.333333333
+260.5
+260.666666667
+260.833333333
+261
+261.166666667
+261.333333333
+261.5
+261.666666667
+261.833333333
+262
+262.166666667
+262.333333333
+262.5
+262.666666667
+262.833333333
+263
+263.166666667
+263.333333333
+263.5
+263.666666667
+263.833333333
+264
+264.166666667
+264.333333333
+264.5
+264.666666667
+264.833333333
+265
+265.166666667
+265.333333333
+265.5
+265.666666667
+265.833333333
+266
+266.166666667
+266.333333333
+266.5
+266.666666667
+266.833333333
+267
+267.166666667
+267.333333333
+267.5
+267.666666667
+267.833333333
+268
+268.166666667
+268.333333333
+268.5
+268.666666667
+268.833333333
+269
+269.166666667
+269.333333333
+269.5
+269.666666667
+269.833333333
+270
+270.166666667
+270.333333333
+270.5
+270.666666667
+270.833333333
+271
+271.166666667
+271.333333333
+271.5
+271.666666667
+271.833333333
+272
+272.166666667
+272.333333333
+272.5
+272.666666667
+272.833333333
+273
+273.166666667
+273.333333333
+273.5
+273.666666667
+273.833333333
+274
+274.166666667
+274.333333333
+274.5
+274.666666667
+274.833333333
+275
+275.166666667
+275.333333333
+275.5
+275.666666667
+275.833333333
+276
+276.166666667
+276.333333333
+276.5
+276.666666667
+276.833333333
+277
+277.166666667
+277.333333333
+277.5
+277.666666667
+277.833333333
+278
+278.166666667
+278.333333333
+278.5
+278.666666667
+278.833333333
+279
+279.166666667
+279.333333333
+279.5
+279.666666667
+279.833333333
+280
+280.166666667
+280.333333333
+280.5
+280.666666667
+280.833333333
+281
+281.166666667
+281.333333333
+281.5
+281.666666667
+281.833333333
+282
+282.166666667
+282.333333333
+282.5
+282.666666667
+282.833333333
+283
+283.166666667
+283.333333333
+283.5
+283.666666667
+283.833333333
+284
+284.166666667
+284.333333333
+284.5
+284.666666667
+284.833333333
+285
+285.166666667
+285.333333333
+285.5
+285.666666667
+285.833333333
+286
+286.166666667
+286.333333333
+286.5
+286.666666667
+286.833333333
+287
+287.166666667
+287.333333333
+287.5
+287.666666667
+287.833333333
+288
+288.166666667
+288.333333333
+288.5
+288.666666667
+288.833333333
+289
+289.166666667
+289.333333333
+289.5
+289.666666667
+289.833333333
+290
+290.166666667
+290.333333333
+290.5
+290.666666667
+290.833333333
+291
+291.166666667
+291.333333333
+291.5
+291.666666667
+291.833333333
+292
+292.166666667
+292.333333333
+292.5
+292.666666667
+292.833333333
+293
+293.166666667
+293.333333333
+293.5
+293.666666667
+293.833333333
+294
+294.166666667
+294.333333333
+294.5
+294.666666667
+294.833333333
+295
+295.166666667
+295.333333333
+295.5
+295.666666667
+295.833333333
+296
+296.166666667
+296.333333333
+296.5
+296.666666667
+296.833333333
+297
+297.166666667
+297.333333333
+297.5
+297.666666667
+297.833333333
+298
+298.166666667
+298.333333333
+298.5
+298.666666667
+298.833333333
+299
+299.166666667
+299.333333333
+299.5
+299.666666667
+299.833333333
+300
+300.166666667
+300.333333333
+300.5
+300.666666667
+300.833333333
+301
+301.166666667
+301.333333333
+301.5
+301.666666667
+301.833333333
+302
+302.166666667
+302.333333333
+302.5
+302.666666667
+302.833333333
+303
+303.166666667
+303.333333333
+303.5
+303.666666667
+303.833333333
+304
+304.166666667
+304.333333333
+304.5
+304.666666667
+304.833333333
+305
+305.166666667
+305.333333333
+305.5
+305.666666667
+305.833333333
+306
+306.166666667
+306.333333333
+306.5
+306.666666667
+306.833333333
+307
+307.166666667
+307.333333333
+307.5
+307.666666667
+307.833333333
+308
+308.166666667
+308.333333333
+308.5
+308.666666667
+308.833333333
+309
+309.166666667
+309.333333333
+309.5
+309.666666667
+309.833333333
+310
+310.166666667
+310.333333333
+310.5
+310.666666667
+310.833333333
+311
+311.166666667
+311.333333333
+311.5
+311.666666667
+311.833333333
+312
+312.166666667
+312.333333333
+312.5
+312.666666667
+312.833333333
+313
+313.166666667
+313.333333333
+313.5
+313.666666667
+313.833333333
+314
+314.166666667
+314.333333333
+314.5
+314.666666667
+314.833333333
+315
+315.166666667
+315.333333333
+315.5
+315.666666667
+315.833333333
+316
+316.166666667
+316.333333333
+316.5
+316.666666667
+316.833333333
+317
+317.166666667
+317.333333333
+317.5
+317.666666667
+317.833333333
+318
+318.166666667
+318.333333333
+318.5
+318.666666667
+318.833333333
+319
+319.166666667
+319.333333333
+319.5
+319.666666667
+319.833333333
+320
+320.166666667
+320.333333333
+320.5
+320.666666667
+320.833333333
+321
+321.166666667
+321.333333333
+321.5
+321.666666667
+321.833333333
+322
+322.166666667
+322.333333333
+322.5
+322.666666667
+322.833333333
+323
+323.166666667
+323.333333333
+323.5
+323.666666667
+323.833333333
+324
+324.166666667
+324.333333333
+324.5
+324.666666667
+324.833333333
+325
+325.166666667
+325.333333333
+325.5
+325.666666667
+325.833333333
+326
+326.166666667
+326.333333333
+326.5
+326.666666667
+326.833333333
+327
+327.166666667
+327.333333333
+327.5
+327.666666667
+327.833333333
+328
+328.166666667
+328.333333333
+328.5
+328.666666667
+328.833333333
+329
+329.166666667
+329.333333333
+329.5
+329.666666667
+329.833333333
+330
+330.166666667
+330.333333333
+330.5
+330.666666667
+330.833333333
+331
+331.166666667
+331.333333333
+331.5
+331.666666667
+331.833333333
+332
+332.166666667
+332.333333333
+332.5
+332.666666667
+332.833333333
+333
+333.166666667
+333.333333333
+333.5
+333.666666667
+333.833333333
+334
+334.166666667
+334.333333333
+334.5
+334.666666667
+334.833333333
+335
+335.166666667
+335.333333333
+335.5
+335.666666667
+335.833333333
+336
+336.166666667
+336.333333333
+336.5
+336.666666667
+336.833333333
+337
+337.166666667
+337.333333333
+337.5
+337.666666667
+337.833333333
+338
+338.166666667
+338.333333333
+338.5
+338.666666667
+338.833333333
+339
+339.166666667
+339.333333333
+339.5
+339.666666667
+339.833333333
+340
+340.166666667
+340.333333333
+340.5
+340.666666667
+340.833333333
+341
+341.166666667
+341.333333333
+341.5
+341.666666667
+341.833333333
+342
+342.166666667
+342.333333333
+342.5
+342.666666667
+342.833333333
+343
+343.166666667
+343.333333333
+343.5
+343.666666667
+343.833333333
+344
+344.166666667
+344.333333333
+344.5
+344.666666667
+344.833333333
+345
+345.166666667
+345.333333333
+345.5
+345.666666667
+345.833333333
+346
+346.166666667
+346.333333333
+346.5
+346.666666667
+346.833333333
+347
+347.166666667
+347.333333333
+347.5
+347.666666667
+347.833333333
+348
+348.166666667
+348.333333333
+348.5
+348.666666667
+348.833333333
+349
+349.166666667
+349.333333333
+349.5
+349.666666667
+349.833333333
+350
+350.166666667
+350.333333333
+350.5
+350.666666667
+350.833333333
+351
+351.166666667
+351.333333333
+351.5
+351.666666667
+351.833333333
+352
+352.166666667
+352.333333333
+352.5
+352.666666667
+352.833333333
+353
+353.166666667
+353.333333333
+353.5
+353.666666667
+353.833333333
+354
+354.166666667
+354.333333333
+354.5
+354.666666667
+354.833333333
+355
+355.166666667
+355.333333333
+355.5
+355.666666667
+355.833333333
+356
+356.166666667
+356.333333333
+356.5
+356.666666667
+356.833333333
+357
+357.166666667
+357.333333333
+357.5
+357.666666667
+357.833333333
+358
+358.166666667
+358.333333333
+358.5
+358.666666667
+358.833333333
+359
+359.166666667
+359.333333333
+359.5
+359.666666667
+359.833333333
+360
+360.166666667
+360.333333333
+360.5
+360.666666667
+360.833333333
+361
+361.166666667
+361.333333333
+361.5
+361.666666667
+361.833333333
+362
+362.166666667
+362.333333333
+362.5
+362.666666667
+362.833333333
+363
+363.166666667
+363.333333333
+363.5
+363.666666667
+363.833333333
+364
+364.166666667
+364.333333333
+364.5
+364.666666667
+364.833333333
+365
+365.166666667
+365.333333333
+365.5
+365.666666667
+365.833333333
+366
+366.166666667
+366.333333333
+366.5
+366.666666667
+366.833333333
+367
+367.166666667
+367.333333333
+367.5
+367.666666667
+367.833333333
+368
+368.166666667
+368.333333333
+368.5
+368.666666667
+368.833333333
+369
+369.166666667
+369.333333333
+369.5
+369.666666667
+369.833333333
+370
+370.166666667
+370.333333333
+370.5
+370.666666667
+370.833333333
+371
+371.166666667
+371.333333333
+371.5
+371.666666667
+371.833333333
+372
+372.166666667
+372.333333333
+372.5
+372.666666667
+372.833333333
+373
+373.166666667
+373.333333333
+373.5
+373.666666667
+373.833333333
+374
+374.166666667
+374.333333333
+374.5
+374.666666667
+374.833333333
+375
+375.166666667
+375.333333333
+375.5
+375.666666667
+375.833333333
+376
+376.166666667
+376.333333333
+376.5
+376.666666667
+376.833333333
+377
+377.166666667
+377.333333333
+377.5
+377.666666667
+377.833333333
+378
+378.166666667
+378.333333333
+378.5
+378.666666667
+378.833333333
+379
+379.166666667
+379.333333333
+379.5
+379.666666667
+379.833333333
+380
+380.166666667
+380.333333333
+380.5
+380.666666667
+380.833333333
+381
+381.166666667
+381.333333333
+381.5
+381.666666667
+381.833333333
+382
+382.166666667
+382.333333333
+382.5
+382.666666667
+382.833333333
+383
+383.166666667
+383.333333333
+383.5
+383.666666667
+383.833333333
+384
+384.166666667
+384.333333333
+384.5
+384.666666667
+384.833333333
+385
+385.166666667
+385.333333333
+385.5
+385.666666667
+385.833333333
+386
+386.166666667
+386.333333333
+386.5
+386.666666667
+386.833333333
+387
+387.166666667
+387.333333333
+387.5
+387.666666667
+387.833333333
+388
+388.166666667
+388.333333333
+388.5
+388.666666667
+388.833333333
+389
+389.166666667
+389.333333333
+389.5
+389.666666667
+389.833333333
+390
+390.166666667
+390.333333333
+390.5
+390.666666667
+390.833333333
+391
+391.166666667
+391.333333333
+391.5
+391.666666667
+391.833333333
+392
+392.166666667
+392.333333333
+392.5
+392.666666667
+392.833333333
+393
+393.166666667
+393.333333333
+393.5
+393.666666667
+393.833333333
+394
+394.166666667
+394.333333333
+394.5
+394.666666667
+394.833333333
+395
+395.166666667
+395.333333333
+395.5
+395.666666667
+395.833333333
+396
+396.166666667
+396.333333333
+396.5
+396.666666667
+396.833333333
+397
+397.166666667
+397.333333333
+397.5
+397.666666667
+397.833333333
+398
+398.166666667
+398.333333333
+398.5
+398.666666667
+398.833333333
+399
+399.166666667
+399.333333333
+399.5
+399.666666667
+399.833333333
+400
+400.166666667
+400.333333333
+400.5
+400.666666667
+400.833333333
+401
+401.166666667
+401.333333333
+401.5
+401.666666667
+401.833333333
+402
+402.166666667
+402.333333333
+402.5
+402.666666667
+402.833333333
+403
+403.166666667
+403.333333333
+403.5
+403.666666667
+403.833333333
+404
+404.166666667
+404.333333333
+404.5
+404.666666667
+404.833333333
+405
+405.166666667
+405.333333333
+405.5
+405.666666667
+405.833333333
+406
+406.166666667
+406.333333333
+406.5
+406.666666667
+406.833333333
+407
+407.166666667
+407.333333333
+407.5
+407.666666667
+407.833333333
+408
+408.166666667
+408.333333333
+408.5
+408.666666667
+408.833333333
+409
+409.166666667
+409.333333333
+409.5
+409.666666667
+409.833333333
+410
+410.166666667
+410.333333333
+410.5
+410.666666667
+410.833333333
+411
+411.166666667
+411.333333333
+411.5
+411.666666667
+411.833333333
+412
+412.166666667
+412.333333333
+412.5
+412.666666667
+412.833333333
+413
+413.166666667
+413.333333333
+413.5
+413.666666667
+413.833333333
+414
+414.166666667
+414.333333333
+414.5
+414.666666667
+414.833333333
+415
+415.166666667
+415.333333333
+415.5
+415.666666667
+415.833333333
+416
+416.166666667
+416.333333333
+416.5
+416.666666667
+416.833333333
+417
+417.166666667
+417.333333333
+417.5
+417.666666667
+417.833333333
+418
+418.166666667
+418.333333333
+418.5
+418.666666667
+418.833333333
+419
+419.166666667
+419.333333333
+419.5
+419.666666667
+419.833333333
+420
+420.166666667
+420.333333333
+420.5
+420.666666667
+420.833333333
+421
+421.166666667
+421.333333333
+421.5
+421.666666667
+421.833333333
+422
+422.166666667
+422.333333333
+422.5
+422.666666667
+422.833333333
+423
+423.166666667
+423.333333333
+423.5
+423.666666667
+423.833333333
+424
+424.166666667
+424.333333333
+424.5
+424.666666667
+424.833333333
+425
+425.166666667
+425.333333333
+425.5
+425.666666667
+425.833333333
+426
+426.166666667
+426.333333333
+426.5
+426.666666667
+426.833333333
+427
+427.166666667
+427.333333333
+427.5
+427.666666667
+427.833333333
+428
+428.166666667
+428.333333333
+428.5
+428.666666667
+428.833333333
+429
+429.166666667
+429.333333333
+429.5
+429.666666667
+429.833333333
+430
+430.166666667
+430.333333333
+430.5
+430.666666667
+430.833333333
+431
+431.166666667
+431.333333333
+431.5
+431.666666667
+431.833333333
+432
+432.166666667
+432.333333333
+432.5
+432.666666667
+432.833333333
+433
+433.166666667
+433.333333333
+433.5
+433.666666667
+433.833333333
+434
+434.166666667
+434.333333333
+434.5
+434.666666667
+434.833333333
+435
+435.166666667
+435.333333333
+435.5
+435.666666667
+435.833333333
+436
+436.166666667
+436.333333333
+436.5
+436.666666667
+436.833333333
+437
+437.166666667
+437.333333333
+437.5
+437.666666667
+437.833333333
+438
+438.166666667
+438.333333333
+438.5
+438.666666667
+438.833333333
+439
+439.166666667
+439.333333333
+439.5
+439.666666667
+439.833333333
+440
+440.166666667
+440.333333333
+440.5
+440.666666667
+440.833333333
+441
+441.166666667
+441.333333333
+441.5
+441.666666667
+441.833333333
+442
+442.166666667
+442.333333333
+442.5
+442.666666667
+442.833333333
+443
+443.166666667
+443.333333333
+443.5
+443.666666667
+443.833333333
+444
+444.166666667
+444.333333333
+444.5
+444.666666667
+444.833333333
+445
+445.166666667
+445.333333333
+445.5
+445.666666667
+445.833333333
+446
+446.166666667
+446.333333333
+446.5
+446.666666667
+446.833333333
+447
+447.166666667
+447.333333333
+447.5
+447.666666667
+447.833333333
+448
+448.166666667
+448.333333333
+448.5
+448.666666667
+448.833333333
+449
+449.166666667
+449.333333333
+449.5
+449.666666667
+449.833333333
+450
+450.166666667
+450.333333333
+450.5
+450.666666667
+450.833333333
+451
+451.166666667
+451.333333333
+451.5
+451.666666667
+451.833333333
+452
+452.166666667
+452.333333333
+452.5
+452.666666667
+452.833333333
+453
+453.166666667
+453.333333333
+453.5
+453.666666667
+453.833333333
+454
+454.166666667
+454.333333333
+454.5
+454.666666667
+454.833333333
+455
+455.166666667
+455.333333333
+455.5
+455.666666667
+455.833333333
+456
+456.166666667
+456.333333333
+456.5
+456.666666667
+456.833333333
+457
+457.166666667
+457.333333333
+457.5
+457.666666667
+457.833333333
+458
+458.166666667
+458.333333333
+458.5
+458.666666667
+458.833333333
+459
+459.166666667
+459.333333333
+459.5
+459.666666667
+459.833333333
+460
+460.166666667
+460.333333333
+460.5
+460.666666667
+460.833333333
+461
+461.166666667
+461.333333333
+461.5
+461.666666667
+461.833333333
+462
+462.166666667
+462.333333333
+462.5
+462.666666667
+462.833333333
+463
+463.166666667
+463.333333333
+463.5
+463.666666667
+463.833333333
+464
+464.166666667
+464.333333333
+464.5
+464.666666667
+464.833333333
+465
+465.166666667
+465.333333333
+465.5
+465.666666667
+465.833333333
+466
+466.166666667
+466.333333333
+466.5
+466.666666667
+466.833333333
+467
+467.166666667
+467.333333333
+467.5
+467.666666667
+467.833333333
+468
+468.166666667
+468.333333333
+468.5
+468.666666667
+468.833333333
+469
+469.166666667
+469.333333333
+469.5
+469.666666667
+469.833333333
+470
+470.166666667
+470.333333333
+470.5
+470.666666667
+470.833333333
+471
+471.166666667
+471.333333333
+471.5
+471.666666667
+471.833333333
+472
+472.166666667
+472.333333333
+472.5
+472.666666667
+472.833333333
+473
+473.166666667
+473.333333333
+473.5
+473.666666667
+473.833333333
+474
+474.166666667
+474.333333333
+474.5
+474.666666667
+474.833333333
+475
+475.166666667
+475.333333333
+475.5
+475.666666667
+475.833333333
+476
+476.166666667
+476.333333333
+476.5
+476.666666667
+476.833333333
+477
+477.166666667
+477.333333333
+477.5
+477.666666667
+477.833333333
+478
+478.166666667
+478.333333333
+478.5
+478.666666667
+478.833333333
+479
+479.166666667
+479.333333333
+479.5
+479.666666667
+479.833333333
+480
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>124 </ID>
+      <BroadcastTo>4 17 107 136 137 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Potential</DataObjectName>
+      <DataObjectShortName>Pot</DataObjectShortName>
+      <DataObjectColor>0x9999 0x0 0x0| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>3</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>1</DataObjectThickLines>
+      <ColumnUnits>V</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1736632602</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>4</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>1</ColumnSensorColumn>
+      <ColumnSensorInputColumn>1</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>0</ColumnAllowUserDelete>
+      <ColumnMatchTag>Potential</ColumnMatchTag>
+      <ColumnStartCollectTime>1736632602</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>1</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
+      <ColumnGroupID>123</ColumnGroupID>
+      <ColumnCells>
+0.961494445801
+0.955200195312
+0.9521484375
+0.948905944824
+0.948905944824
+0.945854187012
+0.942802429199
+0.945854187012
+0.942802429199
+0.939559936523
+0.939559936523
+0.942802429199
+0.939559936523
+0.930213928223
+0.933456420898
+0.930213928223
+0.930213928223
+0.930213928223
+0.92716217041
+0.930213928223
+0.930213928223
+0.930213928223
+0.930213928223
+0.92716217041
+0.924110412598
+0.924110412598
+0.917816162109
+0.914764404297
+0.924110412598
+0.924110412598
+0.924110412598
+0.914764404297
+0.914764404297
+0.917816162109
+0.911521911621
+0.914764404297
+0.911521911621
+0.908470153809
+0.908470153809
+0.905418395996
+0.911521911621
+0.911521911621
+0.905418395996
+0.905418395996
+0.905418395996
+0.90217590332
+0.908470153809
+0.905418395996
+0.905418395996
+0.905418395996
+0.905418395996
+0.905418395996
+0.905418395996
+0.899124145508
+0.90217590332
+0.905418395996
+0.90217590332
+0.90217590332
+0.89282989502
+0.899124145508
+0.899124145508
+0.90217590332
+0.89282989502
+0.896072387695
+0.89282989502
+0.89282989502
+0.89282989502
+0.896072387695
+0.89282989502
+0.89282989502
+0.886726379395
+0.889778137207
+0.89282989502
+0.889778137207
+0.89282989502
+0.889778137207
+0.89282989502
+0.889778137207
+0.886726379395
+0.886726379395
+0.883483886719
+0.883483886719
+0.883483886719
+0.886726379395
+0.883483886719
+0.877380371094
+0.880432128906
+0.880432128906
+0.880432128906
+0.883483886719
+0.877380371094
+0.877380371094
+0.874137878418
+0.877380371094
+0.880432128906
+0.877380371094
+0.874137878418
+0.877380371094
+0.877380371094
+0.877380371094
+0.874137878418
+0.877380371094
+0.868034362793
+0.874137878418
+0.874137878418
+0.874137878418
+0.868034362793
+0.874137878418
+0.871086120605
+0.864791870117
+0.871086120605
+0.874137878418
+0.868034362793
+0.874137878418
+0.868034362793
+0.868034362793
+0.871086120605
+0.868034362793
+0.868034362793
+0.868034362793
+0.868034362793
+0.864791870117
+0.868034362793
+0.864791870117
+0.864791870117
+0.864791870117
+0.861740112305
+0.858497619629
+0.861740112305
+0.864791870117
+0.864791870117
+0.861740112305
+0.864791870117
+0.858497619629
+0.864791870117
+0.855445861816
+0.858497619629
+0.858497619629
+0.855445861816
+0.852394104004
+0.858497619629
+0.855445861816
+0.855445861816
+0.858497619629
+0.855445861816
+0.858497619629
+0.852394104004
+0.855445861816
+0.855445861816
+0.852394104004
+0.852394104004
+0.852394104004
+0.852394104004
+0.852394104004
+0.855445861816
+0.849151611328
+0.852394104004
+0.852394104004
+0.849151611328
+0.849151611328
+0.855445861816
+0.849151611328
+0.846099853516
+0.849151611328
+0.849151611328
+0.849151611328
+0.852394104004
+0.843048095703
+0.849151611328
+0.846099853516
+0.839805603027
+0.843048095703
+0.843048095703
+0.843048095703
+0.843048095703
+0.849151611328
+0.849151611328
+0.843048095703
+0.846099853516
+0.843048095703
+0.839805603027
+0.843048095703
+0.839805603027
+0.839805603027
+0.843048095703
+0.839805603027
+0.843048095703
+0.839805603027
+0.839805603027
+0.843048095703
+0.843048095703
+0.839805603027
+0.836753845215
+0.839805603027
+0.833702087402
+0.839805603027
+0.836753845215
+0.833702087402
+0.830459594727
+0.836753845215
+0.833702087402
+0.830459594727
+0.830459594727
+0.836753845215
+0.833702087402
+0.830459594727
+0.830459594727
+0.830459594727
+0.830459594727
+0.833702087402
+0.830459594727
+0.833702087402
+0.830459594727
+0.836753845215
+0.827407836914
+0.833702087402
+0.830459594727
+0.830459594727
+0.830459594727
+0.830459594727
+0.827407836914
+0.827407836914
+0.830459594727
+0.827407836914
+0.830459594727
+0.824356079102
+0.827407836914
+0.830459594727
+0.830459594727
+0.830459594727
+0.827407836914
+0.827407836914
+0.827407836914
+0.830459594727
+0.827407836914
+0.830459594727
+0.824356079102
+0.827407836914
+0.818061828613
+0.821113586426
+0.827407836914
+0.821113586426
+0.821113586426
+0.818061828613
+0.815010070801
+0.818061828613
+0.818061828613
+0.824356079102
+0.818061828613
+0.824356079102
+0.818061828613
+0.815010070801
+0.818061828613
+0.815010070801
+0.815010070801
+0.815010070801
+0.818061828613
+0.824356079102
+0.815010070801
+0.815010070801
+0.815010070801
+0.818061828613
+0.815010070801
+0.821113586426
+0.815010070801
+0.818061828613
+0.815010070801
+0.815010070801
+0.815010070801
+0.818061828613
+0.818061828613
+0.815010070801
+0.808715820312
+0.815010070801
+0.811767578125
+0.815010070801
+0.815010070801
+0.811767578125
+0.815010070801
+0.808715820312
+0.808715820312
+0.808715820312
+0.815010070801
+0.808715820312
+0.811767578125
+0.811767578125
+0.811767578125
+0.808715820312
+0.808715820312
+0.811767578125
+0.811767578125
+0.8056640625
+0.815010070801
+0.808715820312
+0.808715820312
+0.808715820312
+0.808715820312
+0.8056640625
+0.8056640625
+0.8056640625
+0.8056640625
+0.8056640625
+0.8056640625
+0.808715820312
+0.802421569824
+0.802421569824
+0.8056640625
+0.802421569824
+0.8056640625
+0.799369812012
+0.802421569824
+0.802421569824
+0.802421569824
+0.802421569824
+0.8056640625
+0.802421569824
+0.8056640625
+0.799369812012
+0.796318054199
+0.8056640625
+0.802421569824
+0.802421569824
+0.802421569824
+0.8056640625
+0.8056640625
+0.8056640625
+0.8056640625
+0.802421569824
+0.793075561523
+0.799369812012
+0.799369812012
+0.793075561523
+0.799369812012
+0.793075561523
+0.793075561523
+0.799369812012
+0.799369812012
+0.799369812012
+0.799369812012
+0.802421569824
+0.799369812012
+0.793075561523
+0.796318054199
+0.796318054199
+0.796318054199
+0.799369812012
+0.799369812012
+0.796318054199
+0.799369812012
+0.796318054199
+0.790023803711
+0.793075561523
+0.793075561523
+0.790023803711
+0.796318054199
+0.793075561523
+0.799369812012
+0.796318054199
+0.793075561523
+0.793075561523
+0.790023803711
+0.793075561523
+0.793075561523
+0.793075561523
+0.790023803711
+0.793075561523
+0.793075561523
+0.793075561523
+0.793075561523
+0.790023803711
+0.793075561523
+0.793075561523
+0.793075561523
+0.793075561523
+0.790023803711
+0.783729553223
+0.793075561523
+0.790023803711
+0.790023803711
+0.783729553223
+0.783729553223
+0.786972045898
+0.793075561523
+0.783729553223
+0.783729553223
+0.786972045898
+0.786972045898
+0.790023803711
+0.790023803711
+0.790023803711
+0.78067779541
+0.790023803711
+0.790023803711
+0.783729553223
+0.783729553223
+0.783729553223
+0.78067779541
+0.783729553223
+0.786972045898
+0.78067779541
+0.783729553223
+0.78067779541
+0.78067779541
+0.783729553223
+0.78067779541
+0.786972045898
+0.783729553223
+0.777626037598
+0.78067779541
+0.777626037598
+0.783729553223
+0.78067779541
+0.78067779541
+0.777626037598
+0.78067779541
+0.783729553223
+0.78067779541
+0.777626037598
+0.777626037598
+0.777626037598
+0.777626037598
+0.777626037598
+0.78067779541
+0.777626037598
+0.78067779541
+0.78067779541
+0.777626037598
+0.78067779541
+0.777626037598
+0.777626037598
+0.777626037598
+0.774383544922
+0.777626037598
+0.774383544922
+0.771331787109
+0.777626037598
+0.774383544922
+0.771331787109
+0.777626037598
+0.78067779541
+0.774383544922
+0.774383544922
+0.777626037598
+0.777626037598
+0.777626037598
+0.777626037598
+0.768280029297
+0.771331787109
+0.774383544922
+0.771331787109
+0.774383544922
+0.777626037598
+0.774383544922
+0.771331787109
+0.774383544922
+0.774383544922
+0.768280029297
+0.777626037598
+0.777626037598
+0.768280029297
+0.768280029297
+0.768280029297
+0.768280029297
+0.774383544922
+0.771331787109
+0.771331787109
+0.771331787109
+0.765037536621
+0.768280029297
+0.768280029297
+0.765037536621
+0.771331787109
+0.768280029297
+0.768280029297
+0.765037536621
+0.768280029297
+0.774383544922
+0.774383544922
+0.765037536621
+0.765037536621
+0.765037536621
+0.771331787109
+0.771331787109
+0.768280029297
+0.765037536621
+0.768280029297
+0.768280029297
+0.768280029297
+0.765037536621
+0.771331787109
+0.765037536621
+0.765037536621
+0.765037536621
+0.765037536621
+0.765037536621
+0.768280029297
+0.765037536621
+0.765037536621
+0.761985778809
+0.765037536621
+0.765037536621
+0.765037536621
+0.761985778809
+0.761985778809
+0.765037536621
+0.765037536621
+0.761985778809
+0.761985778809
+0.752639770508
+0.758934020996
+0.765037536621
+0.765037536621
+0.765037536621
+0.765037536621
+0.761985778809
+0.752639770508
+0.765037536621
+0.765037536621
+0.765037536621
+0.761985778809
+0.761985778809
+0.765037536621
+0.765037536621
+0.752639770508
+0.749588012695
+0.752639770508
+0.752639770508
+0.752639770508
+0.752639770508
+0.752639770508
+0.752639770508
+0.752639770508
+0.752639770508
+0.752639770508
+0.752639770508
+0.74634552002
+0.761985778809
+0.752639770508
+0.752639770508
+0.758934020996
+0.752639770508
+0.752639770508
+0.74634552002
+0.752639770508
+0.74634552002
+0.749588012695
+0.749588012695
+0.752639770508
+0.752639770508
+0.752639770508
+0.74634552002
+0.74634552002
+0.74634552002
+0.743293762207
+0.752639770508
+0.752639770508
+0.749588012695
+0.74634552002
+0.749588012695
+0.743293762207
+0.74634552002
+0.749588012695
+0.749588012695
+0.743293762207
+0.752639770508
+0.749588012695
+0.743293762207
+0.740242004395
+0.74634552002
+0.74634552002
+0.743293762207
+0.749588012695
+0.743293762207
+0.743293762207
+0.74634552002
+0.74634552002
+0.74634552002
+0.749588012695
+0.74634552002
+0.743293762207
+0.749588012695
+0.740242004395
+0.743293762207
+0.749588012695
+0.743293762207
+0.74634552002
+0.740242004395
+0.743293762207
+0.740242004395
+0.743293762207
+0.74634552002
+0.733947753906
+0.736999511719
+0.743293762207
+0.743293762207
+0.743293762207
+0.743293762207
+0.743293762207
+0.743293762207
+0.74634552002
+0.743293762207
+0.743293762207
+0.743293762207
+0.743293762207
+0.733947753906
+0.740242004395
+0.740242004395
+0.736999511719
+0.743293762207
+0.740242004395
+0.740242004395
+0.740242004395
+0.743293762207
+0.743293762207
+0.740242004395
+0.736999511719
+0.733947753906
+0.733947753906
+0.733947753906
+0.736999511719
+0.740242004395
+0.736999511719
+0.740242004395
+0.736999511719
+0.736999511719
+0.736999511719
+0.730895996094
+0.733947753906
+0.733947753906
+0.736999511719
+0.736999511719
+0.733947753906
+0.733947753906
+0.733947753906
+0.733947753906
+0.733947753906
+0.730895996094
+0.736999511719
+0.730895996094
+0.733947753906
+0.730895996094
+0.730895996094
+0.736999511719
+0.727653503418
+0.733947753906
+0.730895996094
+0.733947753906
+0.730895996094
+0.730895996094
+0.730895996094
+0.733947753906
+0.733947753906
+0.736999511719
+0.733947753906
+0.727653503418
+0.730895996094
+0.727653503418
+0.730895996094
+0.733947753906
+0.730895996094
+0.727653503418
+0.730895996094
+0.733947753906
+0.730895996094
+0.730895996094
+0.730895996094
+0.730895996094
+0.730895996094
+0.727653503418
+0.727653503418
+0.730895996094
+0.730895996094
+0.727653503418
+0.730895996094
+0.727653503418
+0.724601745605
+0.730895996094
+0.727653503418
+0.727653503418
+0.727653503418
+0.727653503418
+0.724601745605
+0.724601745605
+0.727653503418
+0.730895996094
+0.727653503418
+0.724601745605
+0.721549987793
+0.724601745605
+0.727653503418
+0.730895996094
+0.724601745605
+0.724601745605
+0.727653503418
+0.730895996094
+0.724601745605
+0.718307495117
+0.724601745605
+0.727653503418
+0.718307495117
+0.718307495117
+0.724601745605
+0.724601745605
+0.727653503418
+0.724601745605
+0.718307495117
+0.727653503418
+0.721549987793
+0.724601745605
+0.727653503418
+0.721549987793
+0.718307495117
+0.718307495117
+0.718307495117
+0.718307495117
+0.721549987793
+0.718307495117
+0.724601745605
+0.718307495117
+0.721549987793
+0.724601745605
+0.718307495117
+0.718307495117
+0.721549987793
+0.724601745605
+0.715255737305
+0.721549987793
+0.718307495117
+0.721549987793
+0.724601745605
+0.718307495117
+0.718307495117
+0.724601745605
+0.715255737305
+0.715255737305
+0.715255737305
+0.715255737305
+0.718307495117
+0.724601745605
+0.718307495117
+0.718307495117
+0.715255737305
+0.715255737305
+0.718307495117
+0.718307495117
+0.718307495117
+0.718307495117
+0.718307495117
+0.715255737305
+0.715255737305
+0.715255737305
+0.712203979492
+0.715255737305
+0.715255737305
+0.708961486816
+0.712203979492
+0.715255737305
+0.718307495117
+0.715255737305
+0.715255737305
+0.715255737305
+0.715255737305
+0.712203979492
+0.715255737305
+0.715255737305
+0.715255737305
+0.715255737305
+0.708961486816
+0.712203979492
+0.712203979492
+0.715255737305
+0.708961486816
+0.712203979492
+0.715255737305
+0.715255737305
+0.708961486816
+0.705909729004
+0.715255737305
+0.715255737305
+0.715255737305
+0.708961486816
+0.708961486816
+0.715255737305
+0.712203979492
+0.708961486816
+0.708961486816
+0.708961486816
+0.705909729004
+0.705909729004
+0.708961486816
+0.705909729004
+0.708961486816
+0.705909729004
+0.705909729004
+0.705909729004
+0.712203979492
+0.708961486816
+0.705909729004
+0.712203979492
+0.708961486816
+0.708961486816
+0.712203979492
+0.705909729004
+0.705909729004
+0.715255737305
+0.708961486816
+0.705909729004
+0.702857971191
+0.712203979492
+0.702857971191
+0.708961486816
+0.705909729004
+0.705909729004
+0.702857971191
+0.705909729004
+0.708961486816
+0.705909729004
+0.702857971191
+0.705909729004
+0.702857971191
+0.708961486816
+0.702857971191
+0.705909729004
+0.702857971191
+0.705909729004
+0.705909729004
+0.702857971191
+0.702857971191
+0.705909729004
+0.702857971191
+0.705909729004
+0.705909729004
+0.699615478516
+0.699615478516
+0.702857971191
+0.699615478516
+0.705909729004
+0.702857971191
+0.705909729004
+0.705909729004
+0.705909729004
+0.705909729004
+0.699615478516
+0.699615478516
+0.699615478516
+0.702857971191
+0.702857971191
+0.705909729004
+0.696563720703
+0.705909729004
+0.702857971191
+0.699615478516
+0.696563720703
+0.702857971191
+0.696563720703
+0.699615478516
+0.702857971191
+0.699615478516
+0.702857971191
+0.696563720703
+0.699615478516
+0.702857971191
+0.702857971191
+0.702857971191
+0.705909729004
+0.702857971191
+0.699615478516
+0.696563720703
+0.702857971191
+0.702857971191
+0.699615478516
+0.702857971191
+0.693511962891
+0.699615478516
+0.699615478516
+0.702857971191
+0.699615478516
+0.696563720703
+0.693511962891
+0.696563720703
+0.696563720703
+0.693511962891
+0.693511962891
+0.699615478516
+0.702857971191
+0.699615478516
+0.696563720703
+0.699615478516
+0.693511962891
+0.693511962891
+0.693511962891
+0.693511962891
+0.696563720703
+0.693511962891
+0.696563720703
+0.693511962891
+0.696563720703
+0.696563720703
+0.699615478516
+0.693511962891
+0.693511962891
+0.699615478516
+0.693511962891
+0.690269470215
+0.693511962891
+0.699615478516
+0.693511962891
+0.693511962891
+0.693511962891
+0.693511962891
+0.693511962891
+0.693511962891
+0.693511962891
+0.696563720703
+0.690269470215
+0.690269470215
+0.693511962891
+0.693511962891
+0.690269470215
+0.696563720703
+0.690269470215
+0.693511962891
+0.690269470215
+0.693511962891
+0.693511962891
+0.68416595459
+0.690269470215
+0.68416595459
+0.693511962891
+0.693511962891
+0.68416595459
+0.690269470215
+0.690269470215
+0.687217712402
+0.690269470215
+0.693511962891
+0.693511962891
+0.68416595459
+0.68416595459
+0.693511962891
+0.693511962891
+0.690269470215
+0.687217712402
+0.68416595459
+0.68416595459
+0.693511962891
+0.690269470215
+0.68416595459
+0.68416595459
+0.68416595459
+0.690269470215
+0.690269470215
+0.680923461914
+0.687217712402
+0.690269470215
+0.68416595459
+0.687217712402
+0.687217712402
+0.690269470215
+0.690269470215
+0.680923461914
+0.68416595459
+0.68416595459
+0.68416595459
+0.687217712402
+0.68416595459
+0.68416595459
+0.68416595459
+0.687217712402
+0.68416595459
+0.68416595459
+0.687217712402
+0.68416595459
+0.68416595459
+0.68416595459
+0.687217712402
+0.68416595459
+0.677871704102
+0.68416595459
+0.687217712402
+0.680923461914
+0.68416595459
+0.68416595459
+0.687217712402
+0.680923461914
+0.68416595459
+0.680923461914
+0.687217712402
+0.687217712402
+0.680923461914
+0.677871704102
+0.687217712402
+0.680923461914
+0.677871704102
+0.677871704102
+0.680923461914
+0.680923461914
+0.680923461914
+0.68416595459
+0.677871704102
+0.680923461914
+0.677871704102
+0.680923461914
+0.680923461914
+0.68416595459
+0.674819946289
+0.68416595459
+0.677871704102
+0.680923461914
+0.677871704102
+0.68416595459
+0.677871704102
+0.677871704102
+0.677871704102
+0.674819946289
+0.674819946289
+0.680923461914
+0.677871704102
+0.674819946289
+0.680923461914
+0.677871704102
+0.680923461914
+0.680923461914
+0.680923461914
+0.677871704102
+0.677871704102
+0.680923461914
+0.677871704102
+0.677871704102
+0.677871704102
+0.680923461914
+0.680923461914
+0.677871704102
+0.674819946289
+0.677871704102
+0.674819946289
+0.674819946289
+0.677871704102
+0.674819946289
+0.671577453613
+0.674819946289
+0.674819946289
+0.674819946289
+0.677871704102
+0.674819946289
+0.668525695801
+0.677871704102
+0.677871704102
+0.674819946289
+0.677871704102
+0.677871704102
+0.674819946289
+0.674819946289
+0.671577453613
+0.671577453613
+0.677871704102
+0.671577453613
+0.674819946289
+0.674819946289
+0.677871704102
+0.674819946289
+0.674819946289
+0.671577453613
+0.665473937988
+0.677871704102
+0.677871704102
+0.668525695801
+0.671577453613
+0.671577453613
+0.668525695801
+0.674819946289
+0.674819946289
+0.674819946289
+0.674819946289
+0.668525695801
+0.671577453613
+0.668525695801
+0.674819946289
+0.668525695801
+0.674819946289
+0.671577453613
+0.668525695801
+0.668525695801
+0.665473937988
+0.674819946289
+0.665473937988
+0.671577453613
+0.665473937988
+0.665473937988
+0.668525695801
+0.668525695801
+0.671577453613
+0.665473937988
+0.665473937988
+0.671577453613
+0.668525695801
+0.668525695801
+0.668525695801
+0.665473937988
+0.665473937988
+0.668525695801
+0.668525695801
+0.665473937988
+0.671577453613
+0.671577453613
+0.665473937988
+0.671577453613
+0.668525695801
+0.668525695801
+0.665473937988
+0.668525695801
+0.665473937988
+0.662231445312
+0.665473937988
+0.665473937988
+0.665473937988
+0.668525695801
+0.665473937988
+0.665473937988
+0.665473937988
+0.662231445312
+0.665473937988
+0.665473937988
+0.665473937988
+0.665473937988
+0.665473937988
+0.665473937988
+0.668525695801
+0.668525695801
+0.6591796875
+0.665473937988
+0.665473937988
+0.665473937988
+0.668525695801
+0.662231445312
+0.662231445312
+0.665473937988
+0.665473937988
+0.662231445312
+0.662231445312
+0.662231445312
+0.665473937988
+0.665473937988
+0.6591796875
+0.6591796875
+0.662231445312
+0.665473937988
+0.665473937988
+0.665473937988
+0.665473937988
+0.665473937988
+0.665473937988
+0.665473937988
+0.662231445312
+0.665473937988
+0.6591796875
+0.6591796875
+0.662231445312
+0.662231445312
+0.665473937988
+0.656127929688
+0.6591796875
+0.6591796875
+0.665473937988
+0.656127929688
+0.656127929688
+0.6591796875
+0.665473937988
+0.662231445312
+0.662231445312
+0.6591796875
+0.656127929688
+0.662231445312
+0.656127929688
+0.656127929688
+0.656127929688
+0.6591796875
+0.656127929688
+0.6591796875
+0.656127929688
+0.6591796875
+0.656127929688
+0.656127929688
+0.662231445312
+0.656127929688
+0.6591796875
+0.656127929688
+0.652885437012
+0.656127929688
+0.652885437012
+0.656127929688
+0.656127929688
+0.656127929688
+0.656127929688
+0.656127929688
+0.6591796875
+0.652885437012
+0.656127929688
+0.652885437012
+0.6591796875
+0.652885437012
+0.6591796875
+0.662231445312
+0.6591796875
+0.6591796875
+0.652885437012
+0.656127929688
+0.656127929688
+0.656127929688
+0.656127929688
+0.656127929688
+0.656127929688
+0.656127929688
+0.656127929688
+0.6591796875
+0.6591796875
+0.649833679199
+0.656127929688
+0.649833679199
+0.652885437012
+0.652885437012
+0.652885437012
+0.652885437012
+0.649833679199
+0.656127929688
+0.656127929688
+0.649833679199
+0.652885437012
+0.656127929688
+0.652885437012
+0.649833679199
+0.652885437012
+0.649833679199
+0.652885437012
+0.649833679199
+0.649833679199
+0.652885437012
+0.656127929688
+0.656127929688
+0.646781921387
+0.652885437012
+0.652885437012
+0.652885437012
+0.649833679199
+0.649833679199
+0.649833679199
+0.652885437012
+0.652885437012
+0.646781921387
+0.649833679199
+0.649833679199
+0.649833679199
+0.649833679199
+0.652885437012
+0.646781921387
+0.643539428711
+0.643539428711
+0.649833679199
+0.649833679199
+0.656127929688
+0.646781921387
+0.646781921387
+0.649833679199
+0.646781921387
+0.646781921387
+0.649833679199
+0.643539428711
+0.652885437012
+0.649833679199
+0.643539428711
+0.643539428711
+0.643539428711
+0.652885437012
+0.643539428711
+0.649833679199
+0.646781921387
+0.649833679199
+0.643539428711
+0.646781921387
+0.646781921387
+0.649833679199
+0.643539428711
+0.649833679199
+0.643539428711
+0.649833679199
+0.649833679199
+0.649833679199
+0.649833679199
+0.646781921387
+0.643539428711
+0.643539428711
+0.643539428711
+0.649833679199
+0.649833679199
+0.643539428711
+0.646781921387
+0.646781921387
+0.640487670898
+0.646781921387
+0.640487670898
+0.643539428711
+0.643539428711
+0.643539428711
+0.643539428711
+0.646781921387
+0.637245178223
+0.643539428711
+0.646781921387
+0.643539428711
+0.640487670898
+0.643539428711
+0.643539428711
+0.643539428711
+0.649833679199
+0.640487670898
+0.640487670898
+0.643539428711
+0.640487670898
+0.643539428711
+0.643539428711
+0.643539428711
+0.643539428711
+0.643539428711
+0.640487670898
+0.643539428711
+0.643539428711
+0.640487670898
+0.643539428711
+0.643539428711
+0.643539428711
+0.640487670898
+0.640487670898
+0.640487670898
+0.643539428711
+0.640487670898
+0.640487670898
+0.643539428711
+0.640487670898
+0.643539428711
+0.643539428711
+0.643539428711
+0.643539428711
+0.637245178223
+0.643539428711
+0.640487670898
+0.640487670898
+0.643539428711
+0.640487670898
+0.640487670898
+0.637245178223
+0.637245178223
+0.640487670898
+0.640487670898
+0.643539428711
+0.637245178223
+0.637245178223
+0.637245178223
+0.631141662598
+0.637245178223
+0.640487670898
+0.63419342041
+0.637245178223
+0.640487670898
+0.640487670898
+0.640487670898
+0.63419342041
+0.643539428711
+0.631141662598
+0.63419342041
+0.637245178223
+0.63419342041
+0.63419342041
+0.63419342041
+0.631141662598
+0.637245178223
+0.631141662598
+0.63419342041
+0.631141662598
+0.63419342041
+0.637245178223
+0.631141662598
+0.631141662598
+0.631141662598
+0.63419342041
+0.631141662598
+0.640487670898
+0.63419342041
+0.631141662598
+0.63419342041
+0.640487670898
+0.63419342041
+0.631141662598
+0.637245178223
+0.63419342041
+0.637245178223
+0.63419342041
+0.63419342041
+0.63419342041
+0.63419342041
+0.631141662598
+0.631141662598
+0.627899169922
+0.631141662598
+0.63419342041
+0.627899169922
+0.63419342041
+0.63419342041
+0.637245178223
+0.637245178223
+0.631141662598
+0.63419342041
+0.631141662598
+0.631141662598
+0.631141662598
+0.631141662598
+0.627899169922
+0.631141662598
+0.631141662598
+0.627899169922
+0.631141662598
+0.63419342041
+0.627899169922
+0.627899169922
+0.631141662598
+0.631141662598
+0.627899169922
+0.631141662598
+0.631141662598
+0.631141662598
+0.631141662598
+0.631141662598
+0.631141662598
+0.624847412109
+0.627899169922
+0.631141662598
+0.631141662598
+0.631141662598
+0.631141662598
+0.627899169922
+0.627899169922
+0.631141662598
+0.624847412109
+0.63419342041
+0.631141662598
+0.631141662598
+0.631141662598
+0.631141662598
+0.624847412109
+0.624847412109
+0.631141662598
+0.627899169922
+0.624847412109
+0.631141662598
+0.624847412109
+0.624847412109
+0.624847412109
+0.627899169922
+0.627899169922
+0.631141662598
+0.631141662598
+0.621795654297
+0.627899169922
+0.621795654297
+0.621795654297
+0.624847412109
+0.624847412109
+0.624847412109
+0.624847412109
+0.624847412109
+0.624847412109
+0.631141662598
+0.631141662598
+0.627899169922
+0.624847412109
+0.621795654297
+0.624847412109
+0.624847412109
+0.621795654297
+0.624847412109
+0.627899169922
+0.624847412109
+0.624847412109
+0.618553161621
+0.621795654297
+0.624847412109
+0.621795654297
+0.627899169922
+0.618553161621
+0.621795654297
+0.618553161621
+0.627899169922
+0.618553161621
+0.627899169922
+0.621795654297
+0.627899169922
+0.624847412109
+0.621795654297
+0.621795654297
+0.618553161621
+0.627899169922
+0.615501403809
+0.624847412109
+0.624847412109
+0.621795654297
+0.624847412109
+0.624847412109
+0.621795654297
+0.624847412109
+0.624847412109
+0.624847412109
+0.615501403809
+0.624847412109
+0.624847412109
+0.618553161621
+0.618553161621
+0.621795654297
+0.618553161621
+0.621795654297
+0.627899169922
+0.615501403809
+0.618553161621
+0.618553161621
+0.618553161621
+0.618553161621
+0.618553161621
+0.618553161621
+0.618553161621
+0.615501403809
+0.615501403809
+0.621795654297
+0.615501403809
+0.618553161621
+0.615501403809
+0.615501403809
+0.618553161621
+0.618553161621
+0.615501403809
+0.615501403809
+0.618553161621
+0.624847412109
+0.618553161621
+0.621795654297
+0.621795654297
+0.618553161621
+0.615501403809
+0.615501403809
+0.618553161621
+0.618553161621
+0.615501403809
+0.621795654297
+0.615501403809
+0.615501403809
+0.618553161621
+0.615501403809
+0.618553161621
+0.615501403809
+0.618553161621
+0.612449645996
+0.618553161621
+0.615501403809
+0.615501403809
+0.612449645996
+0.60920715332
+0.615501403809
+0.615501403809
+0.615501403809
+0.621795654297
+0.615501403809
+0.60920715332
+0.615501403809
+0.60920715332
+0.615501403809
+0.615501403809
+0.615501403809
+0.615501403809
+0.612449645996
+0.612449645996
+0.618553161621
+0.618553161621
+0.615501403809
+0.615501403809
+0.612449645996
+0.615501403809
+0.612449645996
+0.60920715332
+0.615501403809
+0.615501403809
+0.60920715332
+0.612449645996
+0.615501403809
+0.615501403809
+0.612449645996
+0.618553161621
+0.60920715332
+0.60920715332
+0.615501403809
+0.615501403809
+0.615501403809
+0.615501403809
+0.612449645996
+0.612449645996
+0.60920715332
+0.612449645996
+0.615501403809
+0.612449645996
+0.615501403809
+0.60920715332
+0.60920715332
+0.606155395508
+0.606155395508
+0.612449645996
+0.615501403809
+0.612449645996
+0.60920715332
+0.615501403809
+0.60920715332
+0.615501403809
+0.60920715332
+0.60920715332
+0.615501403809
+0.60920715332
+0.606155395508
+0.60920715332
+0.606155395508
+0.603103637695
+0.60920715332
+0.615501403809
+0.606155395508
+0.60920715332
+0.615501403809
+0.60920715332
+0.60920715332
+0.60920715332
+0.60920715332
+0.60920715332
+0.60920715332
+0.60920715332
+0.606155395508
+0.60920715332
+0.612449645996
+0.606155395508
+0.603103637695
+0.606155395508
+0.60920715332
+0.612449645996
+0.606155395508
+0.60920715332
+0.603103637695
+0.60920715332
+0.60920715332
+0.60920715332
+0.606155395508
+0.612449645996
+0.603103637695
+0.606155395508
+0.603103637695
+0.603103637695
+0.606155395508
+0.606155395508
+0.603103637695
+0.603103637695
+0.60920715332
+0.603103637695
+0.60920715332
+0.60920715332
+0.606155395508
+0.60920715332
+0.606155395508
+0.606155395508
+0.603103637695
+0.606155395508
+0.606155395508
+0.60920715332
+0.603103637695
+0.603103637695
+0.603103637695
+0.60920715332
+0.603103637695
+0.606155395508
+0.606155395508
+0.603103637695
+0.60920715332
+0.606155395508
+0.603103637695
+0.59986114502
+0.603103637695
+0.606155395508
+0.603103637695
+0.59986114502
+0.603103637695
+0.606155395508
+0.59986114502
+0.606155395508
+0.603103637695
+0.603103637695
+0.603103637695
+0.603103637695
+0.603103637695
+0.603103637695
+0.603103637695
+0.603103637695
+0.59986114502
+0.603103637695
+0.603103637695
+0.603103637695
+0.603103637695
+0.596809387207
+0.603103637695
+0.603103637695
+0.603103637695
+0.603103637695
+0.603103637695
+0.59986114502
+0.59986114502
+0.603103637695
+0.603103637695
+0.603103637695
+0.603103637695
+0.59986114502
+0.603103637695
+0.596809387207
+0.603103637695
+0.603103637695
+0.59986114502
+0.596809387207
+0.603103637695
+0.596809387207
+0.596809387207
+0.59986114502
+0.59986114502
+0.59986114502
+0.603103637695
+0.596809387207
+0.59986114502
+0.596809387207
+0.59986114502
+0.59986114502
+0.59986114502
+0.596809387207
+0.59986114502
+0.59986114502
+0.59986114502
+0.596809387207
+0.59986114502
+0.59986114502
+0.59986114502
+0.59986114502
+0.593757629395
+0.603103637695
+0.59986114502
+0.593757629395
+0.59986114502
+0.593757629395
+0.59986114502
+0.59986114502
+0.59986114502
+0.593757629395
+0.593757629395
+0.596809387207
+0.59986114502
+0.593757629395
+0.59986114502
+0.593757629395
+0.593757629395
+0.590515136719
+0.596809387207
+0.596809387207
+0.596809387207
+0.59986114502
+0.593757629395
+0.59986114502
+0.593757629395
+0.59986114502
+0.593757629395
+0.593757629395
+0.596809387207
+0.590515136719
+0.596809387207
+0.593757629395
+0.593757629395
+0.59986114502
+0.59986114502
+0.593757629395
+0.593757629395
+0.593757629395
+0.593757629395
+0.590515136719
+0.593757629395
+0.587463378906
+0.590515136719
+0.593757629395
+0.593757629395
+0.590515136719
+0.590515136719
+0.593757629395
+0.590515136719
+0.590515136719
+0.596809387207
+0.593757629395
+0.593757629395
+0.593757629395
+0.590515136719
+0.590515136719
+0.590515136719
+0.593757629395
+0.593757629395
+0.593757629395
+0.593757629395
+0.59986114502
+0.584411621094
+0.587463378906
+0.590515136719
+0.590515136719
+0.590515136719
+0.590515136719
+0.590515136719
+0.587463378906
+0.590515136719
+0.593757629395
+0.587463378906
+0.593757629395
+0.590515136719
+0.593757629395
+0.593757629395
+0.587463378906
+0.590515136719
+0.590515136719
+0.590515136719
+0.590515136719
+0.587463378906
+0.593757629395
+0.587463378906
+0.584411621094
+0.593757629395
+0.590515136719
+0.581169128418
+0.590515136719
+0.587463378906
+0.587463378906
+0.584411621094
+0.587463378906
+0.590515136719
+0.587463378906
+0.593757629395
+0.584411621094
+0.590515136719
+0.587463378906
+0.587463378906
+0.584411621094
+0.590515136719
+0.584411621094
+0.581169128418
+0.590515136719
+0.584411621094
+0.590515136719
+0.593757629395
+0.584411621094
+0.584411621094
+0.584411621094
+0.587463378906
+0.587463378906
+0.590515136719
+0.581169128418
+0.584411621094
+0.587463378906
+0.584411621094
+0.584411621094
+0.587463378906
+0.590515136719
+0.584411621094
+0.587463378906
+0.584411621094
+0.587463378906
+0.584411621094
+0.587463378906
+0.584411621094
+0.587463378906
+0.578117370605
+0.587463378906
+0.587463378906
+0.584411621094
+0.584411621094
+0.587463378906
+0.584411621094
+0.584411621094
+0.584411621094
+0.578117370605
+0.590515136719
+0.590515136719
+0.590515136719
+0.584411621094
+0.581169128418
+0.581169128418
+0.584411621094
+0.590515136719
+0.587463378906
+0.584411621094
+0.581169128418
+0.578117370605
+0.584411621094
+0.584411621094
+0.584411621094
+0.581169128418
+0.584411621094
+0.581169128418
+0.578117370605
+0.584411621094
+0.578117370605
+0.584411621094
+0.581169128418
+0.584411621094
+0.587463378906
+0.584411621094
+0.581169128418
+0.581169128418
+0.581169128418
+0.581169128418
+0.581169128418
+0.584411621094
+0.578117370605
+0.584411621094
+0.578117370605
+0.581169128418
+0.578117370605
+0.584411621094
+0.581169128418
+0.578117370605
+0.581169128418
+0.578117370605
+0.584411621094
+0.584411621094
+0.581169128418
+0.584411621094
+0.581169128418
+0.578117370605
+0.581169128418
+0.581169128418
+0.578117370605
+0.581169128418
+0.575065612793
+0.581169128418
+0.578117370605
+0.581169128418
+0.581169128418
+0.578117370605
+0.581169128418
+0.581169128418
+0.578117370605
+0.575065612793
+0.578117370605
+0.578117370605
+0.578117370605
+0.578117370605
+0.575065612793
+0.575065612793
+0.581169128418
+0.578117370605
+0.575065612793
+0.575065612793
+0.578117370605
+0.578117370605
+0.581169128418
+0.581169128418
+0.578117370605
+0.581169128418
+0.578117370605
+0.581169128418
+0.578117370605
+0.578117370605
+0.578117370605
+0.578117370605
+0.581169128418
+0.575065612793
+0.571823120117
+0.578117370605
+0.575065612793
+0.575065612793
+0.575065612793
+0.578117370605
+0.578117370605
+0.578117370605
+0.575065612793
+0.578117370605
+0.578117370605
+0.581169128418
+0.578117370605
+0.575065612793
+0.575065612793
+0.575065612793
+0.578117370605
+0.575065612793
+0.578117370605
+0.578117370605
+0.578117370605
+0.578117370605
+0.575065612793
+0.571823120117
+0.568771362305
+0.575065612793
+0.575065612793
+0.575065612793
+0.575065612793
+0.578117370605
+0.575065612793
+0.578117370605
+0.571823120117
+0.578117370605
+0.571823120117
+0.578117370605
+0.578117370605
+0.575065612793
+0.575065612793
+0.575065612793
+0.568771362305
+0.575065612793
+0.578117370605
+0.575065612793
+0.571823120117
+0.575065612793
+0.578117370605
+0.575065612793
+0.575065612793
+0.575065612793
+0.578117370605
+0.571823120117
+0.568771362305
+0.568771362305
+0.575065612793
+0.565719604492
+0.575065612793
+0.568771362305
+0.571823120117
+0.568771362305
+0.571823120117
+0.571823120117
+0.575065612793
+0.565719604492
+0.568771362305
+0.568771362305
+0.565719604492
+0.571823120117
+0.575065612793
+0.571823120117
+0.575065612793
+0.575065612793
+0.568771362305
+0.565719604492
+0.568771362305
+0.571823120117
+0.568771362305
+0.565719604492
+0.575065612793
+0.568771362305
+0.565719604492
+0.568771362305
+0.571823120117
+0.568771362305
+0.571823120117
+0.568771362305
+0.568771362305
+0.565719604492
+0.571823120117
+0.565719604492
+0.568771362305
+0.568771362305
+0.565719604492
+0.568771362305
+0.565719604492
+0.571823120117
+0.565719604492
+0.571823120117
+0.565719604492
+0.565719604492
+0.565719604492
+0.568771362305
+0.565719604492
+0.568771362305
+0.565719604492
+0.565719604492
+0.565719604492
+0.562477111816
+0.562477111816
+0.565719604492
+0.568771362305
+0.565719604492
+0.568771362305
+0.565719604492
+0.565719604492
+0.568771362305
+0.565719604492
+0.568771362305
+0.565719604492
+0.565719604492
+0.565719604492
+0.565719604492
+0.565719604492
+0.568771362305
+0.568771362305
+0.565719604492
+0.568771362305
+0.565719604492
+0.565719604492
+0.565719604492
+0.565719604492
+0.565719604492
+0.559425354004
+0.565719604492
+0.568771362305
+0.565719604492
+0.565719604492
+0.568771362305
+0.565719604492
+0.559425354004
+0.565719604492
+0.565719604492
+0.559425354004
+0.571823120117
+0.562477111816
+0.559425354004
+0.565719604492
+0.565719604492
+0.565719604492
+0.565719604492
+0.565719604492
+0.559425354004
+0.565719604492
+0.559425354004
+0.556373596191
+0.556373596191
+0.565719604492
+0.565719604492
+0.565719604492
+0.562477111816
+0.562477111816
+0.562477111816
+0.562477111816
+0.565719604492
+0.556373596191
+0.559425354004
+0.559425354004
+0.565719604492
+0.562477111816
+0.559425354004
+0.556373596191
+0.565719604492
+0.559425354004
+0.565719604492
+0.559425354004
+0.562477111816
+0.568771362305
+0.559425354004
+0.565719604492
+0.565719604492
+0.562477111816
+0.556373596191
+0.559425354004
+0.556373596191
+0.556373596191
+0.556373596191
+0.559425354004
+0.556373596191
+0.559425354004
+0.562477111816
+0.565719604492
+0.556373596191
+0.559425354004
+0.562477111816
+0.565719604492
+0.559425354004
+0.562477111816
+0.556373596191
+0.562477111816
+0.559425354004
+0.556373596191
+0.559425354004
+0.565719604492
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.559425354004
+0.556373596191
+0.556373596191
+0.559425354004
+0.562477111816
+0.556373596191
+0.559425354004
+0.556373596191
+0.559425354004
+0.553131103516
+0.556373596191
+0.556373596191
+0.556373596191
+0.553131103516
+0.556373596191
+0.556373596191
+0.553131103516
+0.559425354004
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.559425354004
+0.556373596191
+0.553131103516
+0.556373596191
+0.556373596191
+0.556373596191
+0.553131103516
+0.559425354004
+0.556373596191
+0.559425354004
+0.559425354004
+0.553131103516
+0.559425354004
+0.559425354004
+0.553131103516
+0.556373596191
+0.553131103516
+0.553131103516
+0.556373596191
+0.553131103516
+0.556373596191
+0.556373596191
+0.556373596191
+0.553131103516
+0.550079345703
+0.553131103516
+0.556373596191
+0.553131103516
+0.553131103516
+0.550079345703
+0.550079345703
+0.559425354004
+0.556373596191
+0.556373596191
+0.556373596191
+0.556373596191
+0.550079345703
+0.556373596191
+0.556373596191
+0.553131103516
+0.553131103516
+0.550079345703
+0.556373596191
+0.553131103516
+0.553131103516
+0.553131103516
+0.556373596191
+0.553131103516
+0.553131103516
+0.547027587891
+0.550079345703
+0.556373596191
+0.556373596191
+0.556373596191
+0.550079345703
+0.550079345703
+0.553131103516
+0.556373596191
+0.550079345703
+0.556373596191
+0.550079345703
+0.556373596191
+0.553131103516
+0.550079345703
+0.550079345703
+0.547027587891
+0.553131103516
+0.556373596191
+0.550079345703
+0.547027587891
+0.550079345703
+0.553131103516
+0.550079345703
+0.547027587891
+0.553131103516
+0.553131103516
+0.550079345703
+0.547027587891
+0.547027587891
+0.553131103516
+0.543785095215
+0.550079345703
+0.550079345703
+0.553131103516
+0.553131103516
+0.550079345703
+0.550079345703
+0.550079345703
+0.547027587891
+0.550079345703
+0.550079345703
+0.553131103516
+0.556373596191
+0.553131103516
+0.550079345703
+0.543785095215
+0.553131103516
+0.550079345703
+0.550079345703
+0.550079345703
+0.547027587891
+0.543785095215
+0.550079345703
+0.550079345703
+0.550079345703
+0.543785095215
+0.543785095215
+0.553131103516
+0.543785095215
+0.547027587891
+0.543785095215
+0.550079345703
+0.547027587891
+0.550079345703
+0.540733337402
+0.547027587891
+0.550079345703
+0.547027587891
+0.543785095215
+0.550079345703
+0.543785095215
+0.543785095215
+0.550079345703
+0.543785095215
+0.543785095215
+0.543785095215
+0.543785095215
+0.547027587891
+0.543785095215
+0.543785095215
+0.543785095215
+0.543785095215
+0.543785095215
+0.550079345703
+0.550079345703
+0.550079345703
+0.543785095215
+0.550079345703
+0.547027587891
+0.543785095215
+0.540733337402
+0.543785095215
+0.547027587891
+0.540733337402
+0.543785095215
+0.543785095215
+0.543785095215
+0.543785095215
+0.540733337402
+0.540733337402
+0.550079345703
+0.540733337402
+0.540733337402
+0.543785095215
+0.547027587891
+0.540733337402
+0.547027587891
+0.540733337402
+0.543785095215
+0.543785095215
+0.543785095215
+0.543785095215
+0.540733337402
+0.540733337402
+0.547027587891
+0.540733337402
+0.543785095215
+0.53768157959
+0.543785095215
+0.543785095215
+0.543785095215
+0.550079345703
+0.543785095215
+0.543785095215
+0.540733337402
+0.543785095215
+0.547027587891
+0.540733337402
+0.543785095215
+0.540733337402
+0.543785095215
+0.543785095215
+0.543785095215
+0.543785095215
+0.543785095215
+0.534439086914
+0.543785095215
+0.543785095215
+0.543785095215
+0.543785095215
+0.540733337402
+0.543785095215
+0.540733337402
+0.543785095215
+0.543785095215
+0.540733337402
+0.543785095215
+0.540733337402
+0.53768157959
+0.543785095215
+0.53768157959
+0.540733337402
+0.540733337402
+0.540733337402
+0.540733337402
+0.540733337402
+0.53768157959
+0.534439086914
+0.540733337402
+0.53768157959
+0.540733337402
+0.540733337402
+0.540733337402
+0.534439086914
+0.534439086914
+0.543785095215
+0.540733337402
+0.53768157959
+0.534439086914
+0.543785095215
+0.53768157959
+0.53768157959
+0.540733337402
+0.534439086914
+0.534439086914
+0.53768157959
+0.534439086914
+0.543785095215
+0.543785095215
+0.534439086914
+0.534439086914
+0.53768157959
+0.53768157959
+0.540733337402
+0.531387329102
+0.53768157959
+0.540733337402
+0.540733337402
+0.540733337402
+0.540733337402
+0.540733337402
+0.540733337402
+0.543785095215
+0.540733337402
+0.540733337402
+0.53768157959
+0.53768157959
+0.531387329102
+0.534439086914
+0.53768157959
+0.534439086914
+0.540733337402
+0.540733337402
+0.534439086914
+0.543785095215
+0.534439086914
+0.540733337402
+0.53768157959
+0.534439086914
+0.53768157959
+0.531387329102
+0.534439086914
+0.534439086914
+0.534439086914
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.534439086914
+0.534439086914
+0.534439086914
+0.53768157959
+0.540733337402
+0.534439086914
+0.53768157959
+0.534439086914
+0.534439086914
+0.534439086914
+0.531387329102
+0.534439086914
+0.531387329102
+0.534439086914
+0.534439086914
+0.534439086914
+0.531387329102
+0.531387329102
+0.531387329102
+0.534439086914
+0.534439086914
+0.531387329102
+0.534439086914
+0.534439086914
+0.534439086914
+0.531387329102
+0.534439086914
+0.531387329102
+0.534439086914
+0.534439086914
+0.531387329102
+0.534439086914
+0.534439086914
+0.531387329102
+0.534439086914
+0.531387329102
+0.531387329102
+0.534439086914
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.528335571289
+0.531387329102
+0.531387329102
+0.531387329102
+0.534439086914
+0.531387329102
+0.528335571289
+0.531387329102
+0.525093078613
+0.534439086914
+0.528335571289
+0.528335571289
+0.528335571289
+0.534439086914
+0.528335571289
+0.531387329102
+0.531387329102
+0.525093078613
+0.531387329102
+0.528335571289
+0.528335571289
+0.528335571289
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.531387329102
+0.525093078613
+0.531387329102
+0.531387329102
+0.531387329102
+0.534439086914
+0.531387329102
+0.531387329102
+0.534439086914
+0.531387329102
+0.525093078613
+0.531387329102
+0.531387329102
+0.528335571289
+0.531387329102
+0.528335571289
+0.528335571289
+0.531387329102
+0.528335571289
+0.528335571289
+0.528335571289
+0.531387329102
+0.528335571289
+0.528335571289
+0.525093078613
+0.531387329102
+0.531387329102
+0.528335571289
+0.525093078613
+0.528335571289
+0.525093078613
+0.528335571289
+0.531387329102
+0.531387329102
+0.525093078613
+0.525093078613
+0.531387329102
+0.531387329102
+0.528335571289
+0.531387329102
+0.531387329102
+0.528335571289
+0.525093078613
+0.528335571289
+0.525093078613
+0.522041320801
+0.531387329102
+0.531387329102
+0.531387329102
+0.522041320801
+0.525093078613
+0.525093078613
+0.518989562988
+0.525093078613
+0.525093078613
+0.525093078613
+0.525093078613
+0.522041320801
+0.522041320801
+0.528335571289
+0.518989562988
+0.525093078613
+0.528335571289
+0.522041320801
+0.528335571289
+0.525093078613
+0.518989562988
+0.528335571289
+0.525093078613
+0.525093078613
+0.528335571289
+0.522041320801
+0.518989562988
+0.518989562988
+0.525093078613
+0.525093078613
+0.525093078613
+0.525093078613
+0.528335571289
+0.525093078613
+0.525093078613
+0.522041320801
+0.528335571289
+0.525093078613
+0.518989562988
+0.522041320801
+0.525093078613
+0.525093078613
+0.528335571289
+0.525093078613
+0.525093078613
+0.522041320801
+0.518989562988
+0.525093078613
+0.528335571289
+0.525093078613
+0.525093078613
+0.525093078613
+0.525093078613
+0.525093078613
+0.518989562988
+0.518989562988
+0.525093078613
+0.528335571289
+0.525093078613
+0.528335571289
+0.522041320801
+0.518989562988
+0.518989562988
+0.515747070312
+0.525093078613
+0.522041320801
+0.525093078613
+0.525093078613
+0.518989562988
+0.518989562988
+0.518989562988
+0.522041320801
+0.525093078613
+0.518989562988
+0.525093078613
+0.518989562988
+0.525093078613
+0.515747070312
+0.515747070312
+0.518989562988
+0.522041320801
+0.515747070312
+0.518989562988
+0.515747070312
+0.518989562988
+0.518989562988
+0.515747070312
+0.525093078613
+0.518989562988
+0.522041320801
+0.525093078613
+0.518989562988
+0.518989562988
+0.515747070312
+0.515747070312
+0.518989562988
+0.515747070312
+0.515747070312
+0.518989562988
+0.515747070312
+0.518989562988
+0.522041320801
+0.515747070312
+0.518989562988
+0.518989562988
+0.522041320801
+0.518989562988
+0.515747070312
+0.518989562988
+0.515747070312
+0.518989562988
+0.518989562988
+0.5126953125
+0.515747070312
+0.515747070312
+0.515747070312
+0.509643554688
+0.515747070312
+0.515747070312
+0.518989562988
+0.515747070312
+0.518989562988
+0.515747070312
+0.515747070312
+0.515747070312
+0.518989562988
+0.515747070312
+0.515747070312
+0.518989562988
+0.518989562988
+0.515747070312
+0.5126953125
+0.5126953125
+0.515747070312
+0.518989562988
+0.515747070312
+0.5126953125
+0.515747070312
+0.515747070312
+0.515747070312
+0.518989562988
+0.518989562988
+0.515747070312
+0.518989562988
+0.509643554688
+0.515747070312
+0.515747070312
+0.509643554688
+0.515747070312
+0.5126953125
+0.5126953125
+0.509643554688
+0.515747070312
+0.515747070312
+0.515747070312
+0.5126953125
+0.515747070312
+0.515747070312
+0.515747070312
+0.518989562988
+0.515747070312
+0.509643554688
+0.5126953125
+0.515747070312
+0.515747070312
+0.515747070312
+0.518989562988
+0.509643554688
+0.5126953125
+0.518989562988
+0.5126953125
+0.518989562988
+0.5126953125
+0.515747070312
+0.515747070312
+0.518989562988
+0.509643554688
+0.515747070312
+0.509643554688
+0.515747070312
+0.5126953125
+0.515747070312
+0.515747070312
+0.515747070312
+0.515747070312
+0.515747070312
+0.509643554688
+0.509643554688
+0.506401062012
+0.5126953125
+0.506401062012
+0.515747070312
+0.5126953125
+0.515747070312
+0.515747070312
+0.509643554688
+0.515747070312
+0.509643554688
+0.506401062012
+0.515747070312
+0.515747070312
+0.509643554688
+0.509643554688
+0.509643554688
+0.509643554688
+0.509643554688
+0.515747070312
+0.5126953125
+0.509643554688
+0.515747070312
+0.509643554688
+0.506401062012
+0.5126953125
+0.506401062012
+0.515747070312
+0.5126953125
+0.509643554688
+0.5126953125
+0.509643554688
+0.515747070312
+0.509643554688
+0.506401062012
+0.506401062012
+0.515747070312
+0.506401062012
+0.509643554688
+0.509643554688
+0.5126953125
+0.515747070312
+0.506401062012
+0.506401062012
+0.509643554688
+0.509643554688
+0.509643554688
+0.506401062012
+0.506401062012
+0.509643554688
+0.506401062012
+0.506401062012
+0.506401062012
+0.506401062012
+0.506401062012
+0.503349304199
+0.509643554688
+0.503349304199
+0.506401062012
+0.515747070312
+0.506401062012
+0.506401062012
+0.509643554688
+0.506401062012
+0.506401062012
+0.506401062012
+0.506401062012
+0.509643554688
+0.509643554688
+0.509643554688
+0.506401062012
+0.509643554688
+0.509643554688
+0.506401062012
+0.509643554688
+0.509643554688
+0.506401062012
+0.506401062012
+0.509643554688
+0.503349304199
+0.509643554688
+0.509643554688
+0.509643554688
+0.503349304199
+0.506401062012
+0.506401062012
+0.506401062012
+0.503349304199
+0.506401062012
+0.506401062012
+0.506401062012
+0.506401062012
+0.506401062012
+0.5126953125
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>135 </ID>
+      <BroadcastTo>5 17 106 107 137 140 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Current</DataObjectName>
+      <DataObjectShortName>Cur</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x9999| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>4</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>1</DataObjectThickLines>
+      <ColumnUnits>A</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1736632603</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>5</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>1</ColumnSensorColumn>
+      <ColumnSensorInputColumn>1</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>0</ColumnAllowUserDelete>
+      <ColumnMatchTag>Current</ColumnMatchTag>
+      <ColumnStartCollectTime>1736632603</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
+      <ColumnGroupID>127</ColumnGroupID>
+      <ColumnCells>
+-0.00852584838867
+-0.00946044921875
+-0.00946044921875
+-0.00946044921875
+-0.00946044921875
+-0.009765625
+-0.00946044921875
+-0.00946044921875
+-0.00913619995117
+-0.00913619995117
+-0.00913619995117
+-0.00852584838867
+-0.00852584838867
+-0.00946044921875
+-0.00913619995117
+-0.00946044921875
+-0.00946044921875
+-0.00946044921875
+-0.00913619995117
+-0.009765625
+-0.00913619995117
+-0.00913619995117
+-0.00883102416992
+-0.00883102416992
+-0.00913619995117
+-0.00946044921875
+-0.00946044921875
+-0.00946044921875
+-0.00883102416992
+-0.00883102416992
+-0.00852584838867
+-0.00913619995117
+-0.00946044921875
+-0.00946044921875
+-0.00913619995117
+-0.00852584838867
+-0.00913619995117
+-0.00946044921875
+-0.00946044921875
+-0.00913619995117
+-0.00883102416992
+-0.00913619995117
+-0.00946044921875
+-0.00852584838867
+-0.00852584838867
+-0.00946044921875
+-0.00913619995117
+-0.00852584838867
+-0.00852584838867
+-0.00946044921875
+-0.00946044921875
+-0.00913619995117
+-0.00883102416992
+-0.00883102416992
+-0.00913619995117
+-0.00820159912109
+-0.00913619995117
+-0.00913619995117
+-0.00946044921875
+-0.00883102416992
+-0.00852584838867
+-0.00852584838867
+-0.00946044921875
+-0.00913619995117
+-0.00852584838867
+-0.00852584838867
+-0.00913619995117
+-0.00852584838867
+-0.00913619995117
+-0.00852584838867
+-0.00946044921875
+-0.00913619995117
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00913619995117
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00883102416992
+-0.00883102416992
+-0.00852584838867
+-0.00913619995117
+-0.00883102416992
+-0.00852584838867
+-0.00913619995117
+-0.00852584838867
+-0.00852584838867
+-0.00883102416992
+-0.00852584838867
+-0.00883102416992
+-0.00852584838867
+-0.00913619995117
+-0.00852584838867
+-0.00789642333984
+-0.00852584838867
+-0.00883102416992
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00820159912109
+-0.00852584838867
+-0.00852584838867
+-0.00883102416992
+-0.00883102416992
+-0.00852584838867
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00820159912109
+-0.00852584838867
+-0.00913619995117
+-0.00852584838867
+-0.00820159912109
+-0.00852584838867
+-0.00852584838867
+-0.00883102416992
+-0.00883102416992
+-0.00820159912109
+-0.00820159912109
+-0.00789642333984
+-0.00820159912109
+-0.00759124755859
+-0.00852584838867
+-0.00852584838867
+-0.00789642333984
+-0.00820159912109
+-0.00913619995117
+-0.00820159912109
+-0.00759124755859
+-0.00852584838867
+-0.00913619995117
+-0.00852584838867
+-0.00883102416992
+-0.00913619995117
+-0.00913619995117
+-0.00883102416992
+-0.00883102416992
+-0.00789642333984
+-0.00820159912109
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00883102416992
+-0.00852584838867
+-0.00913619995117
+-0.00883102416992
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00820159912109
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00883102416992
+-0.00820159912109
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00820159912109
+-0.00820159912109
+-0.00789642333984
+-0.00852584838867
+-0.00852584838867
+-0.00820159912109
+-0.00883102416992
+-0.00820159912109
+-0.00852584838867
+-0.00852584838867
+-0.00820159912109
+-0.00820159912109
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00820159912109
+-0.00883102416992
+-0.00820159912109
+-0.00759124755859
+-0.00852584838867
+-0.00852584838867
+-0.00820159912109
+-0.00759124755859
+-0.00852584838867
+-0.00852584838867
+-0.00820159912109
+-0.00789642333984
+-0.00852584838867
+-0.00820159912109
+-0.00820159912109
+-0.00913619995117
+-0.00852584838867
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00820159912109
+-0.00852584838867
+-0.00852584838867
+-0.00759124755859
+-0.00820159912109
+-0.00789642333984
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00789642333984
+-0.00820159912109
+-0.00852584838867
+-0.00789642333984
+-0.00789642333984
+-0.00820159912109
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00726699829102
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00820159912109
+-0.00820159912109
+-0.00820159912109
+-0.00820159912109
+-0.00759124755859
+-0.00883102416992
+-0.00852584838867
+-0.00852584838867
+-0.00759124755859
+-0.00852584838867
+-0.00820159912109
+-0.00852584838867
+-0.00759124755859
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00820159912109
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00789642333984
+-0.00789642333984
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00789642333984
+-0.00759124755859
+-0.00759124755859
+-0.00852584838867
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00789642333984
+-0.00820159912109
+-0.00820159912109
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00789642333984
+-0.00820159912109
+-0.00789642333984
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00789642333984
+-0.00759124755859
+-0.00759124755859
+-0.00820159912109
+-0.00820159912109
+-0.00726699829102
+-0.00789642333984
+-0.00789642333984
+-0.00726699829102
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00759124755859
+-0.00789642333984
+-0.00820159912109
+-0.00759124755859
+-0.00759124755859
+-0.00852584838867
+-0.00759124755859
+-0.00759124755859
+-0.00789642333984
+-0.00789642333984
+-0.00852584838867
+-0.00852584838867
+-0.00759124755859
+-0.00820159912109
+-0.00852584838867
+-0.00789642333984
+-0.00759124755859
+-0.00759124755859
+-0.00820159912109
+-0.00852584838867
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00789642333984
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00759124755859
+-0.00789642333984
+-0.00759124755859
+-0.00820159912109
+-0.00820159912109
+-0.00789642333984
+-0.00789642333984
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00820159912109
+-0.00789642333984
+-0.00759124755859
+-0.00759124755859
+-0.00789642333984
+-0.00820159912109
+-0.00820159912109
+-0.00820159912109
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00852584838867
+-0.00820159912109
+-0.00820159912109
+-0.00852584838867
+-0.00759124755859
+-0.00820159912109
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00852584838867
+-0.00759124755859
+-0.00789642333984
+-0.00759124755859
+-0.00696182250977
+-0.00759124755859
+-0.00852584838867
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00820159912109
+-0.00759124755859
+-0.00726699829102
+-0.00789642333984
+-0.00820159912109
+-0.00852584838867
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00820159912109
+-0.00789642333984
+-0.00759124755859
+-0.00696182250977
+-0.00820159912109
+-0.00820159912109
+-0.00759124755859
+-0.00726699829102
+-0.00759124755859
+-0.00726699829102
+-0.00759124755859
+-0.00789642333984
+-0.00820159912109
+-0.00820159912109
+-0.00759124755859
+-0.00726699829102
+-0.00820159912109
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00852584838867
+-0.00852584838867
+-0.00852584838867
+-0.00789642333984
+-0.00759124755859
+-0.00789642333984
+-0.00789642333984
+-0.00726699829102
+-0.00759124755859
+-0.00820159912109
+-0.00759124755859
+-0.00820159912109
+-0.00789642333984
+-0.00789642333984
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00789642333984
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00789642333984
+-0.00759124755859
+-0.00789642333984
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00820159912109
+-0.00789642333984
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00820159912109
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00759124755859
+-0.00759124755859
+-0.00789642333984
+-0.00726699829102
+-0.00759124755859
+-0.00696182250977
+-0.00726699829102
+-0.00820159912109
+-0.00820159912109
+-0.00759124755859
+-0.00759124755859
+-0.00789642333984
+-0.00820159912109
+-0.00759124755859
+-0.00759124755859
+-0.00820159912109
+-0.00789642333984
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00820159912109
+-0.00726699829102
+-0.00789642333984
+-0.00759124755859
+-0.00726699829102
+-0.00696182250977
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00696182250977
+-0.00726699829102
+-0.00759124755859
+-0.00789642333984
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00789642333984
+-0.00759124755859
+-0.00789642333984
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00789642333984
+-0.00759124755859
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00789642333984
+-0.00726699829102
+-0.00820159912109
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00789642333984
+-0.00759124755859
+-0.00726699829102
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00759124755859
+-0.00726699829102
+-0.00789642333984
+-0.00759124755859
+-0.00789642333984
+-0.00759124755859
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00759124755859
+-0.00789642333984
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00665664672852
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00759124755859
+-0.00789642333984
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00726699829102
+-0.00696182250977
+-0.00789642333984
+-0.00820159912109
+-0.00726699829102
+-0.00759124755859
+-0.00726699829102
+-0.00696182250977
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00789642333984
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00789642333984
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00789642333984
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00665664672852
+-0.00759124755859
+-0.00726699829102
+-0.00759124755859
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00789642333984
+-0.00726699829102
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00789642333984
+-0.00726699829102
+-0.00665664672852
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00726699829102
+-0.00665664672852
+-0.00633239746094
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00759124755859
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00789642333984
+-0.00759124755859
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00759124755859
+-0.00696182250977
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00759124755859
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00759124755859
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00665664672852
+-0.00633239746094
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00759124755859
+-0.00726699829102
+-0.00665664672852
+-0.00665664672852
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00759124755859
+-0.00759124755859
+-0.00696182250977
+-0.00633239746094
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00633239746094
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00759124755859
+-0.00726699829102
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00665664672852
+-0.00696182250977
+-0.00633239746094
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00726699829102
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00759124755859
+-0.00696182250977
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00726699829102
+-0.00726699829102
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00633239746094
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00665664672852
+-0.00696182250977
+-0.00633239746094
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00602722167969
+-0.00726699829102
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00759124755859
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00696182250977
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00665664672852
+-0.00726699829102
+-0.00665664672852
+-0.00696182250977
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00602722167969
+-0.00633239746094
+-0.00665664672852
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00633239746094
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00633239746094
+-0.00602722167969
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00633239746094
+-0.00633239746094
+-0.00633239746094
+-0.00633239746094
+-0.00633239746094
+-0.00633239746094
+-0.00572204589844
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00696182250977
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00665664672852
+-0.00696182250977
+-0.00633239746094
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00665664672852
+-0.00602722167969
+-0.00696182250977
+-0.00633239746094
+-0.00665664672852
+-0.00572204589844
+-0.00633239746094
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00602722167969
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00602722167969
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00696182250977
+-0.00602722167969
+-0.00633239746094
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00726699829102
+-0.00696182250977
+-0.00633239746094
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00602722167969
+-0.00572204589844
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00696182250977
+-0.00633239746094
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00726699829102
+-0.00726699829102
+-0.00696182250977
+-0.00633239746094
+-0.00665664672852
+-0.00602722167969
+-0.00572204589844
+-0.00696182250977
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00696182250977
+-0.00633239746094
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00696182250977
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00665664672852
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00633239746094
+-0.00665664672852
+-0.00633239746094
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00665664672852
+-0.00633239746094
+-0.00633239746094
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00696182250977
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00572204589844
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00696182250977
+-0.00572204589844
+-0.00665664672852
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00696182250977
+-0.00696182250977
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00696182250977
+-0.00602722167969
+-0.00602722167969
+-0.00696182250977
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00665664672852
+-0.00633239746094
+-0.00696182250977
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00633239746094
+-0.00665664672852
+-0.00633239746094
+-0.00572204589844
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00696182250977
+-0.00696182250977
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00696182250977
+-0.00665664672852
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00572204589844
+-0.00633239746094
+-0.00572204589844
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00665664672852
+-0.00696182250977
+-0.00602722167969
+-0.00696182250977
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00665664672852
+-0.00633239746094
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00665664672852
+-0.00665664672852
+-0.00572204589844
+-0.00633239746094
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00539779663086
+-0.00602722167969
+-0.00572204589844
+-0.00633239746094
+-0.00633239746094
+-0.00633239746094
+-0.00696182250977
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00633239746094
+-0.00665664672852
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00539779663086
+-0.00602722167969
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00572204589844
+-0.00665664672852
+-0.00633239746094
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00665664672852
+-0.00633239746094
+-0.00572204589844
+-0.00539779663086
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00633239746094
+-0.00633239746094
+-0.00572204589844
+-0.00539779663086
+-0.00539779663086
+-0.00572204589844
+-0.00633239746094
+-0.00665664672852
+-0.00665664672852
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00633239746094
+-0.00665664672852
+-0.00633239746094
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00539779663086
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00539779663086
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00633239746094
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00665664672852
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00602722167969
+-0.00572204589844
+-0.00539779663086
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00665664672852
+-0.00665664672852
+-0.00572204589844
+-0.00665664672852
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00539779663086
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00665664672852
+-0.00602722167969
+-0.00572204589844
+-0.00633239746094
+-0.00572204589844
+-0.00633239746094
+-0.00602722167969
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00633239746094
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00665664672852
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00665664672852
+-0.00572204589844
+-0.00602722167969
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00665664672852
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00633239746094
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00633239746094
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00665664672852
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00633239746094
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00539779663086
+-0.00539779663086
+-0.00602722167969
+-0.00665664672852
+-0.00572204589844
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00633239746094
+-0.00509262084961
+-0.00478744506836
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00602722167969
+-0.00665664672852
+-0.00602722167969
+-0.00602722167969
+-0.00633239746094
+-0.00633239746094
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00602722167969
+-0.00572204589844
+-0.00665664672852
+-0.00572204589844
+-0.00602722167969
+-0.00509262084961
+-0.00539779663086
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00509262084961
+-0.00602722167969
+-0.00539779663086
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00602722167969
+-0.00539779663086
+-0.00539779663086
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00539779663086
+-0.00509262084961
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00602722167969
+-0.00539779663086
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00509262084961
+-0.00539779663086
+-0.00539779663086
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00602722167969
+-0.00539779663086
+-0.00509262084961
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00602722167969
+-0.00633239746094
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00633239746094
+-0.00602722167969
+-0.00478744506836
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00572204589844
+-0.00539779663086
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00633239746094
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00602722167969
+-0.00539779663086
+-0.00539779663086
+-0.00602722167969
+-0.00602722167969
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00539779663086
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00665664672852
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00539779663086
+-0.00602722167969
+-0.00602722167969
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00539779663086
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00602722167969
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00539779663086
+-0.00602722167969
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00633239746094
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00478744506836
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00539779663086
+-0.00602722167969
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00602722167969
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00602722167969
+-0.00539779663086
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00602722167969
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00539779663086
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00509262084961
+-0.00478744506836
+-0.00572204589844
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00539779663086
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00446319580078
+-0.00572204589844
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00602722167969
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00602722167969
+-0.00509262084961
+-0.00509262084961
+-0.00602722167969
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00446319580078
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00602722167969
+-0.00572204589844
+-0.00602722167969
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00478744506836
+-0.00539779663086
+-0.00509262084961
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00478744506836
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00478744506836
+-0.00539779663086
+-0.00509262084961
+-0.00478744506836
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00602722167969
+-0.00602722167969
+-0.00572204589844
+-0.00539779663086
+-0.00478744506836
+-0.00572204589844
+-0.00446319580078
+-0.00509262084961
+-0.00539779663086
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00539779663086
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00602722167969
+-0.00572204589844
+-0.00572204589844
+-0.00478744506836
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00602722167969
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00572204589844
+-0.00539779663086
+-0.00446319580078
+-0.00478744506836
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00478744506836
+-0.00572204589844
+-0.00539779663086
+-0.00478744506836
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00539779663086
+-0.00446319580078
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00446319580078
+-0.00446319580078
+-0.00478744506836
+-0.00539779663086
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00539779663086
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00539779663086
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00446319580078
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00539779663086
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00478744506836
+-0.00572204589844
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00446319580078
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00572204589844
+-0.00539779663086
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00539779663086
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00415802001953
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00539779663086
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00572204589844
+-0.00509262084961
+-0.00446319580078
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00539779663086
+-0.00539779663086
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00415802001953
+-0.00539779663086
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00446319580078
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00539779663086
+-0.00509262084961
+-0.00446319580078
+-0.00509262084961
+-0.00539779663086
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00539779663086
+-0.00478744506836
+-0.00539779663086
+-0.00446319580078
+-0.00446319580078
+-0.00415802001953
+-0.00446319580078
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00446319580078
+-0.00478744506836
+-0.00478744506836
+-0.00446319580078
+-0.00572204589844
+-0.00539779663086
+-0.00446319580078
+-0.00478744506836
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00572204589844
+-0.00572204589844
+-0.00509262084961
+-0.00509262084961
+-0.00572204589844
+-0.00509262084961
+-0.00539779663086
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00478744506836
+-0.00539779663086
+-0.00478744506836
+-0.00539779663086
+-0.00539779663086
+-0.00509262084961
+-0.00572204589844
+-0.00478744506836
+-0.00446319580078
+-0.00478744506836
+-0.00539779663086
+-0.00478744506836
+-0.00478744506836
+-0.00509262084961
+-0.00539779663086
+-0.00478744506836
+-0.00509262084961
+-0.00509262084961
+-0.00478744506836
+-0.00509262084961
+-0.00415802001953
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>138 </ID>
+      <BroadcastTo>3 17 107 137 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Current*</DataObjectName>
+      <DataObjectShortName>I</DataObjectShortName>
+      <DataObjectColor>0x0 0x8b8b 0x4545| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>140</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>4</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <ColumnUnits>A</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1736698827</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>1</ColumnUserCreated>
+      <ColumnPPStyle>6</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag></ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
+      <ColumnGroupID>139</ColumnGroupID>
+    </DataColumn>
+  </DataSet>
+  <DataSourceServer>
+    <ID>13 </ID>
+    <BroadcastTo>0 </BroadcastTo>
+    <Visible>1</Visible>
+    <MBLLabQuestSource>
+      <ID>108 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <MBLPortRef>&#60;PortRef PortType="2" Location=";0e;000000;\\?\usb#vid_08f7&#38;pid_000b#5&#38;1487bdb9&#38;0&#38;2#{56150077-b844-49e6-b562-88498bfa2c2f}" DisplayName=";0e;000000;\\?\usb#vid_08f7&#38;pid_000b#5&#38;1487bdb9&#38;0&#38;2#{56150077-b844-49e6-b562-88498bfa2c2f}" /&#62;</MBLPortRef>
+      <MBLAnalogOutWaveForm>0</MBLAnalogOutWaveForm>
+      <MBLAnalogOutFrequency>1</MBLAnalogOutFrequency>
+      <MBLAnalogOutAmplitude>2</MBLAnalogOutAmplitude>
+      <MBLAnalogOutCreateConstant>0</MBLAnalogOutCreateConstant>
+      <MBLSerialNumber>2292</MBLSerialNumber>
+    </MBLLabQuestSource>
+    <CalcColumnSource2>
+      <ID>140 </ID>
+      <BroadcastTo>1 138 </BroadcastTo>
+      <Visible>1</Visible>
+      <CalcEquation>-"Current"</CalcEquation>
+      <CalcOutColumnID>138</CalcOutColumnID>
+      <CalcWantNANs>1</CalcWantNANs>
+      <CalcEquationEditable>1</CalcEquationEditable>
+    </CalcColumnSource2>
+    <CalcColumnSource2>
+      <ID>143 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <CalcEquation>-"Current"</CalcEquation>
+      <CalcOutColumnID>141</CalcOutColumnID>
+      <CalcWantNANs>1</CalcWantNANs>
+      <CalcEquationEditable>1</CalcEquationEditable>
+    </CalcColumnSource2>
+  </DataSourceServer>
+  <MBLBrain>
+    <MBLCollectionUserCollectMode>0</MBLCollectionUserCollectMode>
+    <MBLCollectionDropCounterMode>0</MBLCollectionDropCounterMode>
+    <MBLCollectionTimeUnit>1</MBLCollectionTimeUnit>
+    <MBLCollectionSampleAtZero>1</MBLCollectionSampleAtZero>
+    <MBLCollectionRepeat>0</MBLCollectionRepeat>
+    <MBLCollectionEnhancedTiming>0</MBLCollectionEnhancedTiming>
+    <MBLFastStart>0</MBLFastStart>
+    <MBLCollectionDeltaT>0.1</MBLCollectionDeltaT>
+    <MBLCollectionNumSamples>181</MBLCollectionNumSamples>
+    <MBLCollectionMaxDuration>18</MBLCollectionMaxDuration>
+    <MBLCollectionOversampling>1</MBLCollectionOversampling>
+    <MBLCollectionNumEWEColumns>1</MBLCollectionNumEWEColumns>
+    <MBLColumnHeader>
+      <MBLColumnHeaderName>Entry</MBLColumnHeaderName>
+      <MBLColumnHeaderShortName>Entry</MBLColumnHeaderShortName>
+      <MBLColumnHeaderUnits></MBLColumnHeaderUnits>
+    </MBLColumnHeader>
+    <MBLColumnHeader>
+      <MBLColumnHeaderName></MBLColumnHeaderName>
+      <MBLColumnHeaderShortName></MBLColumnHeaderShortName>
+      <MBLColumnHeaderUnits></MBLColumnHeaderUnits>
+    </MBLColumnHeader>
+    <MBLColumnHeader>
+      <MBLColumnHeaderName></MBLColumnHeaderName>
+      <MBLColumnHeaderShortName></MBLColumnHeaderShortName>
+      <MBLColumnHeaderUnits></MBLColumnHeaderUnits>
+    </MBLColumnHeader>
+    <MBLCollectionSelectedEventTime>0</MBLCollectionSelectedEventTime>
+    <MBLCollectionSelectedEventName>Event Number</MBLCollectionSelectedEventName>
+    <MBLCollectionSelectedEventShortName>Event</MBLCollectionSelectedEventShortName>
+    <MBLCollectionSelectedEventUnits></MBLCollectionSelectedEventUnits>
+    <MBLCollectionEndDigitalAfterNum>0</MBLCollectionEndDigitalAfterNum>
+    <MBLCollectionNumDigitalEvents>10</MBLCollectionNumDigitalEvents>
+    <MBLCollectionTriggerEnabled>0</MBLCollectionTriggerEnabled>
+    <MBLTriggerType>0</MBLTriggerType>
+    <MBLTriggerValue>0</MBLTriggerValue>
+    <MBLTriggerUseConstant>0</MBLTriggerUseConstant>
+    <MBLTriggerConstant></MBLTriggerConstant>
+    <MBLTriggerPreTriggerData>0</MBLTriggerPreTriggerData>
+    <MBLRadiationInterval>5</MBLRadiationInterval>
+    <MBLRadiationIntervalTimeUnit>1</MBLRadiationIntervalTimeUnit>
+    <MBLStoreLatestMax>0</MBLStoreLatestMax>
+    <MBLEWEAverageData>0</MBLEWEAverageData>
+    <MBLSEAverageData>0</MBLSEAverageData>
+    <MBLContinuous>0</MBLContinuous>
+    <MBLCollectionMiniGCStartTemp>35</MBLCollectionMiniGCStartTemp>
+    <MBLCollectionMiniGCHoldTime>2</MBLCollectionMiniGCHoldTime>
+    <MBLCollectionMiniGCRampRate>5</MBLCollectionMiniGCRampRate>
+    <MBLCollectionMiniGCFinalTemp>65</MBLCollectionMiniGCFinalTemp>
+    <MBLCollectionMiniGCFinalHoldTime>12</MBLCollectionMiniGCFinalHoldTime>
+    <MBLCollectionMiniGCTotalLength>20</MBLCollectionMiniGCTotalLength>
+    <MBLCollectionMiniGCPressure>7</MBLCollectionMiniGCPressure>
+    <MBLChannel>
+      <MBLChannelIndex>1</MBLChannelIndex>
+      <MBLChannelSensorIDName>DVP</MBLChannelSensorIDName>
+      <MBLChannelSensorAutoID>8</MBLChannelSensorAutoID>
+      <MBLChannelManualSetup>0</MBLChannelManualSetup>
+      <MBLChannelCalibrationStorage>2</MBLChannelCalibrationStorage>
+      <MBLChannelReverse>0</MBLChannelReverse>
+      <MBLChannelOffset>0</MBLChannelOffset>
+      <MBLChannelX4Mode>0</MBLChannelX4Mode>
+      <MBLChannelResetOnCollect>1</MBLChannelResetOnCollect>
+      <MBLChannelTrigger>0</MBLChannelTrigger>
+      <MBLCalibration>
+        <MBLCalibrationUnits>V</MBLCalibrationUnits>
+        <MBLCalibrationPrettyUnits>V</MBLCalibrationPrettyUnits>
+        <MBLCalibrationIDName>VOLTAGE</MBLCalibrationIDName>
+        <MBLCalibrationUserName>Diff Voltage V</MBLCalibrationUserName>
+        <MBLCalibrationEquationType>1</MBLCalibrationEquationType>
+        <MBLCalibrationIDValue>8</MBLCalibrationIDValue>
+        <MBLCalibrationInterfaceOp>14</MBLCalibrationInterfaceOp>
+        <MBLCalibrationCoefficients>2 6.25 -2.5 </MBLCalibrationCoefficients>
+        <MBLCalibrationYMin>-6</MBLCalibrationYMin>
+        <MBLCalibrationYMax>6</MBLCalibrationYMax>
+        <MBLCalibrationNumPlaces>3</MBLCalibrationNumPlaces>
+        <MBLCalibrationDDSIndex>0</MBLCalibrationDDSIndex>
+        <MBLCalibrationRangeDesc></MBLCalibrationRangeDesc>
+        <MBLCalibrationColumnName>Potential</MBLCalibrationColumnName>
+        <MBLCalibrationShortColumnName>Pot</MBLCalibrationShortColumnName>
+        <MBLCalibrationExperimentType>1</MBLCalibrationExperimentType>
+        <MBLCalibrationTrace>1</MBLCalibrationTrace>
+      </MBLCalibration>
+      <MBLColumnHeaderName>Potential</MBLColumnHeaderName>
+      <MBLColumnHeaderShortName>Pot</MBLColumnHeaderShortName>
+      <MBLChannelMatch0>117
+Potential</MBLChannelMatch0>
+      <MBLSensorSourceID>108</MBLSensorSourceID>
+      <MBLSensorPhotogateUnitsMeters>1</MBLSensorPhotogateUnitsMeters>
+      <MBLSensorPhotogateUnits>m</MBLSensorPhotogateUnits>
+      <MBLSensorOceanOpticsWavelength>-1</MBLSensorOceanOpticsWavelength>
+      <MBLSensorOceanOpticsWavelengthEnd>-1</MBLSensorOceanOpticsWavelengthEnd>
+      <MBLChannelZeroDefault>0</MBLChannelZeroDefault>
+    </MBLChannel>
+    <MBLChannel>
+      <MBLChannelIndex>2</MBLChannelIndex>
+      <MBLChannelSensorIDName>DCP</MBLChannelSensorIDName>
+      <MBLChannelSensorAutoID>9</MBLChannelSensorAutoID>
+      <MBLChannelManualSetup>0</MBLChannelManualSetup>
+      <MBLChannelCalibrationStorage>2</MBLChannelCalibrationStorage>
+      <MBLChannelReverse>0</MBLChannelReverse>
+      <MBLChannelOffset>0</MBLChannelOffset>
+      <MBLChannelX4Mode>0</MBLChannelX4Mode>
+      <MBLChannelResetOnCollect>1</MBLChannelResetOnCollect>
+      <MBLChannelTrigger>0</MBLChannelTrigger>
+      <MBLCalibration>
+        <MBLCalibrationUnits>A</MBLCalibrationUnits>
+        <MBLCalibrationPrettyUnits>A</MBLCalibrationPrettyUnits>
+        <MBLCalibrationIDName>CURA</MBLCalibrationIDName>
+        <MBLCalibrationUserName>Current A</MBLCalibrationUserName>
+        <MBLCalibrationEquationType>1</MBLCalibrationEquationType>
+        <MBLCalibrationIDValue>9</MBLCalibrationIDValue>
+        <MBLCalibrationInterfaceOp>14</MBLCalibrationInterfaceOp>
+        <MBLCalibrationCoefficients>2 0.625 -0.25 </MBLCalibrationCoefficients>
+        <MBLCalibrationYMin>-0.6</MBLCalibrationYMin>
+        <MBLCalibrationYMax>0.6</MBLCalibrationYMax>
+        <MBLCalibrationNumPlaces>4</MBLCalibrationNumPlaces>
+        <MBLCalibrationDDSIndex>0</MBLCalibrationDDSIndex>
+        <MBLCalibrationRangeDesc></MBLCalibrationRangeDesc>
+        <MBLCalibrationColumnName>Current</MBLCalibrationColumnName>
+        <MBLCalibrationShortColumnName>I</MBLCalibrationShortColumnName>
+        <MBLCalibrationExperimentType>1</MBLCalibrationExperimentType>
+        <MBLCalibrationTrace>1</MBLCalibrationTrace>
+      </MBLCalibration>
+      <MBLColumnHeaderName>Current</MBLColumnHeaderName>
+      <MBLColumnHeaderShortName>I</MBLColumnHeaderShortName>
+      <MBLChannelMatch0>123
+Current</MBLChannelMatch0>
+      <MBLSensorSourceID>108</MBLSensorSourceID>
+      <MBLSensorPhotogateUnitsMeters>1</MBLSensorPhotogateUnitsMeters>
+      <MBLSensorPhotogateUnits>m</MBLSensorPhotogateUnits>
+      <MBLSensorOceanOpticsWavelength>-1</MBLSensorOceanOpticsWavelength>
+      <MBLSensorOceanOpticsWavelengthEnd>-1</MBLSensorOceanOpticsWavelengthEnd>
+      <MBLChannelZeroDefault>0</MBLChannelZeroDefault>
+    </MBLChannel>
+    <MBLGoogleMapsMarkerOptions>0</MBLGoogleMapsMarkerOptions>
+    <MBLGoogleMapsOpenAnnotations>0</MBLGoogleMapsOpenAnnotations>
+    <GoogleMapsSettings>
+      <GoogleMapsLatitudeColumnID>0</GoogleMapsLatitudeColumnID>
+      <GoogleMapsLongitudeColumnID>0</GoogleMapsLongitudeColumnID>
+      <GoogleMapsShowMarkers>1</GoogleMapsShowMarkers>
+      <GoogleMapsMarkerOptions>0</GoogleMapsMarkerOptions>
+      <GoogleMapsValueColumnID>0</GoogleMapsValueColumnID>
+      <GoogleMapsOpenAnnotations>0</GoogleMapsOpenAnnotations>
+      <GoogleMapsDrawLine>0</GoogleMapsDrawLine>
+      <GoogleMapsDrawLineSingleColor>0</GoogleMapsDrawLineSingleColor>
+      <GoogleMapsingleColor>0x0 0x0 0x0| 0xffff 0x0</GoogleMapsingleColor>
+      <GoogleMapsDrawLineColumnID>0</GoogleMapsDrawLineColumnID>
+      <GoogleMapsDrawLineAutoScale>0</GoogleMapsDrawLineAutoScale>
+      <GoogleMapsDrawLineSmooth>1</GoogleMapsDrawLineSmooth>
+      <GoogleMapsDrawLineMin>0</GoogleMapsDrawLineMin>
+      <GoogleMapsDrawLineMax>0</GoogleMapsDrawLineMax>
+    </GoogleMapsSettings>
+  </MBLBrain>
+  <FileCoherence>1</FileCoherence>
+</Document>

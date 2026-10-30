@@ -1,0 +1,114 @@
+{
+  "source": "Modifed Iteration 3 graphs.cmbl",
+  "sha256": "93b5dceb8b5fc18058f7b7a3fc67979d9493a87573629a62db25d6893feb2d5d",
+  "gzip": true,
+  "xml_repaired": false,
+  "datasets": [
+    {
+      "id": "297",
+      "name": "Modified Iteration 3 Discharge",
+      "columns": [
+        {
+          "id": "298",
+          "name": "Time",
+          "units": "min",
+          "dataset": "Modified Iteration 3 Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "300",
+          "name": "Potential Difference",
+          "units": "V",
+          "dataset": "Modified Iteration 3 Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "306",
+          "name": "Current",
+          "units": "A",
+          "dataset": "Modified Iteration 3 Discharge",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_297.csv",
+      "rows": 14401
+    }
+  ],
+  "graphs": [
+    {
+      "id": "302",
+      "xml": "<PageGraphCartesian>\n      <ID>302 </ID>\n      <BroadcastTo>3 318 320 321 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>2.27577 0.0075 14.2217 7.9925 </Bounds>\n      <SubordinateToID>0</SubordinateToID>\n      <SubordinateOffset>0 0</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>1</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 12 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GraphTitle>Current v. Time for the Modified Version of Iteration 3</GraphTitle>\n      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x0</GraphTitleColor>\n      <GraphShowPoints>0</GraphShowPoints>\n      <GraphInterpolate>0</GraphInterpolate>\n      <GraphShowTangent>0</GraphShowTangent>\n      <GraphShowLegend>1</GraphShowLegend>\n      <GraphShowCursorStatus>1</GraphShowCursorStatus>\n      <GraphShowCursorDelta>1</GraphShowCursorDelta>\n      <GraphPlotBaseColumnID>298 </GraphPlotBaseColumnID>\n      <GraphPlotTraceIDPairs>1 298 306 </GraphPlotTraceIDPairs>\n      <LogXAxis>0</LogXAxis>\n      <LogYAxis>0</LogYAxis>\n      <LogRightYAxis>0</LogRightYAxis>\n      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>\n      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>\n      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>\n      <GraphConnectLines>0</GraphConnectLines>\n      <GraphBarGraph>0</GraphBarGraph>\n      <BinGraphStackColumns>0</BinGraphStackColumns>\n      <GraphShowPointProtectors>0</GraphShowPointProtectors>\n      <GraphMajorTickStyle>1</GraphMajorTickStyle>\n      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMajorTickColor>\n      <GraphMinorTickStyle>0</GraphMinorTickStyle>\n      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMinorTickColor>\n      <GraphPlotXAutoscale>1</GraphPlotXAutoscale>\n      <GraphPlotYAutoscale>1</GraphPlotYAutoscale>\n      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>\n      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>\n      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>\n      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>\n      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>\n      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>\n      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>\n      <GraphPlotXMin>0</GraphPlotXMin>\n      <GraphPlotXMax>480</GraphPlotXMax>\n      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>\n      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>\n      <GraphPlotYMin>0</GraphPlotYMin>\n      <GraphPlotYMax>0.025</GraphPlotYMax>\n      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>\n      <GraphPlotDefaultXMax>480</GraphPlotDefaultXMax>\n      <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>\n      <GraphPlotDefaultYMax>0.025</GraphPlotDefaultYMax>\n      <GraphPlotXLabel />\n      <GraphPlotYLabel />\n      <GraphDrawRainbow>0</GraphDrawRainbow>\n      <AudioTraceIDs>1 306 </AudioTraceIDs>\n      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>\n    </PageGraphCartesian>\n    ",
+      "files": [
+        "graph_302_faithful.png",
+        "graph_302_faithful.pdf",
+        "graph_302_faithful.svg",
+        "graph_302_paper.png",
+        "graph_302_paper.pdf",
+        "graph_302_paper.svg"
+      ],
+      "analysis": [
+        {
+          "id": "320",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 0.7756770110607349,
+          "range": [
+            0.0,
+            480.0
+          ],
+          "unit": "A min"
+        },
+        {
+          "id": "321",
+          "type": "PageHelperDataStatistics",
+          "recomputed": true,
+          "range": [
+            0.0,
+            480.0
+          ],
+          "statistics": {
+            "count": 14401,
+            "min": 0.000514984,
+            "max": 0.02450943,
+            "mean": 0.0016167828502881743,
+            "median": 0.001449585,
+            "std_sample": 0.0009932259886770147
+          }
+        }
+      ],
+      "traces": [
+        {
+          "x": "298",
+          "y": "306",
+          "samples": 14401,
+          "finite_pairs": 14401
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "analysis_helpers_xml": [
+    "<PageHelperLegend>\n      <ID>318 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>10.7590984375 0.4075 13.2976277344 0.6971484375 </Bounds>\n      <SubordinateToID>302</SubordinateToID>\n      <SubordinateOffset>8.4833284375 0.4</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0xffff| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n    </PageHelperLegend>\n    ",
+    "<PageHelperDataIntegral>\n      <ID>320 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>7.15077 5.09083333333 10.0653334766 5.52013020833 </Bounds>\n      <SubordinateToID>302</SubordinateToID>\n      <SubordinateOffset>4.875 5.08333333333</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>306</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>298</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n    ",
+    "<PageHelperDataStatistics>\n      <ID>321 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>9.39035333333 3.445 12.4228367318 4.34109375 </Bounds>\n      <SubordinateToID>302</SubordinateToID>\n      <SubordinateOffset>7.11458333333 3.4375</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>306</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>298</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataStatistics>\n  "
+  ]
+}

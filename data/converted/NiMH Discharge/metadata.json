@@ -1,0 +1,113 @@
+{
+  "source": "NiMH Discharge.cmbl",
+  "sha256": "fbaf2b578409fb2fa25fff14e1acc5a79f3f7d7a78a8ef82a57b2ed62f045510",
+  "gzip": true,
+  "xml_repaired": false,
+  "datasets": [
+    {
+      "id": "541",
+      "name": "NiMH Discharge 1",
+      "columns": [
+        {
+          "id": "542",
+          "name": "Time",
+          "units": "min",
+          "dataset": "NiMH Discharge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "544",
+          "name": "Current",
+          "units": "A",
+          "dataset": "NiMH Discharge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "551",
+          "name": "Potential Difference",
+          "units": "V",
+          "dataset": "NiMH Discharge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        }
+      ],
+      "csv": "dataset_541.csv",
+      "rows": 14401
+    }
+  ],
+  "graphs": [
+    {
+      "id": "546",
+      "xml": "<PageGraphCartesian>\n      <ID>546 </ID>\n      <BroadcastTo>2 630 631 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>0 0.0075 14.2216666667 7.9925 </Bounds>\n      <SubordinateToID>0</SubordinateToID>\n      <SubordinateOffset>0 0</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>1</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 12 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GraphTitle>Current v. Time for the Discharge of NiMH Battery</GraphTitle>\n      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x0</GraphTitleColor>\n      <GraphShowPoints>0</GraphShowPoints>\n      <GraphInterpolate>0</GraphInterpolate>\n      <GraphShowTangent>0</GraphShowTangent>\n      <GraphShowLegend>0</GraphShowLegend>\n      <GraphShowCursorStatus>0</GraphShowCursorStatus>\n      <GraphShowCursorDelta>0</GraphShowCursorDelta>\n      <GraphPlotBaseColumnID>542 </GraphPlotBaseColumnID>\n      <GraphPlotTraceIDPairs>1 542 544 </GraphPlotTraceIDPairs>\n      <LogXAxis>0</LogXAxis>\n      <LogYAxis>0</LogYAxis>\n      <LogRightYAxis>0</LogRightYAxis>\n      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>\n      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>\n      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>\n      <GraphConnectLines>0</GraphConnectLines>\n      <GraphBarGraph>0</GraphBarGraph>\n      <BinGraphStackColumns>0</BinGraphStackColumns>\n      <GraphShowPointProtectors>0</GraphShowPointProtectors>\n      <GraphMajorTickStyle>1</GraphMajorTickStyle>\n      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMajorTickColor>\n      <GraphMinorTickStyle>0</GraphMinorTickStyle>\n      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMinorTickColor>\n      <GraphPlotXAutoscale>1</GraphPlotXAutoscale>\n      <GraphPlotYAutoscale>1</GraphPlotYAutoscale>\n      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>\n      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>\n      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>\n      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>\n      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>\n      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>\n      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>\n      <GraphPlotXMin>0</GraphPlotXMin>\n      <GraphPlotXMax>480</GraphPlotXMax>\n      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>\n      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>\n      <GraphPlotYMin>-0.0006</GraphPlotYMin>\n      <GraphPlotYMax>0.0038</GraphPlotYMax>\n      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>\n      <GraphPlotDefaultXMax>480</GraphPlotDefaultXMax>\n      <GraphPlotDefaultYMin>-0.0006</GraphPlotDefaultYMin>\n      <GraphPlotDefaultYMax>0.0038</GraphPlotDefaultYMax>\n      <GraphPlotXLabel />\n      <GraphPlotYLabel />\n      <GraphDrawRainbow>0</GraphDrawRainbow>\n      <AudioTraceIDs>1 544 </AudioTraceIDs>\n      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>\n    </PageGraphCartesian>\n    ",
+      "files": [
+        "graph_546_faithful.png",
+        "graph_546_faithful.pdf",
+        "graph_546_faithful.svg",
+        "graph_546_paper.png",
+        "graph_546_paper.pdf",
+        "graph_546_paper.svg"
+      ],
+      "analysis": [
+        {
+          "id": "630",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 0.4567640480884168,
+          "range": [
+            0.0,
+            480.0
+          ],
+          "unit": "A min"
+        },
+        {
+          "id": "631",
+          "type": "PageHelperDataStatistics",
+          "recomputed": true,
+          "range": [
+            0.0,
+            480.0
+          ],
+          "statistics": {
+            "count": 14401,
+            "min": -0.000419617,
+            "max": 0.003643036,
+            "mean": 0.0009516051566557881,
+            "median": 0.000839233,
+            "std_sample": 0.0002061363250626965
+          }
+        }
+      ],
+      "traces": [
+        {
+          "x": "542",
+          "y": "544",
+          "samples": 14401,
+          "finite_pairs": 14401
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "analysis_helpers_xml": [
+    "<PageHelperDataIntegral>\n      <ID>630 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>8.734375 2.71583333333 10.9736364119 3.14146378088 </Bounds>\n      <SubordinateToID>546</SubordinateToID>\n      <SubordinateOffset>8.734375 2.70833333333</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>544</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>542</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n    ",
+    "<PageHelperDataStatistics>\n      <ID>631 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>5.328125 2.24708333333 8.13280227973 3.13504986517 </Bounds>\n      <SubordinateToID>546</SubordinateToID>\n      <SubordinateOffset>5.328125 2.23958333333</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>544</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>542</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataStatistics>\n  "
+  ]
+}

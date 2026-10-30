@@ -1,0 +1,380 @@
+{
+  "source": "Voltage & Current v. Time, Iteration 3.cmbl",
+  "sha256": "480965123ffcff70baf09cf2ef16c6fbf0e7e6ae084a7e5bdc857090a83c7b28",
+  "gzip": true,
+  "xml_repaired": true,
+  "datasets": [
+    {
+      "id": "165",
+      "name": "Discharge 1 (10 ohms)",
+      "columns": [
+        {
+          "id": "166",
+          "name": "Time",
+          "units": "min",
+          "dataset": "Discharge 1 (10 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {
+            "0": "Z1 2:"
+          },
+          "xml": null
+        },
+        {
+          "id": "168",
+          "name": "Potential Difference",
+          "units": "V",
+          "dataset": "Discharge 1 (10 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {
+            "0": "Z1 2:",
+            "76": "Z1 2:",
+            "77": "Z1 2:",
+            "78": "Z1 2:",
+            "79": "Z1 2:",
+            "80": "Z1 2:",
+            "81": "Z1 2:",
+            "82": "Z1 2:",
+            "83": "Z1 2:",
+            "84": "Z1 2:",
+            "85": "Z1 2:",
+            "86": "Z1 2:",
+            "87": "Z1 2:",
+            "88": "Z1 2:",
+            "89": "Z1 2:",
+            "90": "Z1 2:",
+            "91": "Z1 2:",
+            "92": "Z1 2:",
+            "93": "Z1 2:",
+            "94": "Z1 2:",
+            "95": "Z1 2:",
+            "96": "Z1 2:",
+            "97": "Z1 2:",
+            "98": "Z1 2:"
+          },
+          "xml": null
+        },
+        {
+          "id": "174",
+          "name": "Current",
+          "units": "A",
+          "dataset": "Discharge 1 (10 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {
+            "0": "Z1 2:",
+            "76": "Z1 2:",
+            "77": "Z1 2:",
+            "78": "Z1 2:",
+            "79": "Z1 2:",
+            "80": "Z1 2:",
+            "81": "Z1 2:",
+            "82": "Z1 2:",
+            "83": "Z1 2:",
+            "84": "Z1 2:",
+            "85": "Z1 2:",
+            "86": "Z1 2:",
+            "87": "Z1 2:",
+            "88": "Z1 2:",
+            "89": "Z1 2:",
+            "90": "Z1 2:",
+            "91": "Z1 2:",
+            "92": "Z1 2:",
+            "93": "Z1 2:",
+            "94": "Z1 2:",
+            "95": "Z1 2:",
+            "96": "Z1 2:",
+            "97": "Z1 2:",
+            "98": "Z1 2:"
+          },
+          "xml": null
+        },
+        {
+          "id": "325",
+          "name": "Power",
+          "units": "W",
+          "dataset": "Discharge 1 (10 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": false,
+          "special_cells": {},
+          "xml": "<DataColumn>\n      <ID>325 </ID>\n      <BroadcastTo>3 17 170 171 </BroadcastTo>\n      <Visible>1</Visible>\n      <DataObjectName>Power</DataObjectName>\n      <DataObjectShortName>P</DataObjectShortName>\n      <DataObjectColor>0x0 0x9999 0x9999| 0xffff 0x0</DataObjectColor>\n      <DataObjectDataSource>327</DataObjectDataSource>\n      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>\n      <DataObjectPrecision>3</DataObjectPrecision>\n      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>\n      <DataObjectThickLines>0</DataObjectThickLines>\n      <ColumnUnits>W</ColumnUnits>\n      <ColumnProtected>1</ColumnProtected>\n      <ColumnUserEditable>1</ColumnUserEditable>\n      <ColumnTreatAsText>0</ColumnTreatAsText>\n      <ColumnDataType>0</ColumnDataType>\n      <StartTime>1737400068</StartTime>\n      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>\n      <ColumnGeoRole>n-a</ColumnGeoRole>\n      <ColumnGeoDisplay>DD</ColumnGeoDisplay>\n      <ColumnUserCreated>1</ColumnUserCreated>\n      <ColumnPPStyle>12</ColumnPPStyle>\n      <ColumnPPSize>2</ColumnPPSize>\n      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>\n      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>\n      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>\n      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>\n      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>\n      <ColumnErrorFixed>1</ColumnErrorFixed>\n      <ColumnErrorConstant>1</ColumnErrorConstant>\n      <ColumnErrorValue>0</ColumnErrorValue>\n      <ColumnErrorColumnID>0</ColumnErrorColumnID>\n      <ColumnForceScientific>0</ColumnForceScientific>\n      <ColumnSensorColumn>0</ColumnSensorColumn>\n      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>\n      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>\n      <ColumnMatchTag />\n      <ColumnStartCollectTime>0</ColumnStartCollectTime>\n      <ColumnGenerateValues>0</ColumnGenerateValues>\n      <ColumnGenerateType>0</ColumnGenerateType>\n      <ColumnStart>1</ColumnStart>\n      <ColumnEnd>100</ColumnEnd>\n      <ColumnIncrement>1</ColumnIncrement>\n      <ColumnNameStart>0</ColumnNameStart>\n      <ColumnNumber>10</ColumnNumber>\n      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>\n      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>\n      <ColumnGroupID>326</ColumnGroupID>\n    </DataColumn>\n  ",
+          "formula": "\"Potential Difference\"*\"Current\""
+        }
+      ],
+      "csv": "dataset_165.csv",
+      "rows": 14401
+    },
+    {
+      "id": "187",
+      "name": "Discharge 2 (1000 ohms)",
+      "columns": [
+        {
+          "id": "190",
+          "name": "Time",
+          "units": "min",
+          "dataset": "Discharge 2 (1000 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "193",
+          "name": "Potential Difference",
+          "units": "V",
+          "dataset": "Discharge 2 (1000 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "196",
+          "name": "Current",
+          "units": "A",
+          "dataset": "Discharge 2 (1000 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "319",
+          "name": "Power",
+          "units": "W",
+          "dataset": "Discharge 2 (1000 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": false,
+          "special_cells": {},
+          "xml": "<DataColumn>\n      <ID>319 </ID>\n      <BroadcastTo>3 17 170 171 </BroadcastTo>\n      <Visible>1</Visible>\n      <DataObjectName>Power</DataObjectName>\n      <DataObjectShortName>P</DataObjectShortName>\n      <DataObjectColor>0x0 0x8b8b 0x4545| 0xffff 0x0</DataObjectColor>\n      <DataObjectDataSource>321</DataObjectDataSource>\n      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>\n      <DataObjectPrecision>3</DataObjectPrecision>\n      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>\n      <DataObjectThickLines>0</DataObjectThickLines>\n      <ColumnUnits>W</ColumnUnits>\n      <ColumnProtected>1</ColumnProtected>\n      <ColumnUserEditable>1</ColumnUserEditable>\n      <ColumnTreatAsText>0</ColumnTreatAsText>\n      <ColumnDataType>0</ColumnDataType>\n      <StartTime>1737400068</StartTime>\n      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>\n      <ColumnGeoRole>n-a</ColumnGeoRole>\n      <ColumnGeoDisplay>DD</ColumnGeoDisplay>\n      <ColumnUserCreated>1</ColumnUserCreated>\n      <ColumnPPStyle>10</ColumnPPStyle>\n      <ColumnPPSize>2</ColumnPPSize>\n      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>\n      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>\n      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>\n      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>\n      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>\n      <ColumnErrorFixed>1</ColumnErrorFixed>\n      <ColumnErrorConstant>1</ColumnErrorConstant>\n      <ColumnErrorValue>0</ColumnErrorValue>\n      <ColumnErrorColumnID>0</ColumnErrorColumnID>\n      <ColumnForceScientific>0</ColumnForceScientific>\n      <ColumnSensorColumn>0</ColumnSensorColumn>\n      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>\n      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>\n      <ColumnMatchTag />\n      <ColumnStartCollectTime>0</ColumnStartCollectTime>\n      <ColumnGenerateValues>0</ColumnGenerateValues>\n      <ColumnGenerateType>0</ColumnGenerateType>\n      <ColumnStart>1</ColumnStart>\n      <ColumnEnd>100</ColumnEnd>\n      <ColumnIncrement>1</ColumnIncrement>\n      <ColumnNameStart>0</ColumnNameStart>\n      <ColumnNumber>10</ColumnNumber>\n      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>\n      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>\n      <ColumnGroupID>320</ColumnGroupID>\n    </DataColumn>\n  ",
+          "formula": "\"Potential Difference\"*\"Current\""
+        }
+      ],
+      "csv": "dataset_187.csv",
+      "rows": 14401
+    },
+    {
+      "id": "198",
+      "name": "Discharge 3 (100 ohms)",
+      "columns": [
+        {
+          "id": "201",
+          "name": "Time",
+          "units": "min",
+          "dataset": "Discharge 3 (100 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "204",
+          "name": "Potential Difference",
+          "units": "V",
+          "dataset": "Discharge 3 (100 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "207",
+          "name": "Current",
+          "units": "A",
+          "dataset": "Discharge 3 (100 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "322",
+          "name": "Power",
+          "units": "W",
+          "dataset": "Discharge 3 (100 ohms)",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": false,
+          "special_cells": {},
+          "xml": "<DataColumn>\n      <ID>322 </ID>\n      <BroadcastTo>3 17 170 171 </BroadcastTo>\n      <Visible>1</Visible>\n      <DataObjectName>Power</DataObjectName>\n      <DataObjectShortName>P</DataObjectShortName>\n      <DataObjectColor>0x2f2f 0x4f4f 0x2f2f| 0xffff 0x0</DataObjectColor>\n      <DataObjectDataSource>324</DataObjectDataSource>\n      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>\n      <DataObjectPrecision>3</DataObjectPrecision>\n      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>\n      <DataObjectThickLines>0</DataObjectThickLines>\n      <ColumnUnits>W</ColumnUnits>\n      <ColumnProtected>1</ColumnProtected>\n      <ColumnUserEditable>1</ColumnUserEditable>\n      <ColumnTreatAsText>0</ColumnTreatAsText>\n      <ColumnDataType>0</ColumnDataType>\n      <StartTime>1737400068</StartTime>\n      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>\n      <ColumnGeoRole>n-a</ColumnGeoRole>\n      <ColumnGeoDisplay>DD</ColumnGeoDisplay>\n      <ColumnUserCreated>1</ColumnUserCreated>\n      <ColumnPPStyle>11</ColumnPPStyle>\n      <ColumnPPSize>2</ColumnPPSize>\n      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>\n      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>\n      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>\n      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>\n      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>\n      <ColumnErrorFixed>1</ColumnErrorFixed>\n      <ColumnErrorConstant>1</ColumnErrorConstant>\n      <ColumnErrorValue>0</ColumnErrorValue>\n      <ColumnErrorColumnID>0</ColumnErrorColumnID>\n      <ColumnForceScientific>0</ColumnForceScientific>\n      <ColumnSensorColumn>0</ColumnSensorColumn>\n      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>\n      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>\n      <ColumnMatchTag />\n      <ColumnStartCollectTime>0</ColumnStartCollectTime>\n      <ColumnGenerateValues>0</ColumnGenerateValues>\n      <ColumnGenerateType>0</ColumnGenerateType>\n      <ColumnStart>1</ColumnStart>\n      <ColumnEnd>100</ColumnEnd>\n      <ColumnIncrement>1</ColumnIncrement>\n      <ColumnNameStart>0</ColumnNameStart>\n      <ColumnNumber>10</ColumnNumber>\n      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>\n      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>\n      <ColumnGroupID>323</ColumnGroupID>\n    </DataColumn>\n  ",
+          "formula": "\"Potential Difference\"*\"Current\""
+        }
+      ],
+      "csv": "dataset_198.csv",
+      "rows": 14401
+    }
+  ],
+  "graphs": [
+    {
+      "id": "170",
+      "xml": "<PageGraphCartesian>\n      <ID>170 </ID>\n      <BroadcastTo>7 208 335 336 337 338 339 340 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>0 0.0075 14.2217 7.9925 </Bounds>\n      <SubordinateToID>0</SubordinateToID>\n      <SubordinateOffset>0 0</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>1</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 12 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GraphTitle>Power v. Time for Each Discharge of Iteration 3</GraphTitle>\n      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x2e</GraphTitleColor>\n      <GraphShowPoints>0</GraphShowPoints>\n      <GraphInterpolate>0</GraphInterpolate>\n      <GraphShowTangent>0</GraphShowTangent>\n      <GraphShowLegend>1</GraphShowLegend>\n      <GraphShowCursorStatus>0</GraphShowCursorStatus>\n      <GraphShowCursorDelta>0</GraphShowCursorDelta>\n      <GraphPlotBaseColumnID>201 </GraphPlotBaseColumnID>\n      <GraphPlotTraceIDPairs>3 166 325 190 319 201 322 </GraphPlotTraceIDPairs>\n      <LogXAxis>0</LogXAxis>\n      <LogYAxis>0</LogYAxis>\n      <LogRightYAxis>0</LogRightYAxis>\n      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>\n      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>\n      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>\n      <GraphConnectLines>0</GraphConnectLines>\n      <GraphBarGraph>0</GraphBarGraph>\n      <BinGraphStackColumns>0</BinGraphStackColumns>\n      <GraphShowPointProtectors>0</GraphShowPointProtectors>\n      <GraphMajorTickStyle>1</GraphMajorTickStyle>\n      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMajorTickColor>\n      <GraphMinorTickStyle>0</GraphMinorTickStyle>\n      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMinorTickColor>\n      <GraphPlotXAutoscale>1</GraphPlotXAutoscale>\n      <GraphPlotYAutoscale>1</GraphPlotYAutoscale>\n      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>\n      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>\n      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>\n      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>\n      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>\n      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>\n      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>\n      <GraphPlotXMin>0</GraphPlotXMin>\n      <GraphPlotXMax>480</GraphPlotXMax>\n      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>\n      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>\n      <GraphPlotYMin>-0.002</GraphPlotYMin>\n      <GraphPlotYMax>0.03</GraphPlotYMax>\n      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>\n      <GraphPlotDefaultXMax>480</GraphPlotDefaultXMax>\n      <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>\n      <GraphPlotDefaultYMax>0.012</GraphPlotDefaultYMax>\n      <GraphPlotXLabel />\n      <GraphPlotYLabel />\n      <GraphDrawRainbow>0</GraphDrawRainbow>\n      <AudioTraceIDs>3 325 319 322 </AudioTraceIDs>\n      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>\n    </PageGraphCartesian>\n    ",
+      "files": [
+        "graph_170_faithful.png",
+        "graph_170_faithful.pdf",
+        "graph_170_faithful.svg",
+        "graph_170_paper.png",
+        "graph_170_paper.pdf",
+        "graph_170_paper.svg"
+      ],
+      "analysis": [
+        {
+          "id": "337",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 1.541056636914203,
+          "range": [
+            0.0,
+            480.0
+          ],
+          "unit": "W min"
+        },
+        {
+          "id": "340",
+          "type": "PageHelperDataStatistics",
+          "recomputed": true,
+          "range": [
+            0.0,
+            480.0
+          ],
+          "statistics": {
+            "count": 14401,
+            "min": 0.001291577133230418,
+            "max": 0.01329934785416268,
+            "mean": 0.003210832641044181,
+            "median": 0.002563931312351227,
+            "std_sample": 0.0018699835811130053
+          }
+        },
+        {
+          "id": "338",
+          "type": "PageHelperDataStatistics",
+          "recomputed": true,
+          "range": [
+            0.033333333,
+            480.0
+          ],
+          "statistics": {
+            "count": 14377,
+            "min": 7.9875424953401e-05,
+            "max": 0.02930900540196732,
+            "mean": 0.0006161320581916876,
+            "median": 0.00027431087098821996,
+            "std_sample": 0.0015874149551775845
+          }
+        },
+        {
+          "id": "335",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 0.29430963412333083,
+          "range": [
+            0.033333333,
+            480.0
+          ],
+          "unit": "W min"
+        },
+        {
+          "id": "339",
+          "type": "PageHelperDataStatistics",
+          "recomputed": true,
+          "range": [
+            0.0,
+            480.0
+          ],
+          "statistics": {
+            "count": 14401,
+            "min": -8.2501144398e-05,
+            "max": 0.006287387691308856,
+            "mean": 0.0005391846619464546,
+            "median": 0.00048228672805413603,
+            "std_sample": 0.00028810048338957626
+          }
+        },
+        {
+          "id": "336",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 0.2587925659328023,
+          "range": [
+            0.0,
+            480.0
+          ],
+          "unit": "W min"
+        }
+      ],
+      "traces": [
+        {
+          "x": "166",
+          "y": "325",
+          "samples": 14401,
+          "finite_pairs": 14377
+        },
+        {
+          "x": "190",
+          "y": "319",
+          "samples": 14401,
+          "finite_pairs": 14401
+        },
+        {
+          "x": "201",
+          "y": "322",
+          "samples": 14401,
+          "finite_pairs": 14401
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "166: special cell tokens retained as missing values; original tokens in metadata",
+    "168: special cell tokens retained as missing values; original tokens in metadata",
+    "174: special cell tokens retained as missing values; original tokens in metadata"
+  ],
+  "analysis_helpers_xml": [
+    "<PageHelperLegend>\n      <ID>208 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>11.7842 0.445 14.0030881836 1.0139453125 </Bounds>\n      <SubordinateToID>170</SubordinateToID>\n      <SubordinateOffset>11.7842 0.4375</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x2f2f 0x4f4f 0x2f2f| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n    </PageHelperLegend>\n    ",
+    "<PageHelperDataIntegral>\n      <ID>337 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>5.55729166667 5.60645833333 8.08269498698 6.03575520833 </Bounds>\n      <SubordinateToID>170</SubordinateToID>\n      <SubordinateOffset>5.55729166667 5.59895833333</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>322</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>201</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n    ",
+    "<PageHelperDataStatistics>\n      <ID>340 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>8.36979166667 5.31479166667 11.0131149089 6.21088541667 </Bounds>\n      <SubordinateToID>170</SubordinateToID>\n      <SubordinateOffset>8.36979166667 5.30729166667</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>322</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>201</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataStatistics>\n    ",
+    "<PageHelperDataStatistics>\n      <ID>338 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>3.63020833333 2.76270833333 6.48514046224 3.65880208333 </Bounds>\n      <SubordinateToID>170</SubordinateToID>\n      <SubordinateOffset>3.63020833333 2.75520833333</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0.033333333</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>325</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>166</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataStatistics>\n    ",
+    "<PageHelperDataIntegral>\n      <ID>335 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>1.09375 3.241875 3.54963427734 3.671171875 </Bounds>\n      <SubordinateToID>170</SubordinateToID>\n      <SubordinateOffset>1.09375 3.234375</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0.033333333</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>325</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>166</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n    ",
+    "<PageHelperDataStatistics>\n      <ID>339 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>10.7552083333 3.39291666667 13.5822473958 4.28901041667 </Bounds>\n      <SubordinateToID>170</SubordinateToID>\n      <SubordinateOffset>10.7552083333 3.38541666667</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>319</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>190</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataStatistics>\n    ",
+    "<PageHelperDataIntegral>\n      <ID>336 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>8.078125 3.648125 10.6730473633 4.077421875 </Bounds>\n      <SubordinateToID>170</SubordinateToID>\n      <SubordinateOffset>8.078125 3.640625</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>480</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>319</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>190</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n  "
+  ]
+}

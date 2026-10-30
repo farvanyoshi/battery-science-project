@@ -1,0 +1,233 @@
+{
+  "source": "Voltage & Current v. Time, Iteration 5.cmbl",
+  "sha256": "38a7bb35587bf2c1340e841c981bad3d680722e1766c8e7cbbc6817d82986f5b",
+  "gzip": true,
+  "xml_repaired": true,
+  "datasets": [
+    {
+      "id": "567",
+      "name": "Discharge 1",
+      "columns": [
+        {
+          "id": "568",
+          "name": "Time",
+          "units": "min",
+          "dataset": "Discharge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "570",
+          "name": "Current",
+          "units": "A",
+          "dataset": "Discharge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "576",
+          "name": "Potential Difference",
+          "units": "V",
+          "dataset": "Discharge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "656",
+          "name": "Power",
+          "units": "W",
+          "dataset": "Discharge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": false,
+          "special_cells": {},
+          "xml": "<DataColumn>\n      <ID>656 </ID>\n      <BroadcastTo>3 17 572 573 </BroadcastTo>\n      <Visible>1</Visible>\n      <DataObjectName>Power</DataObjectName>\n      <DataObjectShortName>P</DataObjectShortName>\n      <DataObjectColor>0x2f2f 0x4f4f 0x2f2f| 0xffff 0x0</DataObjectColor>\n      <DataObjectDataSource>658</DataObjectDataSource>\n      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>\n      <DataObjectPrecision>3</DataObjectPrecision>\n      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>\n      <DataObjectThickLines>0</DataObjectThickLines>\n      <ColumnUnits>W</ColumnUnits>\n      <ColumnProtected>1</ColumnProtected>\n      <ColumnUserEditable>1</ColumnUserEditable>\n      <ColumnTreatAsText>0</ColumnTreatAsText>\n      <ColumnDataType>0</ColumnDataType>\n      <StartTime>1737401997</StartTime>\n      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>\n      <ColumnGeoRole>n-a</ColumnGeoRole>\n      <ColumnGeoDisplay>DD</ColumnGeoDisplay>\n      <ColumnUserCreated>1</ColumnUserCreated>\n      <ColumnPPStyle>6</ColumnPPStyle>\n      <ColumnPPSize>2</ColumnPPSize>\n      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>\n      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>\n      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>\n      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>\n      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>\n      <ColumnErrorFixed>1</ColumnErrorFixed>\n      <ColumnErrorConstant>1</ColumnErrorConstant>\n      <ColumnErrorValue>0</ColumnErrorValue>\n      <ColumnErrorColumnID>0</ColumnErrorColumnID>\n      <ColumnForceScientific>0</ColumnForceScientific>\n      <ColumnSensorColumn>0</ColumnSensorColumn>\n      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>\n      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>\n      <ColumnMatchTag />\n      <ColumnStartCollectTime>0</ColumnStartCollectTime>\n      <ColumnGenerateValues>0</ColumnGenerateValues>\n      <ColumnGenerateType>0</ColumnGenerateType>\n      <ColumnStart>1</ColumnStart>\n      <ColumnEnd>100</ColumnEnd>\n      <ColumnIncrement>1</ColumnIncrement>\n      <ColumnNameStart>0</ColumnNameStart>\n      <ColumnNumber>10</ColumnNumber>\n      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>\n      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>\n      <ColumnGroupID>657</ColumnGroupID>\n    </DataColumn>\n  ",
+          "formula": "\"Current\"*\"Potential Difference\""
+        }
+      ],
+      "csv": "dataset_567.csv",
+      "rows": 5303
+    },
+    {
+      "id": "580",
+      "name": "Discharge 2",
+      "columns": [
+        {
+          "id": "583",
+          "name": "Time",
+          "units": "min",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "586",
+          "name": "Current",
+          "units": "A",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "589",
+          "name": "Potential Difference",
+          "units": "V",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {
+            "0": "Z1 2:",
+            "1": "Z1 2:",
+            "2": "Z1 2:",
+            "3": "Z1 2:"
+          },
+          "xml": null
+        },
+        {
+          "id": "653",
+          "name": "Power",
+          "units": "W",
+          "dataset": "Discharge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": false,
+          "special_cells": {},
+          "xml": "<DataColumn>\n      <ID>653 </ID>\n      <BroadcastTo>3 17 572 573 </BroadcastTo>\n      <Visible>1</Visible>\n      <DataObjectName>Power</DataObjectName>\n      <DataObjectShortName>P</DataObjectShortName>\n      <DataObjectColor>0x0 0x8b8b 0x4545| 0xffff 0x0</DataObjectColor>\n      <DataObjectDataSource>655</DataObjectDataSource>\n      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>\n      <DataObjectPrecision>3</DataObjectPrecision>\n      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>\n      <DataObjectThickLines>0</DataObjectThickLines>\n      <ColumnUnits>W</ColumnUnits>\n      <ColumnProtected>1</ColumnProtected>\n      <ColumnUserEditable>1</ColumnUserEditable>\n      <ColumnTreatAsText>0</ColumnTreatAsText>\n      <ColumnDataType>0</ColumnDataType>\n      <StartTime>1737401997</StartTime>\n      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>\n      <ColumnGeoRole>n-a</ColumnGeoRole>\n      <ColumnGeoDisplay>DD</ColumnGeoDisplay>\n      <ColumnUserCreated>1</ColumnUserCreated>\n      <ColumnPPStyle>5</ColumnPPStyle>\n      <ColumnPPSize>2</ColumnPPSize>\n      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>\n      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>\n      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>\n      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>\n      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>\n      <ColumnErrorFixed>1</ColumnErrorFixed>\n      <ColumnErrorConstant>1</ColumnErrorConstant>\n      <ColumnErrorValue>0</ColumnErrorValue>\n      <ColumnErrorColumnID>0</ColumnErrorColumnID>\n      <ColumnForceScientific>0</ColumnForceScientific>\n      <ColumnSensorColumn>0</ColumnSensorColumn>\n      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>\n      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>\n      <ColumnMatchTag />\n      <ColumnStartCollectTime>0</ColumnStartCollectTime>\n      <ColumnGenerateValues>0</ColumnGenerateValues>\n      <ColumnGenerateType>0</ColumnGenerateType>\n      <ColumnStart>1</ColumnStart>\n      <ColumnEnd>100</ColumnEnd>\n      <ColumnIncrement>1</ColumnIncrement>\n      <ColumnNameStart>0</ColumnNameStart>\n      <ColumnNumber>10</ColumnNumber>\n      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>\n      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>\n      <ColumnGroupID>654</ColumnGroupID>\n    </DataColumn>\n  ",
+          "formula": "\"Current\"*\"Potential Difference\""
+        }
+      ],
+      "csv": "dataset_580.csv",
+      "rows": 2652
+    }
+  ],
+  "graphs": [
+    {
+      "id": "572",
+      "xml": "<PageGraphCartesian>\n      <ID>572 </ID>\n      <BroadcastTo>5 578 659 660 661 662 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>0 0.0075 14.2217 7.9925 </Bounds>\n      <SubordinateToID>0</SubordinateToID>\n      <SubordinateOffset>0 0</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>1</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 12 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GraphTitle>Power v. Time for Each Discharge of Iteration 5</GraphTitle>\n      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x0</GraphTitleColor>\n      <GraphShowPoints>0</GraphShowPoints>\n      <GraphInterpolate>0</GraphInterpolate>\n      <GraphShowTangent>0</GraphShowTangent>\n      <GraphShowLegend>1</GraphShowLegend>\n      <GraphShowCursorStatus>1</GraphShowCursorStatus>\n      <GraphShowCursorDelta>1</GraphShowCursorDelta>\n      <GraphPlotBaseColumnID>583 </GraphPlotBaseColumnID>\n      <GraphPlotTraceIDPairs>2 568 656 583 653 </GraphPlotTraceIDPairs>\n      <LogXAxis>0</LogXAxis>\n      <LogYAxis>0</LogYAxis>\n      <LogRightYAxis>0</LogRightYAxis>\n      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>\n      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>\n      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>\n      <GraphConnectLines>0</GraphConnectLines>\n      <GraphBarGraph>0</GraphBarGraph>\n      <BinGraphStackColumns>0</BinGraphStackColumns>\n      <GraphShowPointProtectors>0</GraphShowPointProtectors>\n      <GraphMajorTickStyle>1</GraphMajorTickStyle>\n      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMajorTickColor>\n      <GraphMinorTickStyle>0</GraphMinorTickStyle>\n      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMinorTickColor>\n      <GraphPlotXAutoscale>1</GraphPlotXAutoscale>\n      <GraphPlotYAutoscale>1</GraphPlotYAutoscale>\n      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>\n      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>\n      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>\n      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>\n      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>\n      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>\n      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>\n      <GraphPlotXMin>0</GraphPlotXMin>\n      <GraphPlotXMax>90</GraphPlotXMax>\n      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>\n      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>\n      <GraphPlotYMin>0</GraphPlotYMin>\n      <GraphPlotYMax>0.26</GraphPlotYMax>\n      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>\n      <GraphPlotDefaultXMax>90</GraphPlotDefaultXMax>\n      <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>\n      <GraphPlotDefaultYMax>0.26</GraphPlotDefaultYMax>\n      <GraphPlotXLabel />\n      <GraphPlotYLabel />\n      <GraphDrawRainbow>0</GraphDrawRainbow>\n      <AudioTraceIDs>2 656 653 </AudioTraceIDs>\n      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>\n    </PageGraphCartesian>\n    ",
+      "files": [
+        "graph_572_faithful.png",
+        "graph_572_faithful.pdf",
+        "graph_572_faithful.svg",
+        "graph_572_paper.png",
+        "graph_572_paper.pdf",
+        "graph_572_paper.svg"
+      ],
+      "analysis": [
+        {
+          "id": "659",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 0.2821228676311932,
+          "range": [
+            0.0,
+            88.36666667
+          ],
+          "unit": "W min"
+        },
+        {
+          "id": "660",
+          "type": "PageHelperDataIntegral",
+          "recomputed": true,
+          "method": "trapezoids between adjacent finite samples within saved range; no gap bridging",
+          "value": 1.710301830571744,
+          "range": [
+            0.133333333,
+            88.36666667
+          ],
+          "unit": "W min"
+        },
+        {
+          "id": "662",
+          "type": "PageHelperDataStatistics",
+          "recomputed": true,
+          "range": [
+            0.133333333,
+            88.36666667
+          ],
+          "statistics": {
+            "count": 2648,
+            "min": 0.000109510449400097,
+            "max": 0.25910310494910044,
+            "mean": 0.01942548041175016,
+            "median": 0.000519630668930486,
+            "std_sample": 0.04861264294592926
+          }
+        },
+        {
+          "id": "661",
+          "type": "PageHelperDataStatistics",
+          "recomputed": true,
+          "range": [
+            0.0,
+            88.36666667
+          ],
+          "statistics": {
+            "count": 5303,
+            "min": 0.00161172319490619,
+            "max": 0.004689041011327952,
+            "mean": 0.0031926183105529305,
+            "median": 0.00295752429265216,
+            "std_sample": 0.0006095620763111992
+          }
+        }
+      ],
+      "traces": [
+        {
+          "x": "568",
+          "y": "656",
+          "samples": 5303,
+          "finite_pairs": 5303
+        },
+        {
+          "x": "583",
+          "y": "653",
+          "samples": 2652,
+          "finite_pairs": 2648
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "589: special cell tokens retained as missing values; original tokens in metadata"
+  ],
+  "analysis_helpers_xml": [
+    "<PageHelperLegend>\n      <ID>578 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>11.4061 0.4075 12.8885379883 0.836796875 </Bounds>\n      <SubordinateToID>572</SubordinateToID>\n      <SubordinateOffset>11.4061 0.4</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x8b8b 0x4545| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n    </PageHelperLegend>\n    ",
+    "<PageHelperDataIntegral>\n      <ID>659 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>5.40104166667 6.585625 7.25951383464 7.014921875 </Bounds>\n      <SubordinateToID>572</SubordinateToID>\n      <SubordinateOffset>5.40104166667 6.578125</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>88.36666667</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>656</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>568</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n    ",
+    "<PageHelperDataIntegral>\n      <ID>660 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>2.20833333333 4.50229166667 4.0668055013 4.93158854167 </Bounds>\n      <SubordinateToID>572</SubordinateToID>\n      <SubordinateOffset>2.20833333333 4.49479166667</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0.133333333</GUIHelperRangeMin>\n      <GUIHelperRangeMax>88.36666667</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>653</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>583</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataIntegral>\n    ",
+    "<PageHelperDataStatistics>\n      <ID>662 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>2.11979166667 3.39291666667 4.84972379557 4.28901041667 </Bounds>\n      <SubordinateToID>572</SubordinateToID>\n      <SubordinateOffset>2.11979166667 3.38541666667</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0.133333333</GUIHelperRangeMin>\n      <GUIHelperRangeMax>88.36666667</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>653</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>583</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataStatistics>\n    ",
+    "<PageHelperDataStatistics>\n      <ID>661 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>3.05729166667 5.53875 5.85674283854 6.43484375 </Bounds>\n      <SubordinateToID>572</SubordinateToID>\n      <SubordinateOffset>3.05729166667 5.53125</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>0</GUIHelperRangeMin>\n      <GUIHelperRangeMax>88.36666667</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>656</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>568</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n    </PageHelperDataStatistics>\n  "
+  ]
+}

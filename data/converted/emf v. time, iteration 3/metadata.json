@@ -1,0 +1,314 @@
+{
+  "source": "emf v. time, iteration 3.cmbl",
+  "sha256": "f38fdbea8ce39c44b55d06f255ce12ededf40b65ffd8d4ef5e9c56611692c373",
+  "gzip": false,
+  "xml_repaired": false,
+  "datasets": [
+    {
+      "id": "366",
+      "name": "Charge 1",
+      "columns": [
+        {
+          "id": "367",
+          "name": "Time",
+          "units": "min",
+          "dataset": "Charge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "369",
+          "name": "Potential Difference",
+          "units": "V",
+          "dataset": "Charge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {
+            "0": "Z1 2:",
+            "1": "Z1 2:",
+            "2": "Z1 2:",
+            "3": "Z1 2:",
+            "4": "Z1 2:",
+            "6": "Z1 2:",
+            "7": "Z1 2:",
+            "8": "Z1 2:",
+            "9": "Z1 2:",
+            "11": "Z1 2:",
+            "12": "Z1 2:",
+            "13": "Z1 2:",
+            "14": "Z1 2:",
+            "16": "Z1 2:",
+            "17": "Z1 2:",
+            "18": "Z1 2:",
+            "19": "Z1 2:",
+            "21": "Z1 2:",
+            "22": "Z1 2:",
+            "23": "Z1 2:",
+            "24": "Z1 2:",
+            "26": "Z1 2:",
+            "27": "Z1 2:",
+            "28": "Z1 2:",
+            "29": "Z1 2:",
+            "31": "Z1 2:",
+            "32": "Z1 2:",
+            "33": "Z1 2:",
+            "34": "Z1 2:",
+            "36": "Z1 2:",
+            "37": "Z1 2:",
+            "38": "Z1 2:",
+            "39": "Z1 2:",
+            "41": "Z1 2:",
+            "42": "Z1 2:",
+            "43": "Z1 2:",
+            "44": "Z1 2:",
+            "46": "Z1 2:",
+            "47": "Z1 2:",
+            "48": "Z1 2:",
+            "49": "Z1 2:",
+            "51": "Z1 2:",
+            "52": "Z1 2:",
+            "53": "Z1 2:",
+            "54": "Z1 2:",
+            "56": "Z1 2:",
+            "57": "Z1 2:",
+            "58": "Z1 2:",
+            "59": "Z1 2:"
+          },
+          "xml": null
+        },
+        {
+          "id": "375",
+          "name": "Current",
+          "units": "A",
+          "dataset": "Charge 1",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {
+            "5": "Z1 2:",
+            "10": "Z1 2:",
+            "15": "Z1 2:",
+            "20": "Z1 2:",
+            "25": "Z1 2:",
+            "30": "Z1 2:",
+            "35": "Z1 2:",
+            "41": "Z1 2:",
+            "45": "Z1 2:",
+            "50": "Z1 2:",
+            "55": "Z1 2:"
+          },
+          "xml": null
+        }
+      ],
+      "csv": "dataset_366.csv",
+      "rows": 61
+    },
+    {
+      "id": "410",
+      "name": "Charge 2",
+      "columns": [
+        {
+          "id": "413",
+          "name": "Time",
+          "units": "min",
+          "dataset": "Charge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {},
+          "xml": null
+        },
+        {
+          "id": "416",
+          "name": "Potential Difference",
+          "units": "V",
+          "dataset": "Charge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {
+            "0": "Z1 2:",
+            "1": "Z1 2:",
+            "2": "Z1 2:",
+            "3": "Z1 2:",
+            "4": "Z1 2:",
+            "6": "Z1 2:",
+            "7": "Z1 2:",
+            "8": "Z1 2:",
+            "9": "Z1 2:",
+            "11": "Z1 2:",
+            "12": "Z1 2:",
+            "13": "Z1 2:",
+            "14": "Z1 2:",
+            "16": "Z1 2:",
+            "17": "Z1 2:",
+            "18": "Z1 2:",
+            "19": "Z1 2:",
+            "21": "Z1 2:",
+            "22": "Z1 2:",
+            "23": "Z1 2:",
+            "24": "Z1 2:",
+            "26": "Z1 2:",
+            "27": "Z1 2:",
+            "28": "Z1 2:",
+            "29": "Z1 2:",
+            "31": "Z1 2:",
+            "32": "Z1 2:",
+            "33": "Z1 2:",
+            "34": "Z1 2:",
+            "36": "Z1 2:",
+            "37": "Z1 2:",
+            "38": "Z1 2:",
+            "39": "Z1 2:",
+            "41": "Z1 2:",
+            "42": "Z1 2:",
+            "43": "Z1 2:",
+            "44": "Z1 2:",
+            "46": "Z1 2:",
+            "47": "Z1 2:",
+            "48": "Z1 2:",
+            "49": "Z1 2:",
+            "51": "Z1 2:",
+            "52": "Z1 2:",
+            "53": "Z1 2:",
+            "54": "Z1 2:",
+            "56": "Z1 2:",
+            "57": "Z1 2:",
+            "58": "Z1 2:",
+            "59": "Z1 2:"
+          },
+          "xml": null
+        },
+        {
+          "id": "419",
+          "name": "Current",
+          "units": "A",
+          "dataset": "Charge 2",
+          "error_enabled": false,
+          "error_constant": "1",
+          "error_value": "0",
+          "error_column": "0",
+          "stored": true,
+          "special_cells": {
+            "5": "Z1 2:",
+            "10": "Z1 2:",
+            "15": "Z1 2:",
+            "20": "Z1 2:",
+            "25": "Z1 2:",
+            "30": "Z1 2:",
+            "35": "Z1 2:",
+            "40": "Z1 2:",
+            "45": "Z1 2:",
+            "50": "Z1 2:",
+            "55": "Z1 2:"
+          },
+          "xml": null
+        }
+      ],
+      "csv": "dataset_410.csv",
+      "rows": 61
+    },
+    {
+      "id": "457",
+      "name": "&&^% CurveFitFunctions %^&&",
+      "columns": [],
+      "csv": "dataset_457.csv",
+      "rows": 0
+    }
+  ],
+  "graphs": [
+    {
+      "id": "371",
+      "xml": "<PageGraphCartesian>\n      <ID>371 </ID>\n      <BroadcastTo>3 431 456 460 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>0 0.0075 14.2217 7.9925 </Bounds>\n      <SubordinateToID>0</SubordinateToID>\n      <SubordinateOffset>0 0</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>1</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 12 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GraphTitle>EMF v. Time for Each Charge of Iteration 3</GraphTitle>\n      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x0</GraphTitleColor>\n      <GraphShowPoints>0</GraphShowPoints>\n      <GraphInterpolate>0</GraphInterpolate>\n      <GraphShowTangent>0</GraphShowTangent>\n      <GraphShowLegend>1</GraphShowLegend>\n      <GraphShowCursorStatus>1</GraphShowCursorStatus>\n      <GraphShowCursorDelta>1</GraphShowCursorDelta>\n      <GraphPlotBaseColumnID>367 </GraphPlotBaseColumnID>\n      <GraphPlotTraceIDPairs>4 367 369 413 416 367 458 413 461 </GraphPlotTraceIDPairs>\n      <LogXAxis>0</LogXAxis>\n      <LogYAxis>0</LogYAxis>\n      <LogRightYAxis>0</LogRightYAxis>\n      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>\n      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>\n      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>\n      <GraphConnectLines>1</GraphConnectLines>\n      <GraphBarGraph>0</GraphBarGraph>\n      <BinGraphStackColumns>0</BinGraphStackColumns>\n      <GraphShowPointProtectors>1</GraphShowPointProtectors>\n      <GraphMajorTickStyle>1</GraphMajorTickStyle>\n      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMajorTickColor>\n      <GraphMinorTickStyle>0</GraphMinorTickStyle>\n      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMinorTickColor>\n      <GraphPlotXAutoscale>1</GraphPlotXAutoscale>\n      <GraphPlotYAutoscale>1</GraphPlotYAutoscale>\n      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>\n      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>\n      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>\n      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>\n      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>\n      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>\n      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>\n      <GraphPlotXMin>0</GraphPlotXMin>\n      <GraphPlotXMax>60</GraphPlotXMax>\n      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>\n      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>\n      <GraphPlotYMin>0</GraphPlotYMin>\n      <GraphPlotYMax>1.48</GraphPlotYMax>\n      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>\n      <GraphPlotDefaultXMax>60</GraphPlotDefaultXMax>\n      <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>\n      <GraphPlotDefaultYMax>1.48</GraphPlotDefaultYMax>\n      <GraphPlotXLabel />\n      <GraphPlotYLabel />\n      <GraphDrawRainbow>0</GraphDrawRainbow>\n      <AudioTraceIDs>4 369 416 458 461 </AudioTraceIDs>\n      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>\n    </PageGraphCartesian>\n    ",
+      "files": [
+        "graph_371_faithful.png",
+        "graph_371_faithful.pdf",
+        "graph_371_faithful.svg",
+        "graph_371_paper.png",
+        "graph_371_paper.pdf",
+        "graph_371_paper.svg"
+      ],
+      "analysis": [
+        {
+          "id": "460",
+          "type": "PageHelperDataCurveFit",
+          "recomputed": false,
+          "equation": "A*exp(-C*x)+B",
+          "parameters": "3 -0.213261281778 0.104471287678 1.4656036449",
+          "uncertainties": "3 0.0152088317184 0.0103196094639 0.00260556249362",
+          "range": [
+            5.0,
+            60.0
+          ],
+          "rmse": "0.00545796453343",
+          "correlation": "0.992049287618"
+        },
+        {
+          "id": "456",
+          "type": "PageHelperDataCurveFit",
+          "recomputed": false,
+          "equation": "A*exp(-C*x)+B",
+          "parameters": "3 -0.697974787208 0.217399326005 1.33822677976",
+          "uncertainties": "3 0.510319756997 0.13108794127 0.0197354765422",
+          "range": [
+            5.0,
+            60.0
+          ],
+          "rmse": "0.0556982443252",
+          "correlation": "0.806627873732"
+        }
+      ],
+      "traces": [
+        {
+          "x": "367",
+          "y": "369",
+          "samples": 61,
+          "finite_pairs": 12
+        },
+        {
+          "x": "413",
+          "y": "416",
+          "samples": 61,
+          "finite_pairs": 12
+        },
+        {
+          "x": "367",
+          "y": "458",
+          "samples": 600,
+          "finite_pairs": 600
+        },
+        {
+          "x": "413",
+          "y": "461",
+          "samples": 600,
+          "finite_pairs": 600
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "369: special cell tokens retained as missing values; original tokens in metadata",
+    "375: special cell tokens retained as missing values; original tokens in metadata",
+    "416: special cell tokens retained as missing values; original tokens in metadata",
+    "419: special cell tokens retained as missing values; original tokens in metadata"
+  ],
+  "analysis_helpers_xml": [
+    "<PageHelperLegend>\n      <ID>431 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>12.1629274089 1.66270833333 14.2291666667 2.37130208333 </Bounds>\n      <SubordinateToID>371</SubordinateToID>\n      <SubordinateOffset>12.4994824089 1.65520833333</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n    </PageHelperLegend>\n    ",
+    "<PageHelperDataCurveFit>\n      <ID>460 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>1.83854166667 2.64291666667 4.32933805339 3.91401041667 </Bounds>\n      <SubordinateToID>371</SubordinateToID>\n      <SubordinateOffset>1.83854166667 2.63541666667</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>5</GUIHelperRangeMin>\n      <GUIHelperRangeMax>60</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>416</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>413</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n      <CurveFitFunctionID>461</CurveFitFunctionID>\n      <CurveFitColumnID>0</CurveFitColumnID>\n      <CurveFitError>0.00545796453343</CurveFitError>\n      <CurveFitMethod>1</CurveFitMethod>\n      <CurveFitUncertainty>1</CurveFitUncertainty>\n      <ManualCurveFitIncrements>3 0.1 0.1 0.1 </ManualCurveFitIncrements>\n      <ManualCurveFitShowRMSE>1</ManualCurveFitShowRMSE>\n      <ManualCurveFitWeightColumnId>4294967295</ManualCurveFitWeightColumnId>\n      <CurveFitCorrelation>0.992049287618</CurveFitCorrelation>\n    </PageHelperDataCurveFit>\n    ",
+    "<PageHelperDataCurveFit>\n      <ID>456 </ID>\n      <BroadcastTo>0 </BroadcastTo>\n      <Visible>1</Visible>\n      <Bounds>4.83854166667 2.5075 7.32933805339 3.77859375 </Bounds>\n      <SubordinateToID>371</SubordinateToID>\n      <SubordinateOffset>4.83854166667 2.5</SubordinateOffset>\n      <BackgroundTransparent>0</BackgroundTransparent>\n      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>\n      <AddNewData>0</AddNewData>\n      <Locked>0</Locked>\n      <AutoCreated>0</AutoCreated>\n      <GraphLinkedIDs>0 </GraphLinkedIDs>\n      <YLinkedIDs>0 </YLinkedIDs>\n      <Font>\n        <Size> 9 </Size>\n        <Justification> 0 </Justification>\n        <VerticalJustification> 0 </VerticalJustification>\n        <Styles> 0 0 0 0 0 0 </Styles>\n        <Family> 3 </Family>\n        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>\n        <Name>Arial</Name>\n        <Rotation>0</Rotation>\n      </Font>\n      <GUIHelperRangeMin>5</GUIHelperRangeMin>\n      <GUIHelperRangeMax>60</GUIHelperRangeMax>\n      <GUIHelperTraceColumnID>369</GUIHelperTraceColumnID>\n      <GUIHelperBaseColumnID>367</GUIHelperBaseColumnID>\n      <GUIHelperPrecision>4</GUIHelperPrecision>\n      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>\n      <GUIHelperMinimized>0</GUIHelperMinimized>\n      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>\n      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>\n      <CurveFitFunctionID>458</CurveFitFunctionID>\n      <CurveFitColumnID>0</CurveFitColumnID>\n      <CurveFitError>0.0556982443252</CurveFitError>\n      <CurveFitMethod>1</CurveFitMethod>\n      <CurveFitUncertainty>1</CurveFitUncertainty>\n      <ManualCurveFitIncrements>3 0.0697975 0.0217399 0.133823 </ManualCurveFitIncrements>\n      <ManualCurveFitShowRMSE>1</ManualCurveFitShowRMSE>\n      <ManualCurveFitWeightColumnId>4294967295</ManualCurveFitWeightColumnId>\n      <CurveFitCorrelation>0.806627873732</CurveFitCorrelation>\n    </PageHelperDataCurveFit>\n  "
+  ]
+}
