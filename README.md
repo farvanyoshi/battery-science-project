@@ -22,6 +22,8 @@ the EMF. An AA NiMH cell was discharged for comparison.
 
 All values are generated in `data/processed/` from the raw Logger Pro files.
 
+- Iteration 1 was used for testing whether the design was feasible and as such proper measurements were not taken
+  of the data. For this reason, it is not included in data analysis.
 - Only Iteration 5 showed a battery-like discharge. It held above 1.8 V for about 40 minutes across 1000 Ω before
   dropping off, and gave by far the most useful charge and energy.
 - Iteration 4 short-circuited on its first discharge: 1.009 A through a nominal 10 Ω load at only 0.094 V.
