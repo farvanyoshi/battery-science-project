@@ -1,11 +1,9 @@
-"""Access to the Logger Pro runs exported to logger-pro/converted (see logger-pro/README.md)."""
+"""Access to the runs in data/tidy, the cleaned-up data book (see data/README.md)."""
 
 from __future__ import annotations
 
 import csv
-import json
 import math
-import re
 from dataclasses import dataclass
 from functools import cache
 from pathlib import Path
@@ -13,14 +11,14 @@ from pathlib import Path
 import numpy as np
 
 REPO = Path(__file__).resolve().parents[2]
-CONVERTED = REPO / "logger-pro" / "converted"
+TIDY = REPO / "data" / "tidy"
 
-# CSV headers look like "Potential Difference [V] (id 104)".
-_HEADER = re.compile(r"^(?P<name>.*?) \[(?P<unit>.*)\] \(id (?P<id>\d+)\)$")
+# Tidy column -> unit.
+UNITS = {"time_min": "min", "potential_v": "V", "current_a": "A", "power_w": "W"}
 
 
 class DataError(ValueError):
-    """Raised when a requested file, run or column does not exist."""
+    """Raised when a requested run or column does not exist."""
 
 
 @dataclass(frozen=True)
@@ -40,41 +38,29 @@ class Column:
         keep = (self.t >= lo) & (self.t <= hi)
         return Column(self.name, self.unit, self.t[keep], self.y[keep])
 
+    def normalized(self) -> Column:
+        """Every value divided by the first reading of the run."""
+        first = self.y[np.isfinite(self.y)][0]
+        return Column(f"normalized {self.name}", "", self.t, self.y / first)
+
 
 @cache
-def _metadata(source: str) -> dict:
-    path = CONVERTED / source / "metadata.json"
+def _table(run: str) -> tuple[list[str], np.ndarray]:
+    path = TIDY / f"{run}.csv"
     if not path.exists():
-        raise DataError(f"no converted Logger Pro file named '{source}' in {CONVERTED}")
-    return json.loads(path.read_text(encoding="utf-8"))
-
-
-@cache
-def _table(source: str, run: str) -> tuple[list[tuple[str, str]], np.ndarray]:
-    datasets = [d for d in _metadata(source)["datasets"] if d["name"] == run]
-    if len(datasets) != 1:
-        raise DataError(f"'{source}' has {len(datasets)} runs named '{run}'")
-    with (CONVERTED / source / datasets[0]["csv"]).open(newline="", encoding="utf-8") as f:
+        raise DataError(f"no tidy run '{run}' in {TIDY}")
+    with path.open(newline="", encoding="utf-8") as f:
         rows = list(csv.reader(f))
-    header = []
-    for cell in rows[0]:
-        m = _HEADER.match(cell)
-        if not m:
-            raise DataError(f"unexpected column header '{cell}' in '{source}'")
-        header.append((m["name"], m["unit"]))
     values = np.array([[float(x) if x else np.nan for x in row] for row in rows[1:]], dtype=float)
-    return header, values.reshape(len(rows) - 1, len(header))
+    return rows[0], values.reshape(len(rows) - 1, len(rows[0]))
 
 
-def column(source: str, run: str, name: str) -> Column:
-    """A column of one run, e.g. `column("NiMH Discharge", "NiMH Discharge 1", "Current")`.
+def column(run: str, name: str) -> Column:
+    """A column of one run, e.g. `column("commercial/nimh-discharge", "current_a")`.
 
-    The time base is the run's "Time" column (minutes).
+    The time base is the run's time_min column.
     """
-    header, values = _table(source, run)
-    names = [n for n, _ in header]
-    if name not in names:
-        raise DataError(f"run '{run}' in '{source}' has no column '{name}' (has {names})")
-    t = values[:, names.index("Time")]
-    i = names.index(name)
-    return Column(name, header[i][1], t, values[:, i])
+    header, values = _table(run)
+    if name not in header:
+        raise DataError(f"run '{run}' has no column '{name}' (has {header})")
+    return Column(name, UNITS[name], values[:, header.index("time_min")], values[:, header.index(name)])

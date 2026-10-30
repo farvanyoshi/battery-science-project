@@ -7,7 +7,8 @@ from pathlib import Path
 
 import numpy as np
 
-from zinclab.runs import REPO, column
+from zinclab.loggerpro import column
+from zinclab.runs import REPO
 from zinclab.spec import FIGURES, SERIES, VC
 from zinclab.stats import ExponentialFit, integral, statistics
 

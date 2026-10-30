@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.ticker import AutoMinorLocator, ScalarFormatter
 
-from zinclab.runs import column
+from zinclab.loggerpro import column
 from zinclab.spec import FIGURES, SERIES, Figure
 
 INK = "#0b0b0b"

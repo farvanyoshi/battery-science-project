@@ -1,10 +1,13 @@
-# Build everything with `make`. Requires Python >= 3.10 (numpy, matplotlib, scipy) and Typst >= 0.15.
+# Build everything with `make`. Requires Python >= 3.10 (numpy, matplotlib, scipy, openpyxl) and Typst >= 0.15.
 PYTHON ?= python3
 TYPST  ?= typst
 
-.PHONY: all data test verify paper check convert clean
+.PHONY: all tidy data test verify paper check convert clean
 
 all: data paper
+
+tidy:                        ## split data/raw/the-data-book.xlsx into the CSV files in data/tidy
+	cd analysis && $(PYTHON) -m zinclab tidy
 
 data:                        ## regenerate data/processed and the graphs in assets/figures
 	cd analysis && $(PYTHON) -m zinclab build
@@ -23,9 +26,10 @@ build/paper.pdf: paper.typ lib/*.typ paper/*.typ data/processed/*.csv data/origi
 build:
 	mkdir -p build
 
-check: test                  ## tests + fail if the committed processed data or report is stale
-	cd analysis && $(PYTHON) -m zinclab build --no-figures && $(PYTHON) -m zinclab verify
-	git diff --exit-code -- data/processed docs
+check: test                  ## tests + fail if the committed tidy data, processed data or report is stale
+	cd analysis && $(PYTHON) -m zinclab tidy && $(PYTHON) -m zinclab build --no-figures && $(PYTHON) -m zinclab verify
+	git diff --exit-code -- data/tidy data/processed docs
+	test -z "$$(git status --porcelain -- data/tidy data/processed)"
 
 convert:                     ## re-export logger-pro/files/*.cmbl into logger-pro/converted (slow)
 	rm -rf build/cmbl && mkdir -p build/cmbl

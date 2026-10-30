@@ -1,0 +1,133 @@
+run,book_row,column,book_value,action,reason
+iteration-1/discharge-2,426,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,426,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,427,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,427,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,428,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,428,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,429,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,429,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,430,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,430,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,431,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,431,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,432,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,432,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,433,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,433,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,434,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,434,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,435,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,435,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,436,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,436,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,437,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,437,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,438,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,438,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,439,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,439,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,440,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,440,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,441,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,441,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,442,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,442,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,443,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,443,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,444,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,444,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,445,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,445,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,446,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,446,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,447,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,447,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,448,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,448,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,449,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,449,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,450,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,450,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,451,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,451,power_w,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,452,potential_v,#REF!,removed,Broken formula in the book
+iteration-1/discharge-2,452,power_w,#REF!,removed,Broken formula in the book
+iteration-3/discharge-1,79,potential_v,0.226020812988,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,79,current_a,0.0148582458496,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,79,power_w,0.003358272806502169,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,80,potential_v,0.0825881958008,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,80,current_a,0.000514984130859,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,80,power_w,4.25316102336879e-05,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,81,potential_v,0.0764846801758,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,81,current_a,0.000209808349609,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,81,power_w,1.60471245180568e-05,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,82,potential_v,0.0701904296875,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,82,current_a,0.000209808349609,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,82,power_w,1.4726538211080933e-05,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,83,potential_v,0.0732421875,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,83,current_a,-9.53674316406e-05,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,83,power_w,-6.984919309614258e-06,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,84,potential_v,0.0732421875,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,84,current_a,0.000209808349609,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,84,power_w,1.536682248112793e-05,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,85,potential_v,0.649833679199,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,85,current_a,0.0581741333008,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,85,power_w,0.03780351107707193,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,86,potential_v,0.627899169922,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,86,current_a,0.055980682373,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,86,power_w,0.03515022399367384,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,87,potential_v,0.631141662598,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,87,current_a,0.0563049316406,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,87,power_w,0.03553638816811502,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,88,potential_v,0.603103637695,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,88,current_a,0.0535011291504,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,88,power_w,0.03226672561139624,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,89,potential_v,0.578117370605,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,89,current_a,0.0513076782227,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,89,power_w,0.029661860025954744,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,90,potential_v,0.584411621094,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,90,current_a,0.0513076782227,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,90,power_w,0.02998480340469743,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,91,potential_v,0.534439086914,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,91,current_a,0.046329498291,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,91,power_w,0.02476029476382576,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,92,potential_v,0.500297546387,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,92,current_a,0.0425910949707,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,92,power_w,0.021308220311776906,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,93,potential_v,0.48770904541,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,93,current_a,0.0413513183594,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,93,power_w,0.02016741200350798,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,94,potential_v,0.469017028809,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,94,current_a,0.0397872924805,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,94,power_w,0.01866091770355878,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,95,potential_v,0.462913513184,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,95,current_a,0.0388526916504,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,95,power_w,0.017985435988541326,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,96,potential_v,0.450325012207,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,96,current_a,0.0379180908203,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,96,power_w,0.017075464711517732,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,97,potential_v,0.450325012207,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,97,current_a,0.0375938415527,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,97,power_w,0.016929447156127653,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,98,potential_v,0.444221496582,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,98,current_a,0.0366592407227,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,98,power_w,0.01628482277739759,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,99,potential_v,0.434875488281,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,99,current_a,0.0366592407227,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,99,power_w,0.01594220520929488,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,100,potential_v,0.434875488281,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,100,current_a,0.0360488891602,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,100,power_w,0.015676778275529622,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,101,potential_v,0.428581237793,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,101,current_a,0.0357246398926,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-3/discharge-1,101,power_w,0.015310910384879696,removed,Probe glitch: the potential drops from 0.41 V to 0.07 V and jumps to 0.65 V (struck out in Logger Pro)
+iteration-4/discharge-1,3-14403,"potential_v, current_a",,swapped,The book has the potential difference and current columns swapped for this run
+iteration-5/discharge-2,3,potential_v,1.30977630615,removed,"Readings before the probe settled, including a 5.087 V spike (struck out in Logger Pro)"
+iteration-5/discharge-2,3,power_w,0.21384592400858246,removed,"Readings before the probe settled, including a 5.087 V spike (struck out in Logger Pro)"
+iteration-5/discharge-2,4,potential_v,1.26628875732,removed,"Readings before the probe settled, including a 5.087 V spike (struck out in Logger Pro)"
+iteration-5/discharge-2,4,power_w,0.2051758383446768,removed,"Readings before the probe settled, including a 5.087 V spike (struck out in Logger Pro)"
+iteration-5/discharge-2,5,potential_v,1.30977630615,removed,"Readings before the probe settled, including a 5.087 V spike (struck out in Logger Pro)"
+iteration-5/discharge-2,5,power_w,0.2105982639472592,removed,"Readings before the probe settled, including a 5.087 V spike (struck out in Logger Pro)"
+iteration-5/discharge-2,6,potential_v,5.08728027344,removed,"Readings before the probe settled, including a 5.087 V spike (struck out in Logger Pro)"
+iteration-5/discharge-2,6,power_w,0.8115770760905355,removed,"Readings before the probe settled, including a 5.087 V spike (struck out in Logger Pro)"

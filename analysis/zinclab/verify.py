@@ -9,7 +9,8 @@ from pathlib import Path
 import numpy as np
 
 from zinclab.pipeline import DISCHARGES, ORIGINAL, USEFUL_VOLTAGE, effective, fit_for, read_csv, readouts
-from zinclab.runs import REPO, column
+from zinclab.loggerpro import column
+from zinclab.runs import REPO
 from zinclab.spec import BY_LABEL, EMF, VC
 from zinclab.stats import fit_quality, refit, statistics
 

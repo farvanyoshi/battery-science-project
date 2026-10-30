@@ -7,7 +7,8 @@ import unittest
 import numpy as np
 
 from zinclab.pipeline import ORIGINAL, effective, readouts
-from zinclab.runs import Column, column
+from zinclab.loggerpro import column
+from zinclab.runs import Column
 from zinclab.stats import integral, statistics
 
 
