@@ -28,7 +28,7 @@
   s.replace("-", "−")
 }
 
-/// Format a number to `n` significant figures, as Logger Pro shows them (four by default).
+/// Format a number to `n` significant figures, as the original graphs showed them (four by default).
 /// Values below 10⁻⁴ are written in scientific notation.
 #let sig(x, n: 4) = {
   let x = float(x)

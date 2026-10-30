@@ -1,18 +1,20 @@
-"""Compares the submitted paper with the Logger Pro data and writes docs/VERIFICATION.md."""
+"""Compares the submitted paper with the data book and writes docs/VERIFICATION.md."""
 
 from __future__ import annotations
 
+import csv
 import math
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
 
+from zinclab.book import BY_ID
 from zinclab.pipeline import DISCHARGES, ORIGINAL, USEFUL_VOLTAGE, effective, fit_for, read_csv, readouts
-from zinclab.loggerpro import column
-from zinclab.runs import REPO
-from zinclab.spec import BY_LABEL, EMF, VC
-from zinclab.stats import fit_quality, refit, statistics
+from zinclab.runs import REPO, TIDY
+from zinclab.spec import BY_LABEL, CURRENT, POTENTIAL, POWER, paper_column, run
+from zinclab.stats import fit_quality
 
 REPORT = REPO / "docs" / "VERIFICATION.md"
 
@@ -34,46 +36,94 @@ def agrees(new: float, original: str) -> bool:
     return abs(new - o) <= 0.5 * 10 ** (exp - decimals) * 1.0001
 
 
-def pct(new: float, original: float) -> str:
-    return "—" if original == 0 else f"{(new - original) / abs(original):+.1%}"
-
-
 def table(header: list[str], rows: list[list]) -> str:
     lines = ["| " + " | ".join(header) + " |", "|" + "---|" * len(header)]
     lines += ["| " + " | ".join(str(c) for c in r) + " |" for r in rows]
     return "\n".join(lines)
 
 
+def _finite(col):
+    ok = np.isfinite(col.t) & np.isfinite(col.y)
+    return col.t[ok], col.y[ok]
+
+
+# --- Data book vs. Logger Pro -----------------------------------------------------------
+
+def cleaning_section() -> str:
+    with (TIDY / "cleaning.csv").open(newline="", encoding="utf-8") as f:
+        entries = list(csv.DictReader(f))
+    groups: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
+    for e in entries:
+        groups[(e["run"], e["action"], e["reason"])].append(e)
+    rows = []
+    for (r, action, reason), es in groups.items():
+        book_rows = sorted({e["book_row"] for e in es}, key=lambda x: int(x.split("-")[0]))
+        span = book_rows[0] if len(book_rows) == 1 else f"{book_rows[0]}–{book_rows[-1]}"
+        columns = sorted({c.strip() for e in es for c in e["column"].split(",")})
+        rows.append([
+            f"`{r}`", "yes" if BY_ID[r].used else "no", span.replace("-", "–"), ", ".join(columns),
+            f"{action} ({len(es)} cells)" if action == "removed" else action, reason,
+        ])
+    return table(["Run", "In the paper", "Book rows", "Columns", "Change", "Reason"], rows)
+
+
 # --- Graph readouts --------------------------------------------------------------------
 
 STAT_KEYS = ("n", "min", "min_at", "max", "max_at", "mean", "median", "std", "integral")
 
+# Boxes that come out differently from the data book, and why. Keyed by (figure, series on the
+# original graph).
+READOUT_CHANGES = {
+    ("Vnorm", "Iteration 4, Discharge 1"): "the original graph showed Iteration 4's normalized current here, "
+    "because it was made from the data book's swapped columns (now fixed)",
+    ("Cnorm", "Iteration 4, Discharge 1"): "the original graph showed Iteration 4's normalized potential here, "
+    "because it was made from the data book's swapped columns (now fixed)",
+    ("C2-C", "Charge 1"): "the current at 12.5 min is an average the data book keeps unrounded "
+    "(0.0425911 A) where Logger Pro rounded it (0.042591 A)",
+    ("C3-D2", "Discharge 2 (1000 ohms)"): "Logger Pro rounded the smallest current step to −9.54e-05 A; "
+    "the data book has it in full",
+    ("P3", "Discharge 2 (1000 ohms)"): "the same unrounded current step as C3-D2",
+}
 
-def readout_section() -> tuple[str, int, int]:
-    new = {(r["figure"], r["run"]): r for r in readouts()}
-    key_map = {"min_at": "min_t", "max_at": "max_t"}
-    rows, checked, failed = [], 0, 0
+
+def readout_comparison() -> tuple[list[list], int, list[tuple[str, str, list[str]]]]:
+    """Original boxes next to the recomputed ones, matched by their order on each graph."""
+    new = defaultdict(list)
+    for r in readouts():
+        new[r["figure"]].append(r)
+    original = defaultdict(list)
     for o in read_csv(ORIGINAL / "figure-readouts.csv"):
-        if o["kind"] == "fit":
-            continue
-        n = new[(o["figure"], o["series"])]
-        bad = []
-        for k in STAT_KEYS:
-            if o[k] == "":
-                continue
-            checked += 1
-            if not agrees(float(n[key_map.get(k, k)]), o[k]):
-                bad.append(f"{k}: {o[k]} → {sig(float(n[key_map.get(k, k)]))}")
-        failed += bool(bad)
-        rows.append([
-            o["figure"], o["series"], o["n"] or "—",
-            o["mean"] or "—", sig(float(n["mean"])) if o["mean"] else "—",
-            o["integral"] or "—", sig(float(n["integral"])) if o["integral"] else "—",
-            "matches" if not bad else "; ".join(bad),
-        ])
-    text = table(["Figure", "Series", "n", "Mean (original)", "Mean (recomputed)", "Integral (original)",
-                  "Integral (recomputed)", "All values in the box"], rows)
-    return text, checked, failed
+        if o["kind"] != "fit":
+            original[o["figure"]].append(o)
+    key_map = {"min_at": "min_t", "max_at": "max_t"}
+    rows, checked, differences = [], 0, []
+    for figure, boxes in original.items():
+        assert len(boxes) == len(new[figure]), figure
+        for o, n in zip(boxes, new[figure]):
+            bad = []
+            for k in STAT_KEYS:
+                if o[k] == "":
+                    continue
+                checked += 1
+                if not agrees(float(n[key_map.get(k, k)]), o[k]):
+                    bad.append(f"{k}: {o[k]} → {sig(float(n[key_map.get(k, k)]))}")
+            if bad:
+                differences.append((figure, o["series"], bad))
+            rows.append([
+                figure, o["series"], o["n"] or "—",
+                o["mean"] or "—", sig(float(n["mean"])) if o["mean"] else "—",
+                o["integral"] or "—", sig(float(n["integral"])) if o["integral"] else "—",
+                "matches" if not bad else "**changed** (see above)",
+            ])
+    return rows, checked, differences
+
+
+def readout_changes_text(differences) -> str:
+    rows = []
+    for figure, series, bad in differences:
+        why = READOUT_CHANGES.get((figure, series), "**not explained**")
+        rows.append([figure, series, "; ".join(bad), why])
+    return table(["Figure", "Series", "Original → now", "Why"], rows)
 
 
 # --- Curve fits ------------------------------------------------------------------------
@@ -81,97 +131,80 @@ def readout_section() -> tuple[str, int, int]:
 def fit_section() -> str:
     rows = []
     for o in read_csv(ORIGINAL / "curve-fits.csv"):
-        fig = BY_LABEL[o["figure"]]
-        tr = next(t for t in fig.traces if t.label == o["series"])
-        col = column(tr.source, tr.run, tr.column)
-        fit = fit_for(o["figure"], o["series"])
-        r, rmse = fit_quality(fit, col)
-        best = refit(col, fit)
+        tr = next(t for t in BY_LABEL[o["figure"]].traces if t.label == o["series"])
+        fit, unc = fit_for(o["figure"], o["series"])
+        r, rmse = fit_quality(fit, tr.data())
         rows.append([
             o["figure"], o["series"],
-            f"{sig(fit.A)}, {sig(fit.B)}, {sig(fit.C)}",
-            f"{sig(best.A)}, {sig(best.B)}, {sig(best.C)}",
+            ", ".join(f"{sig(float(o[k]))} ± {sig(float(o[k + '_unc']))}" for k in "ABC"),
+            ", ".join(f"{sig(getattr(fit, k))} ± {sig(getattr(unc, k))}" for k in "ABC"),
             f"{sig(float(o['correlation']))} / {sig(float(o['rmse']))}",
             f"{sig(r)} / {sig(rmse)}",
         ])
-    return table(["Figure", "Series", "A, B, C (original)", "A, B, C (least-squares refit)",
-                  "Correlation / RMSE (original)", "Correlation / RMSE (recomputed)"], rows)
+    return table(["Figure", "Series", "A, B, C (original)", "A, B, C (fitted to the data book)",
+                  "Correlation / RMSE (original)", "Correlation / RMSE (now)"], rows)
 
 
 # --- Effective capacity ----------------------------------------------------------------
 
-def spreadsheet_sum(it: int, run: str, name: str) -> float:
+def spreadsheet_sum(it: int, k: int, name: str) -> float:
     """What the data book formula computed: SUM of the samples from the first row down to the
     last row whose potential difference is above 0.9 V (no time step, so not an integral)."""
-    v = column(VC.format(it), run, "Potential Difference")
+    v = paper_column(run(it, "discharge", k), POTENTIAL)
     above = np.flatnonzero(v.y > USEFUL_VOLTAGE)
     if len(above) == 0:
         return 0.0
-    return float(np.nansum(column(VC.format(it), run, name).y[: above[-1] + 1]))
+    return float(np.nansum(paper_column(run(it, "discharge", k), name).y[: above[-1] + 1]))
 
 
 # Cells whose data book formula pointed at the wrong columns (see the notes under the table).
-SWAPPED = {(4, 1): ("Current", "Power"), (5, 1): ("Potential Difference", "Power"), (5, 2): ("Potential Difference", "Power")}
+SWAPPED = {(4, 1): (CURRENT, POWER), (5, 1): (POTENTIAL, POWER), (5, 2): (POTENTIAL, POWER)}
+NAMES = {POTENTIAL: "potential difference", CURRENT: "current", POWER: "power"}
 
 
 def effective_section() -> str:
     paper = {(int(r["iteration"]), int(r["discharge"])): r for r in read_csv(ORIGINAL / "effective-capacity.csv")}
     rows = []
-    for it, runs in DISCHARGES.items():
-        for k, run in enumerate(runs, start=1):
+    for it, n in DISCHARGES.items():
+        for k in range(1, n + 1):
             p = paper[(it, k)]
             if (it, k) == (5, 2):
                 sheet = "— (see explanation)"
-                why = ("formula read the wrong columns: first potential difference and first power sample of the "
-                       "data book's copy, which has four stray rows above the recorded data")
+                why = ("formula read the wrong columns: the first potential difference and power samples, which are "
+                       "readings that were struck out in Logger Pro and are removed from the tidy data")
             elif (it, k) in SWAPPED:
                 a, b = SWAPPED[(it, k)]
-                first = lambda name: float(_finite(column(VC.format(it), run, name))[1][0])  # noqa: E731
+                first = lambda name: float(_finite(paper_column(run(it, "discharge", k), name))[1][0])  # noqa: E731
                 sheet = f"{sig(first(a))} / {sig(first(b))}"
-                why = f"formula read the wrong columns: first {a.lower()} and first power sample"
+                why = f"formula read the wrong columns: first {NAMES[a]} and first power sample"
             else:
-                sheet = f"{sig(spreadsheet_sum(it, run, 'Current'))} / {sig(spreadsheet_sum(it, run, 'Power'))}"
+                sheet = f"{sig(spreadsheet_sum(it, k, CURRENT))} / {sig(spreadsheet_sum(it, k, POWER))}"
                 why = "sum of samples, not an integral"
-            q, e = effective(it, run)
+            q, e = effective(it, k)
             if (it, k) == (3, 2):
                 why += "; the paper's energy (2.316) was also mistyped from the data book (2.778)"
             if q == 0 and float(p["capacity_amin"]) == 0:
                 why = "never above 0.9 V (unchanged)"
-            rows.append([
-                it, k,
-                f"{p['capacity_amin']} / {p['energy_wmin']}",
-                sheet,
-                f"**{sig(q)} / {sig(e)}**",
-                why,
-            ])
+            rows.append([it, k, f"{p['capacity_amin']} / {p['energy_wmin']}", sheet, f"**{sig(q)} / {sig(e)}**", why])
     return table(["Iteration", "Discharge", "Paper (A·min / W·min)", "Data book formula, recomputed",
                   "Corrected integral", "Explanation"], rows)
 
 
 # --- Internal resistance ---------------------------------------------------------------
 
-def _finite(col):
-    ok = np.isfinite(col.t) & np.isfinite(col.y)
-    return col.t[ok], col.y[ok]
-
-
 def resistance_section() -> str:
     readings = {}
     for it in (2, 3, 4):
-        name = "EMF" if it == 2 else "Potential Difference"
         values = []
-        for c in ("Charge 1", "Charge 2", "Charge 3"):
-            try:
-                values += [float(v) for v in _finite(column(EMF.format(it), c, name))[1]]
-            except Exception:
-                pass
+        for c in (1, 2, 3):
+            if run(it, "charge", c) in BY_ID:
+                values += [float(v) for v in _finite(paper_column(run(it, "charge", c), POTENTIAL))[1]]
         readings[it] = np.array(values)
     rows = []
     for r in read_csv(ORIGINAL / "internal-resistance.csv"):
         it, k = int(r["iteration"]), int(r["discharge"])
-        run = DISCHARGES[it][k - 1]
-        _, v = _finite(column(VC.format(it), run, "Potential Difference"))
-        _, i = _finite(column(VC.format(it), run, "Current"))
+        _, v = _finite(paper_column(run(it, "discharge", k), POTENTIAL))
+        _, i = _finite(paper_column(run(it, "discharge", k), CURRENT))
         for at, idx in (("start", 0), ("end", -1)):
             ohm = float(r[f"{at}_ohm"])
             emf = v[idx] + ohm * i[idx]
@@ -180,7 +213,7 @@ def resistance_section() -> str:
                 best = near[np.argmin(np.abs(near - emf))]
                 found = f"{best:.4f} V" + (" ✓" if abs(best - emf) <= 0.005 * emf else "")
             else:
-                found = "no charge readings saved"
+                found = "no charge readings used"
             rows.append([it, k, at, r[f"{at}_ohm"], f"{v[idx]:.4f} V, {i[idx]:.5f} A", f"{emf:.4f} V", found])
     return table(["Iteration", "Discharge", "At", "Paper r (Ω)", "Measured V, I", "EMF implied by r = (ε − V)/I",
                   "Closest EMF reading in the charge data"], rows)
@@ -197,8 +230,8 @@ class Quote:
     corrected: str = ""  # new text in the paper, when the original was wrong
 
 
-def _r(label: str, run: str) -> dict:
-    return next(r for r in readouts() if r["figure"] == label and r["run"] == run)
+def _r(label: str, series: str) -> dict:
+    return next(r for r in readouts() if r["figure"] == label and r["series"] == series)
 
 
 def quotes() -> list[Quote]:
@@ -207,10 +240,11 @@ def quotes() -> list[Quote]:
     c5d2 = float(_r("C5-D2", "Discharge 2")["integral"])
     p2d2 = float(_r("P2", "Discharge 2")["integral"])
     p5d2 = float(_r("P5", "Discharge 2")["integral"])
-    t2, _ = _finite(column(VC.format(2), "Discharge 1", "Potential Difference"))
-    t4c, i4c = _finite(column(EMF.format(4), "Charge 2", "Current"))
-    v5 = column(VC.format(5), "Discharge 1", "Potential Difference")
+    t2, _ = _finite(paper_column(run(2, "discharge", 1), POTENTIAL))
+    t4c, i4c = _finite(paper_column(run(4, "charge", 2), CURRENT))
+    v5 = paper_column(run(5, "discharge", 1), POTENTIAL)
     below = v5.t[np.flatnonzero(v5.y < 1.8)[0]]
+    b = lambda figure, series: fit_for(figure, series)[0].B  # noqa: E731
     return [
         Quote("Method", "samples per minute recorded for Iteration 2", "30", 1 / float(np.median(np.diff(t2))), "6 (one every 10 s)"),
         Quote("Discussion, @C2-D3", "maximum current of Iteration 2 (A)", "0.01049", float(_r("C2-D3", "Discharge 3")["max"])),
@@ -218,17 +252,17 @@ def quotes() -> list[Quote]:
         Quote("Discussion, @C2-D2", "the same in coulombs", "184.7", c2d2 * 60),
         Quote("Discussion, @C2-D2", "the same in mAh", "51.32", c2d2 / 60 * 1000),
         Quote("Discussion, @C2-D2", "how many times less than a 1100 mAh AA cell", "21.43", 1100 / (c2d2 / 60 * 1000)),
-        Quote("Discussion, @Ch2", "predicted maximum EMF, charge 1 (V)", "0.9885", fit_for("Ch2", "Charge 1").B),
-        Quote("Discussion, @Ch2", "predicted maximum EMF, charge 2 (V)", "1.056", fit_for("Ch2", "Charge 2").B),
-        Quote("Discussion, @Ch2", "predicted maximum EMF, charge 3 (V)", "1.018", fit_for("Ch2", "Charge 3").B),
+        Quote("Discussion, @Ch2", "predicted maximum EMF, charge 1 (V)", "0.9885", b("Ch2", "Charge 1")),
+        Quote("Discussion, @Ch2", "predicted maximum EMF, charge 2 (V)", "1.056", b("Ch2", "Charge 2")),
+        Quote("Discussion, @Ch2", "predicted maximum EMF, charge 3 (V)", "1.018", b("Ch2", "Charge 3")),
         Quote("Discussion, @Ch2", "measured maximum EMF, charge 2 (V)", "1.061", float(_r("Ch2", "Charge 2")["max"])),
-        Quote("Discussion, @C3-D1", "maximum current (A)", "0.05", float(_r("C3-D1", "Discharge 1 (10 ohms)")["max"])),
+        Quote("Discussion, @C3-D1", "maximum current (A)", "0.05", float(_r("C3-D1", "Discharge 1 (10 Ω)")["max"])),
         Quote("Discussion, @Pot3b", "average voltage of the modified Iteration 3 (V)", "0.08890",
-              float(_r("Pot3b", "Modified Iteration 3 Discharge")["mean"]), "0.08880"),
+              float(_r("Pot3b", "Modified Iteration 3")["mean"]), "0.08880"),
         Quote("Discussion, @C3b", "average current of the modified Iteration 3 (mA)", "1.617",
-              float(_r("C3b", "Modified Iteration 3 Discharge")["mean"]) * 1000),
-        Quote("Discussion, @Ch3", "predicted maximum EMF, charge 1 (V)", "1.338", fit_for("Ch3", "Charge 1").B),
-        Quote("Discussion, @Ch3", "predicted maximum EMF, charge 2 (V)", "1.466", fit_for("Ch3", "Charge 2").B),
+              float(_r("C3b", "Modified Iteration 3")["mean"]) * 1000),
+        Quote("Discussion, @Ch3", "predicted maximum EMF, charge 1 (V)", "1.338", b("Ch3", "Charge 1")),
+        Quote("Discussion, @Ch3", "predicted maximum EMF, charge 2 (V)", "1.466", b("Ch3", "Charge 2")),
         Quote("Discussion, @C4-D1", "total charge (A·h)", "2.818", float(c4d1["integral"]) / 60),
         Quote("Discussion, @C4-D1", "times the best discharge of Iteration 2", "55", float(c4d1["integral"]) / c2d2),
         Quote("Discussion, @C4-D1", "maximum current (A)", "1.009", float(c4d1["max"])),
@@ -245,7 +279,7 @@ def quotes() -> list[Quote]:
         Quote("Discussion, @C5-D2", "charge of discharge 2 (A·min)", "2.106", c5d2),
         Quote("Discussion, @C5-D2", "the same in coulombs", "126.36", c5d2 * 60),
         Quote("Discussion, @C5-D2", "the same in mAh", "35.1", c5d2 / 60 * 1000),
-        Quote("Discussion, @CS", "charge of the NiMH cell (A·min)", "0.4568", float(_r("CS", "NiMH Discharge 1")["integral"])),
+        Quote("Discussion, @CS", "charge of the NiMH cell (A·min)", "0.4568", float(_r("CS", "NiMH")["integral"])),
         Quote("Discussion, @C4-D2", "charge of Iteration 4, discharge 2 (A·min)", "0.4180", float(_r("C4-D2", "Discharge 2")["integral"])),
         Quote("Discussion, @P2", "energy of Iteration 2, discharge 2 (W·min)", "2.055", p2d2),
         Quote("Discussion, @P2", "the same in mWh", "34.25", p2d2 / 60 * 1000),
@@ -293,20 +327,25 @@ TEXT_CHANGES = [
 
 
 def report() -> str:
-    readout_text, checked, failed = readout_section()
+    rows, checked, differences = readout_comparison()
+    unexplained = [d for d in differences if (d[0], d[1]) not in READOUT_CHANGES]
     quote_text, corrected = quote_section()
     return f"""# Verification against the submitted paper
 
 Generated by `python -m zinclab verify` (or `make verify`). Every graph, table and number in the submitted paper
-(January 2025) was compared with the Logger Pro data in [`data/`](../data). Values are compared at the precision
-they were printed with. Do not edit this file by hand.
+(January 2025) was compared with the data book ([`data/raw/the-data-book.xlsx`](../data/raw/the-data-book.xlsx),
+through the tidy files in [`data/tidy/`](../data/tidy)). Values are compared at the precision they were printed
+with. Do not edit this file by hand.
 
 ## Summary
 
-- **Graphs.** The 31 graphs are redrawn from the raw data. All {checked} values in the statistics and integral
-  boxes of the original graphs are reproduced{"" if not failed else f", except in {failed} boxes"} (below).
-- **Curve fits.** The fit coefficients are the original ones (never refitted). A least-squares refit of the same
-  model gives the same coefficients.
+- **Data.** The data book holds the same readings as the Logger Pro files the original graphs were made from,
+  except for the few cells listed below. The tests in `analysis/tests/test_book.py` check this reading by reading.
+- **Graphs.** The 31 graphs are redrawn from the data book. Of the {checked} values in the statistics and integral
+  boxes of the original graphs, all are reproduced except in {len(differences)} boxes, and each of those is
+  explained below{"" if not unexplained else f" (**{len(unexplained)} are not explained**)"}.
+- **Curve fits.** The fits are now done on the data book's readings. They give the same coefficients,
+  uncertainties, correlations and RMSEs as the original graphs.
 - **Effective capacity and energy (Tables 1–4).** The submitted values were wrong. The data book formula added
   up the samples instead of integrating over time, so every value was too large by the number of samples per
   minute (6 for Iteration 2, 30 for Iterations 3 and 4). In three cells, the formula pointed at the wrong columns.
@@ -325,27 +364,51 @@ they were printed with. Do not edit this file by hand.
 The effective capacity and energy tables were replaced as a whole (see below). Spelling and grammar fixes are not
 listed here (see the git history).
 
+## Data book vs. Logger Pro
+
+Every change made while splitting the data book into [`data/tidy/`](../data/tidy) is logged in
+[`data/tidy/cleaning.csv`](../data/tidy/cleaning.csv). Grouped by run:
+
+{cleaning_section()}
+
+The readings that were removed from runs in the paper are exactly the ones that were struck out in Logger Pro, so
+the original graphs did not include them either. Apart from these, the data book and Logger Pro agree to within
+Logger Pro's rounding (about 10⁻⁷).
+
+The data book also has the full length of two runs that the paper cut short: Iteration 5's first discharge ran for
+240 minutes, but the paper cut both of its discharges off at 88 minutes, and the last charge of Iteration 2 ran for
+120 minutes, but the paper only used the first 60. The graphs and tables keep the paper's cutoffs
+(`CUTOFF` in `analysis/zinclab/spec.py`). The normalized potential graph (Vnorm) showed the whole of each run in
+the original, so it still does.
+
 ## Graph readouts
 
 The original graphs were Logger Pro screenshots with statistics boxes (minimum and maximum with their times, mean,
 median, standard deviation, sample count, Δ) and integral boxes. Their values were transcribed into
 [`data/original/figure-readouts.csv`](../data/original/figure-readouts.csv) and compared with the values
-recomputed from the raw data. The table lists the mean and integral of each box. The last column covers every
-value in the box.
+recomputed from the data book.
 
-{readout_text}
+These boxes come out differently:
+
+{readout_changes_text(differences)}
+
+The table lists the mean and integral of each box. The last column covers every value in the box.
+
+{table(["Figure", "Series", "n", "Mean (original)", "Mean (now)", "Integral (original)", "Integral (now)",
+        "All values in the box"], rows)}
 
 ## Curve fits (EMF while charging)
 
-The model is EMF = A·e^(−Ct) + B. Iteration 2's fits were never saved in a Logger Pro file, so their four-digit
-coefficients come from the original graph. Iteration 3's come from `emf v. time, iteration 3.cmbl`.
+The model is EMF = A·e^(−Ct) + B, fitted by least squares. The uncertainties are one standard error. Iteration 2's
+original fits were never saved in a Logger Pro file, so their coefficients are the four-digit values on the
+original graph. Iteration 3's come from `logger-pro/files/emf v. time, iteration 3.cmbl`.
 
 {fit_section()}
 
 ## Effective capacity and energy
 
 The paper defines the effective capacity (energy) as the area under the current (power) curve while the
-potential difference is above 0.9 V. The data book (`Drafting/the data book.xlsx`, not in this repository) used
+potential difference is above 0.9 V. The data book used
 `SUM(C3:INDEX(C:C, MAX(IF(B1:B10000>0.9, ROW(B1:B10000)))))`. This is the sum of every sample from the start
 of the discharge to the last sample above 0.9 V. The sum leaves out the time step, so it is not an integral. For
 Iteration 4, discharge 1, and both discharges of Iteration 5, the formula referenced the potential and current

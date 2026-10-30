@@ -3,26 +3,21 @@
 from __future__ import annotations
 
 import csv
+from functools import cache
 from pathlib import Path
 
 import numpy as np
 
-from zinclab.loggerpro import column
 from zinclab.runs import REPO
-from zinclab.spec import FIGURES, SERIES, VC
-from zinclab.stats import ExponentialFit, integral, statistics
+from zinclab.spec import BY_LABEL, CURRENT, FIGURES, POTENTIAL, POWER, SERIES, paper_column, run
+from zinclab.stats import ExponentialFit, fit_exponential, fit_quality, integral, statistics
 
 ORIGINAL = REPO / "data" / "original"
 PROCESSED = REPO / "data" / "processed"
 FIGURES_DIR = REPO / "assets" / "figures"
 
-# The runs behind the effective capacity tables, in paper order.
-DISCHARGES = {
-    2: ["Discharge 1", "Discharge 2", "Discharge 3"],
-    3: ["Discharge 1 (10 ohms)", "Discharge 2 (1000 ohms)", "Discharge 3 (100 ohms)"],
-    4: ["Discharge 1", "Discharge 2", "Discharge 3"],
-    5: ["Discharge 1", "Discharge 2"],
-}
+# How many discharges each iteration had (the effective capacity tables).
+DISCHARGES = {2: 3, 3: 3, 4: 3, 5: 2}
 USEFUL_VOLTAGE = 0.9  # V; below this a AA cell counts as empty (Energizer, 2010)
 
 
@@ -50,7 +45,7 @@ def readouts() -> list[dict]:
     rows = []
     for fig in FIGURES:
         for i, tr in enumerate(fig.traces):
-            col = column(tr.source, tr.run, tr.column)
+            col = tr.data()
             s = statistics(col)
             rows.append({
                 "figure": fig.label,
@@ -80,47 +75,53 @@ def figure_index() -> list[dict]:
     ]
 
 
-def original_fits() -> dict[tuple[str, str], dict]:
-    return {(r["figure"], r["series"]): r for r in read_csv(ORIGINAL / "curve-fits.csv")}
-
-
-def fit_for(figure: str, series: str) -> ExponentialFit:
-    r = original_fits()[(figure, series)]
-    return ExponentialFit(A=float(r["A"]), B=float(r["B"]), C=float(r["C"]))
+@cache
+def fit_for(figure: str, series: str) -> tuple[ExponentialFit, ExponentialFit]:
+    """The curve fit (and its uncertainties) for one series of a figure."""
+    tr = next(t for t in BY_LABEL[figure].traces if t.label == series)
+    return fit_exponential(tr.data())
 
 
 def fits() -> list[dict]:
-    """The curve fits from the original graphs (never refitted), in figure order.
-
-    docs/VERIFICATION.md checks their correlation and RMSE against the data.
-    """
+    """The curve fits of the charging EMF, fitted to the tidy data, in figure order."""
     rows = []
     for fig in (f for f in FIGURES if f.fit):
         for i, tr in enumerate(fig.traces):
-            o = original_fits()[(fig.label, tr.label)]
-            keys = ("figure", "series", "A", "A_unc", "B", "B_unc", "C", "C_unc", "correlation", "rmse")
-            rows.append({k: o[k] for k in keys} | {"color": SERIES[i]})
+            fit, unc = fit_for(fig.label, tr.label)
+            r, rmse = fit_quality(fit, tr.data())
+            rows.append({
+                "figure": fig.label,
+                "series": tr.label,
+                "A": g(fit.A),
+                "A_unc": g(unc.A),
+                "B": g(fit.B),
+                "B_unc": g(unc.B),
+                "C": g(fit.C),
+                "C_unc": g(unc.C),
+                "correlation": g(r),
+                "rmse": g(rmse),
+                "color": SERIES[i],
+            })
     return rows
 
 
-def effective(it: int, run: str) -> tuple[float, float]:
-    """Charge (A·min) and energy (W·min) delivered from the start of a discharge up to the
+def effective(it: int, k: int) -> tuple[float, float]:
+    """Charge (A·min) and energy (W·min) delivered from the start of discharge k up to the
     last sample at which the terminal voltage was still above 0.9 V."""
-    v = column(VC.format(it), run, "Potential Difference")
+    r = run(it, "discharge", k)
+    v = paper_column(r, POTENTIAL)
     above = np.flatnonzero(v.y > USEFUL_VOLTAGE)
     if len(above) == 0:
         return 0.0, 0.0
     t_end = v.t[above[-1]]
-    cur = column(VC.format(it), run, "Current").between(hi=t_end)
-    pwr = column(VC.format(it), run, "Power").between(hi=t_end)
-    return integral(cur), integral(pwr)
+    return integral(paper_column(r, CURRENT).between(hi=t_end)), integral(paper_column(r, POWER).between(hi=t_end))
 
 
 def effective_capacity() -> list[dict]:
     rows = []
-    for it, runs in DISCHARGES.items():
-        for k, run in enumerate(runs, start=1):
-            q, e = effective(it, run)
+    for it, n in DISCHARGES.items():
+        for k in range(1, n + 1):
+            q, e = effective(it, k)
             rows.append({
                 "iteration": it,
                 "discharge": k,

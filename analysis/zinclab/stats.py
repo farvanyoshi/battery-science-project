@@ -1,4 +1,4 @@
-"""The statistics, integrals and curve fits that Logger Pro showed on the original graphs."""
+"""The statistics, integrals and curve fits shown under each graph (the same ones Logger Pro showed on the original graphs)."""
 
 from __future__ import annotations
 
@@ -84,16 +84,26 @@ def fit_quality(fit: ExponentialFit, col: Column) -> tuple[float, float]:
     return float(np.sqrt(max(0.0, 1 - ss_res / ss_tot))), float(np.sqrt(ss_res / (len(y) - 3)))
 
 
-def refit(col: Column, guess: ExponentialFit) -> ExponentialFit:
-    """Least-squares fit of V = A·exp(−C·t) + B (only used to check the original fits)."""
+def fit_exponential(col: Column) -> tuple[ExponentialFit, ExponentialFit]:
+    """Least-squares fit of V = A·exp(−C·t) + B, like Logger Pro's curve fit.
+
+    Returns the coefficients and their uncertainties (one standard error each, from the
+    covariance of the fit). The tolerances are tight so the result does not depend on the
+    starting guess, which comes from the first and last readings.
+    """
     from scipy.optimize import curve_fit
 
     ok = np.isfinite(col.t) & np.isfinite(col.y)
-    (a, c, b), _ = curve_fit(
+    t, y = col.t[ok], col.y[ok]
+    (a, c, b), cov = curve_fit(
         lambda t, a, c, b: a * np.exp(-c * t) + b,
-        col.t[ok],
-        col.y[ok],
-        p0=(guess.A, guess.C, guess.B),
-        maxfev=20000,
+        t,
+        y,
+        p0=(y[0] - y[-1], 0.05, y[-1]),
+        maxfev=100000,
+        ftol=1e-15,
+        xtol=1e-15,
+        gtol=1e-15,
     )
-    return ExponentialFit(A=float(a), B=float(b), C=float(c))
+    ea, ec, eb = np.sqrt(np.diag(cov))
+    return ExponentialFit(A=float(a), B=float(b), C=float(c)), ExponentialFit(A=float(ea), B=float(eb), C=float(ec))

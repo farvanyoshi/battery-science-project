@@ -20,7 +20,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.ticker import AutoMinorLocator, ScalarFormatter
 
-from zinclab.loggerpro import column
 from zinclab.spec import FIGURES, SERIES, Figure
 
 INK = "#0b0b0b"
@@ -79,7 +78,7 @@ def render(fig_spec: Figure, out: Path) -> Path:
         t_max, y_min = 0.0, 0.0
         for i, tr in enumerate(fig_spec.traces):
             color = SERIES[i]
-            col = column(tr.source, tr.run, tr.column)
+            col = tr.data()
             ok = np.isfinite(col.t) & np.isfinite(col.y)
             t, y = col.t[ok], col.y[ok]
             t_max, y_min = max(t_max, float(t.max())), min(y_min, float(y.min()))
@@ -88,7 +87,7 @@ def render(fig_spec: Figure, out: Path) -> Path:
                         mfc=color, mec="white", mew=0.5, color=color, label=_tex(tr.label), zorder=3)
                 if fig_spec.fit:
                     tt = np.linspace(t.min(), t.max(), 400)
-                    ax.plot(tt, fit_for(fig_spec.label, tr.label)(tt), lw=1.0, color=color, zorder=2)
+                    ax.plot(tt, fit_for(fig_spec.label, tr.label)[0](tt), lw=1.0, color=color, zorder=2)
             else:
                 ax.plot(t, y, lw=0.6, color=color, label=_tex(tr.label), solid_joinstyle="round", zorder=2)
                 if fig_spec.integral and len(fig_spec.traces) == 1:

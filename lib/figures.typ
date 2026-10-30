@@ -16,7 +16,7 @@
 
 #let _with-unit(name, unit) = if unit == "" { name } else { [#name \ (#unit)] }
 
-/// Logger Pro's analysis boxes for one graph, as a single table.
+/// The statistics, integrals or curve fits for one graph, as a single table.
 #let _table(columns, header, cells) = {
   set text(8pt, top-edge: "cap-height", bottom-edge: "baseline")
   set par(leading: 0.5em, first-line-indent: 0em)
@@ -68,7 +68,7 @@
   _table((1fr,) + (auto,) * 5, header, cells)
 }
 
-/// A graph drawn from the Logger Pro data, with the original analysis boxes as a table underneath.
+/// A graph drawn from the data book, with its statistics, integrals or curve fits as a table underneath.
 #let graph(label, caption: none) = {
   let info = figure-info(label)
   figure(
