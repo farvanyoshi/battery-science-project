@@ -1,0 +1,15 @@
+# Build outputs
+/build/
+*.pdf
+!/docs/*.pdf
+!/assets/figures/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editor / tooling
+tinymist.lock
+.vscode/
+.DS_Store
