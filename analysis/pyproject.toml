@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zinclab"
+version = "1.0.0"
+description = "Analysis pipeline for the zinc-ion battery science project"
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib", "scipy"]
+
+[project.scripts]
+zinclab = "zinclab.cli:main"
+
+[tool.setuptools]
+packages = ["zinclab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
