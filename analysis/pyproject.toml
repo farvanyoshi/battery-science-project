@@ -7,7 +7,7 @@ name = "zinclab"
 version = "1.0.0"
 description = "Analysis pipeline for the zinc-ion battery science project"
 requires-python = ">=3.10"
-dependencies = ["numpy", "matplotlib", "scipy"]
+dependencies = ["numpy", "matplotlib", "scipy", "openpyxl"]
 
 [project.scripts]
 zinclab = "zinclab.cli:main"
