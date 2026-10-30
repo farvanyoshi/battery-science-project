@@ -31,7 +31,7 @@
 
 #graph("Ch3", caption: [A graph of the emfs measured during each charge of Iteration 3.]) <Ch3>
 
-#graph("C3-C", caption: [A graph of the currents measured during each charge of Iteration 2.]) <C3-C>
+#graph("C3-C", caption: [A graph of the currents measured during each charge of Iteration 3.]) <C3-C>
 
 #graph("Pot4", caption: [A graph showing how the voltage changed over time for each discharge of Iteration 4.]) <Pot4>
 
@@ -43,7 +43,7 @@
 
 #graph("Ch4", caption: [A graph of the emfs measured during each charge of Iteration 4.]) <Ch4>
 
-#graph("C4-C", caption: [A graph of the currents measured during each charge of Iteration 2.]) <C4-C>
+#graph("C4-C", caption: [A graph of the currents measured during each charge of Iteration 4.]) <C4-C>
 
 #graph("Pot5", caption: [A graph showing how the voltage changed over time for each discharge of Iteration 5.]) <Pot5>
 
@@ -67,7 +67,7 @@ $ E = integral_0^t_f P(t) dif t $ <energy>
 
 The $t_f$ in @energy represents the final time of the definite integral. However, while an integral requires a continuous function, there are only a finite number of data points. Thus, a trapezoidal Riemann sum was used to approximate each integral in the form shown in @energy-sum.
 
-$ E approx (Delta t)/2 sum_(n=0)^(t_f-1) (I(n) dot V(n) + I(n+1) dot V(i+1)) $ <energy-sum>
+$ E approx (Delta t)/2 sum_(n=0)^(t_f-1) (I(n) dot V(n) + I(n+1) dot V(n+1)) $ <energy-sum>
 
 #graph("P2", caption: [A graph showing the power versus time and its integral for Iteration 2.]) <P2>
 
@@ -77,7 +77,7 @@ $ E approx (Delta t)/2 sum_(n=0)^(t_f-1) (I(n) dot V(n) + I(n+1) dot V(i+1)) $ <
 
 #graph("P5", caption: [A graph showing the power versus time and its integral for Iteration 5.]) <P5>
 
-The effective charge capacity is a metric of how much charge can the battery transfer within a certain voltage range. Similarly, the effective energy of a battery is determined by how much energy is released within a useful voltage range. A AA battery, like the NiMH battery used for comparison, is only useful when the voltage is greater than 0.9 V on average @energizer_2010_energizer. Thus, finding the area beneath each curve of current v. time and power v. time while the voltage is greater than 0.9 V would give the effective charge capacity and effective energy, respectively. Thus, @cap2 shows the effective capacity and effective energy for iteration 2. The values are given in the derived units from the graph and in standard SI units.
+The effective charge capacity is a metric of how much charge can the battery transfer within a certain voltage range. Similarly, the effective energy of a battery is determined by how much energy is released within a useful voltage range. An AA battery, like the NiMH battery used for comparison, is only useful when the voltage is greater than 0.9 V on average @energizer_2010_energizer. Thus, finding the area beneath each curve of current v. time and power v. time while the voltage is greater than 0.9 V would give the effective charge capacity and effective energy, respectively. Thus, @cap2 shows the effective capacity and effective energy for iteration 2. The values are given in the derived units from the graph and in standard SI units.
 
 #effective-table(2, caption: [The effective capacity and effective energy of each discharge for Iteration 2.]) <cap2>
 
@@ -93,7 +93,7 @@ $ V_"norm" = V/V_0 $ <norm>
 
 #graph("Vnorm", caption: [A graph of all of the normalized voltages versus time for the first discharge of each iteration.]) <Vnorm>
 
-#graph("Cnorm", caption: [A graph showing the current v. time for all of the discharges done at 10 ohms.]) <Cnorm>
+#graph("Cnorm", caption: [A graph showing the normalized current v. time for all of the discharges done at 10 ohms.]) <Cnorm>
 
 The internal resistance of a battery was calculated from the following equation:
 
