@@ -5,6 +5,7 @@ as a Logger Pro file (`.cmbl`). Those files and their CSV exports are in [`logge
 
 | Folder | Contents | Edited by hand? |
 |---|---|---|
+| `raw/the-data-book.xlsx` | The data book: the spreadsheet where we gathered all of the data for the project, one sheet per iteration | Never (only the saved OneDrive path was removed) |
 | `original/` | Values typed into the submitted paper or read off its graphs, used to check the reproduction | Only to fix a transcription error |
 | `processed/` | **Generated** by `python -m zinclab build` (see [`analysis/`](../analysis)) and read by Typst | Never |
 
