@@ -84,6 +84,9 @@ def fit_for(figure: str, series: str) -> tuple[ExponentialFit, ExponentialFit]:
 
 def fits() -> list[dict]:
     """The curve fits of the charging EMF, fitted to the tidy data, in figure order."""
+    # The last few digits of a least-squares fit depend on the machine's maths libraries, so the fits
+    # are written to 6 significant figures (the paper shows 4) to keep the file the same everywhere.
+    g6 = lambda x: f"{x:.6g}"  # noqa: E731
     rows = []
     for fig in (f for f in FIGURES if f.fit):
         for i, tr in enumerate(fig.traces):
@@ -92,14 +95,14 @@ def fits() -> list[dict]:
             rows.append({
                 "figure": fig.label,
                 "series": tr.label,
-                "A": g(fit.A),
-                "A_unc": g(unc.A),
-                "B": g(fit.B),
-                "B_unc": g(unc.B),
-                "C": g(fit.C),
-                "C_unc": g(unc.C),
-                "correlation": g(r),
-                "rmse": g(rmse),
+                "A": g6(fit.A),
+                "A_unc": g6(unc.A),
+                "B": g6(fit.B),
+                "B_unc": g6(unc.B),
+                "C": g6(fit.C),
+                "C_unc": g6(unc.C),
+                "correlation": g6(r),
+                "rmse": g6(rmse),
                 "color": SERIES[i],
             })
     return rows
