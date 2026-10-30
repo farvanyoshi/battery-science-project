@@ -7,7 +7,7 @@
 #let figure-index = _load("/data/processed/figures.csv")
 #let readouts = _load("/data/processed/readouts.csv")
 #let fits = _load("/data/processed/fits.csv")
-#let effective-capacity = _load("/data/original/effective-capacity.csv")
+#let effective-capacity = _load("/data/processed/effective-capacity.csv")
 #let internal-resistance = _load("/data/original/internal-resistance.csv")
 
 /// The row of figures.csv for a figure label, e.g. `figure-info("C2-D1")`.

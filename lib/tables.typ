@@ -30,7 +30,7 @@
     _table(
       (auto,) + (auto,) * rows.len(),
       ([],) + rows.map(r => [Discharge #r.discharge]),
-      quantities.map(((name, key)) => (name, ..rows.map(r => r.at(key)))).flatten(),
+      quantities.map(((name, key)) => (name, ..rows.map(r => sig(r.at(key))))).flatten(),
     ),
     caption: caption,
   )
