@@ -27,11 +27,11 @@ check: test                  ## tests + fail if the committed processed data or 
 	cd analysis && $(PYTHON) -m zinclab build --no-figures && $(PYTHON) -m zinclab verify
 	git diff --exit-code -- data/processed docs
 
-convert:                     ## re-export data/raw/*.cmbl into data/converted (slow)
+convert:                     ## re-export logger-pro/files/*.cmbl into logger-pro/converted (slow)
 	rm -rf build/cmbl && mkdir -p build/cmbl
-	cp data/raw/*.cmbl build/cmbl/
-	cd build/cmbl && MPLCONFIGDIR="$(CURDIR)/build/mpl-cache" $(PYTHON) "$(CURDIR)/tools/cmbl-export/convert.py"
-	$(PYTHON) tools/cmbl-export/collect.py build/cmbl/converted data/converted
+	cp logger-pro/files/*.cmbl build/cmbl/
+	cd build/cmbl && MPLCONFIGDIR="$(CURDIR)/build/mpl-cache" $(PYTHON) "$(CURDIR)/logger-pro/export/convert.py"
+	$(PYTHON) logger-pro/export/collect.py build/cmbl/converted logger-pro/converted
 
 clean:
 	rm -rf build

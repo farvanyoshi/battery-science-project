@@ -1,4 +1,4 @@
-"""Access to the Logger Pro runs exported to data/converted (see data/README.md)."""
+"""Access to the Logger Pro runs exported to logger-pro/converted (see logger-pro/README.md)."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from pathlib import Path
 import numpy as np
 
 REPO = Path(__file__).resolve().parents[2]
-CONVERTED = REPO / "data" / "converted"
+CONVERTED = REPO / "logger-pro" / "converted"
 
 # CSV headers look like "Potential Difference [V] (id 104)".
 _HEADER = re.compile(r"^(?P<name>.*?) \[(?P<unit>.*)\] \(id (?P<id>\d+)\)$")

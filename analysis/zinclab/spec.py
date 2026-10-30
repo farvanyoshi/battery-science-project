@@ -24,7 +24,7 @@ SERIES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100"]
 
 @dataclass(frozen=True)
 class Trace:
-    source: str  # Logger Pro file (folder in data/converted)
+    source: str  # Logger Pro file (folder in logger-pro/converted)
     run: str  # data set inside that file
     column: str
     label: str  # name in the legend and readout table
