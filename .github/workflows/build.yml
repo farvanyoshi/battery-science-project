@@ -1,0 +1,33 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the analysis dependencies
+        run: pip install -r analysis/requirements.txt
+
+      - name: Test the analysis and check that processed data and the verification report are up to date
+        run: make check
+
+      - uses: typst-community/setup-typst@v4
+        with:
+          typst-version: "0.15.1"
+
+      - name: Compile the paper
+        run: make paper
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: paper
+          path: build/paper.pdf
