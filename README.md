@@ -42,7 +42,7 @@ All of these values are worked out from the data book, in `data/processed/`.
   40 minutes across 1000 Ω before dropping off, and it gave by far the most useful charge and energy.
 - Iteration 4 short-circuited on its first discharge, pushing 1.009 A through a 10 Ω load at only 0.094 V.
 - Zinc chloride allowed for higher voltages than zinc sulfate. However, charging Iteration 5 at 2.2–2.4 V released
-  chlorine gas.
+  chlorine gas, because chlorine's reduction potential is 2.1 V. I had to evacuate my basement because of this!
 - Even Iteration 5's second discharge (2.106 A·min, or about 35 mAh in 88 minutes) is still far from the
   ~1100 mAh of an AA NiMH battery.
 
